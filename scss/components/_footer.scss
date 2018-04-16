@@ -1,3 +1,40 @@
 .footer {
-	
+	color: #fff;
+	background-color: $dark-blue;
+	padding: 80px 0 75px;
+	&-left {
+		&-top {
+			display: flex;
+			align-items: flex-end;
+			padding-bottom: 40px;
+			a {
+				display: block;
+				margin-right: 45px;
+			}
+		}
+		&-bottom {
+			padding-top: 40px;
+			span {
+				opacity: .5;
+			}
+		}
+	}
+	&-menu {
+		padding-top: 10px;
+		&-heading {
+			opacity: .5;
+			font-weight: 400;
+			letter-spacing: 1px;
+			text-transform: uppercase;
+			margin-bottom: 15px;
+		}
+		ul {
+			li {
+				margin-bottom: 10px;
+				a {
+					color: $light;
+				}
+			}
+		}
+	}
 }

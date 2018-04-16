@@ -1,0 +1,18 @@
+.social-links {
+	display: flex;
+	li {
+		margin-right: 36px;
+	}
+	a {
+		display: block;
+		font-size: 1.5rem;
+		opacity: .5;
+		transition: all .15s;
+		span {
+			display: block;
+		}
+		&:hover {
+			opacity: 1;
+		}
+	}
+}

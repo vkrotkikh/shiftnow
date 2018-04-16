@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: 'icomoon';
-  src:  url('#{$icomoon-font-path}/icomoon.eot?vp4m0y');
-  src:  url('#{$icomoon-font-path}/icomoon.eot?vp4m0y#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/icomoon.ttf?vp4m0y') format('truetype'),
-    url('#{$icomoon-font-path}/icomoon.woff?vp4m0y') format('woff'),
-    url('#{$icomoon-font-path}/icomoon.svg?vp4m0y#icomoon') format('svg');
+  src:  url('#{$icomoon-font-path}/icomoon.eot?prmcby');
+  src:  url('#{$icomoon-font-path}/icomoon.eot?prmcby#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/icomoon.ttf?prmcby') format('truetype'),
+    url('#{$icomoon-font-path}/icomoon.woff?prmcby') format('woff'),
+    url('#{$icomoon-font-path}/icomoon.svg?prmcby#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -30,9 +30,100 @@
   @return unquote("\"") + $str + unquote("\"");
 }
 
-.icon-like {
+.icon-complete {
   &:before {
-    content: unicode($icon-like); 
+    content: unicode($icon-complete);     
+    color: #08a16e;
+  }
+}
+.icon-failed {
+  &:before {
+    content: unicode($icon-failed);     
+    color: #ef3434;
+  }
+}
+.icon-not-received {
+  &:before {
+    content: unicode($icon-not-received);     
+    color: #9b9b9b;
+  }
+}
+.icon-refunded {
+  &:before {
+    content: unicode($icon-refunded);     
+    color: #0099f7;
+  }
+}
+.icon-angle-down {
+  &:before {
+    content: unicode($icon-angle-down);     
+    color: #0099f7;
+  }
+}
+.icon-arrow-right {
+  &:before {
+    content: unicode($icon-arrow-right);     
+    color: #fff;
+  }
+}
+.icon-arrow-up {
+  &:before {
+    content: unicode($icon-arrow-up);     
+    color: #fff;
+  }
+}
+.icon-up-white {
+  &:before {
+    content: unicode($icon-up-white);     
+    color: #fff;
+  }
+}
+.icon-bitcointalk {
+  &:before {
+    content: unicode($icon-bitcointalk);     
+    color: #fff;
+  }
+}
+.icon-facebook {
+  &:before {
+    content: unicode($icon-facebook);     
+    color: #fff;
+  }
+}
+.icon-github {
+  &:before {
+    content: unicode($icon-github);     
+    color: #fff;
+  }
+}
+.icon-google {
+  &:before {
+    content: unicode($icon-google);     
+    color: #fff;
+  }
+}
+.icon-medium {
+  &:before {
+    content: unicode($icon-medium);     
+    color: #fff;
+  }
+}
+.icon-reddit {
+  &:before {
+    content: unicode($icon-reddit);     
+    color: #fff;
+  }
+}
+.icon-steemit {
+  &:before {
+    content: unicode($icon-steemit);     
+    color: #fff;
+  }
+}
+.icon-twitter {
+  &:before {
+    content: unicode($icon-twitter);     
+    color: #fff;
   }
 }
 

@@ -1,0 +1,80 @@
+doctype html
+html(lang='en')
+	head
+		title ShiftNow
+		meta(name='description', content='Description of the site')
+		include modules/head.pug
+	body
+		include modules/header.pug
+		// CONTENT
+		main.main
+			section.section-top
+				.container
+					.row.justify-content-center
+						.col-lg-8
+							h3.h3.text-center
+								| There are 5 simple steps to take for a quick anonymous exchange at the Best rate!
+			section.section-how-it-works
+				.container
+					.row.justify-content-center
+						.col-lg-10
+							.how-it-works-items-wrap
+								.how-it-works-item
+									.how-it-works-item-img-wrap
+										img(src="img/how-it-works/how-1.svg" alt="how")
+									.how-it-works-item-descr
+										h3.dark-blue
+											| Enter amount and address
+										ul
+											li
+												| Type the amount of funds you want to exchange in “You send” field and chose the currency from a drop-down menu
+											li
+												| Сhoose the currency you want to exchange funds to and ShiftNow will automatically calculate the amount you’ll receive
+								.how-it-works-item
+									.how-it-works-item-img-wrap
+										img(src="img/how-it-works/how-2.svg" alt="how")
+									.how-it-works-item-descr
+										h3.dark-blue
+											| Check the details and accept terms
+										ul
+											li
+												| Check the transaction details
+											li
+												| Review and accept the Terms of Use
+								.how-it-works-item
+									.how-it-works-item-img-wrap
+										img(src="img/how-it-works/how-3.svg" alt="how")
+									.how-it-works-item-descr
+										h3.dark-blue
+											| Send your funds
+										ul
+											li
+												| ShiftNow will generate a deposit address for you 
+											li
+												| Use your wallet to send funds to this address
+											li
+												| Be sure to do this in one payment
+								.how-it-works-item
+									.how-it-works-item-img-wrap
+										img(src="img/how-it-works/how-4.svg" alt="how")
+									.how-it-works-item-descr
+										h3.dark-blue
+											| Wait for the exchange to complete
+										ul
+											li
+												| Approximately, in 40 minutes or less ShiftNow will find the best rate
+											li
+												| and complete the exchange
+								.how-it-works-item
+									.how-it-works-item-img-wrap
+										img(src="img/how-it-works/how-5.svg" alt="how")
+									.how-it-works-item-descr
+										h3.dark-blue
+											| Success
+										ul
+											li
+												| Wait a few minutes - your target funds are on the way to your wallet
+					include modules/try-now-btn.pug
+		// CONTENT END
+		include modules/footer.pug
+		include modules/scripts.pug

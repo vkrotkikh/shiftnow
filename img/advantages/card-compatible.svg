@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>F0F72BAC-6076-46E0-A913-C90195EE2E67</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="-70.8946772%" x2="50%" y2="167.553794%" id="linearGradient-1">
+            <stop stop-color="#0099F7" offset="0%"></stop>
+            <stop stop-color="#EBF0F6" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="-70.8663647%" x2="50%" y2="167.582106%" id="linearGradient-2">
+            <stop stop-color="#6F2077" offset="0%"></stop>
+            <stop stop-color="#EBF0F6" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="about-icons/card-compatible" fill-rule="nonzero">
+            <g id="about-cards-08" transform="translate(7.000000, 15.000000)">
+                <rect id="Rectangle-path" fill="url(#linearGradient-1)" x="0.27" y="0.56" width="54.68" height="35.32" rx="2"></rect>
+                <rect id="Rectangle-path" fill="#FFFFFF" x="38.03" y="24.1" width="14.43" height="9.32" rx="0.53"></rect>
+                <g id="mastercard" transform="translate(41.000000, 26.000000)">
+                    <g id="g3115">
+                        <g id="g3110">
+                            <path d="M8.78586207,2.65213793 C8.78586207,4.11687326 7.57147305,5.30427586 6.07344828,5.30427586 C4.5754235,5.30427586 3.36103448,4.11687326 3.36103448,2.65213793 C3.36103448,1.1874026 4.5754235,2.69067516e-16 6.07344828,0 C7.57147305,8.96891719e-17 8.78586207,1.1874026 8.78586207,2.65213793 Z" id="path2997" fill="#F79F1A"></path>
+                            <path d="M5.42482759,2.65213793 C5.42482759,4.11687326 4.21043857,5.30427586 2.71241379,5.30427586 C1.21438902,5.30427586 1.83455124e-16,4.11687326 0,2.65213793 C-1.83455124e-16,1.1874026 1.21438902,2.69067516e-16 2.71241379,0 C4.21043857,7.40162329e-16 5.42482759,1.1874026 5.42482759,2.65213793 Z" id="path2995" fill="#EA001B"></path>
+                            <path d="M4.38206897,0.552275862 C3.72300336,1.05852921 3.33816899,1.83264467 3.33816899,2.65213793 C3.33816899,3.47163119 3.72300336,4.24574665 4.38206897,4.752 C5.04113457,4.24574665 5.42596895,3.47163119 5.42596895,2.65213793 C5.42596895,1.83264467 5.04113457,1.05852921 4.38206897,0.552275862 Z" id="path2999" fill="#FF5F01"></path>
+                        </g>
+                    </g>
+                </g>
+                <rect id="Rectangle-path" fill="#FFFFFF" opacity="0.6" x="3.31" y="16.48" width="7.08" height="4.17"></rect>
+                <rect id="Rectangle-path" fill="#FFFFFF" opacity="0.6" x="3.31" y="27.35" width="30.33" height="2"></rect>
+                <rect id="Rectangle-path" fill="#FFFFFF" opacity="0.6" x="12.39" y="16.48" width="7.08" height="4.17"></rect>
+                <rect id="Rectangle-path" fill="#FFFFFF" opacity="0.6" x="21.48" y="16.48" width="7.08" height="4.17"></rect>
+                <rect id="Rectangle-path" fill="#FFFFFF" opacity="0.6" x="30.56" y="16.48" width="7.08" height="4.17"></rect>
+                <rect id="Rectangle-path" fill="url(#linearGradient-2)" x="31.05" y="34.12" width="54.68" height="35.32" rx="2"></rect>
+                <rect id="Rectangle-path" fill="#FFFFFF" x="68.81" y="57.67" width="14.43" height="9.32" rx="0.53"></rect>
+                <rect id="Rectangle-path" fill="#FFFFFF" opacity="0.6" x="34.09" y="50.04" width="7.08" height="4.17"></rect>
+                <rect id="Rectangle-path" fill="#FFFFFF" opacity="0.6" x="34.09" y="60.92" width="30.33" height="2"></rect>
+                <rect id="Rectangle-path" fill="#FFFFFF" opacity="0.6" x="43.17" y="50.04" width="7.08" height="4.17"></rect>
+                <rect id="Rectangle-path" fill="#FFFFFF" opacity="0.6" x="52.26" y="50.04" width="7.08" height="4.17"></rect>
+                <rect id="Rectangle-path" fill="#FFFFFF" opacity="0.6" x="61.34" y="50.04" width="7.08" height="4.17"></rect>
+                <path d="M74.4,60.87 L73,64.14 L72.11,64.14 L71.44,61.53 C71.4251406,61.4087853 71.3498432,61.3033691 71.24,61.25 C70.9728219,61.1218792 70.690615,61.0278102 70.4,60.97 L70.4,60.88 L71.84,60.88 C72.0339816,60.8776926 72.2001683,61.0183121 72.23,61.21 L72.59,63.1 L73.47,60.87 L74.4,60.87 Z M77.9,63.07 C77.9,62.2 76.7,62.16 76.71,61.77 C76.71,61.65 76.82,61.54 77.07,61.5 C77.358416,61.4730389 77.6487409,61.5248826 77.91,61.65 L78.06,60.95 C77.8107225,60.8549467 77.5467526,60.8041832 77.28,60.8 C76.44,60.8 75.85,61.24 75.85,61.88 C75.85,62.36 76.26,62.63 76.58,62.78 C76.9,62.93 77.02,63.04 77.02,63.19 C77.02,63.34 76.76,63.51 76.51,63.51 C76.2034277,63.5174143 75.9001887,63.4450504 75.63,63.3 L75.48,64.02 C75.7800198,64.1346844 76.0988164,64.1923391 76.42,64.19 C77.31,64.19 77.89,63.75 77.9,63.07 Z M80.11,64.14 L80.89,64.14 L80.21,60.87 L79.5,60.87 C79.344947,60.868282 79.2036059,60.9585833 79.14,61.1 L77.88,64.1 L78.77,64.1 L78.95,63.62 L80,63.62 L80.11,64.14 Z M79.18,63 L79.63,61.77 L79.89,63 L79.18,63 Z M75.61,60.89 L74.91,64.16 L74.07,64.16 L74.77,60.89 L75.61,60.89 Z" id="Shape" fill="#162474"></path>
+            </g>
+        </g>
+    </g>
+</svg>

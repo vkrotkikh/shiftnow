@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>C793C9F0-16A4-4C98-9F82-4530D761F623</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="50.0180353%" y1="29.6940043%" x2="50.0180353%" y2="127.628961%" id="linearGradient-1">
+            <stop stop-color="#162474" offset="0%"></stop>
+            <stop stop-color="#EBF0F6" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="151.246537%" x2="50%" y2="47.9224377%" id="linearGradient-2">
+            <stop stop-color="#C9CFE7" offset="0%"></stop>
+            <stop stop-color="#EBF0F6" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="42.191112%" y1="-313.465657%" x2="42.191112%" y2="992.352078%" id="linearGradient-3">
+            <stop stop-color="#C9CFE7" offset="0%"></stop>
+            <stop stop-color="#EBF0F6" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="2183%" y1="5710%" x2="9817%" y2="5710%" id="linearGradient-4">
+            <stop stop-color="#C9CFE7" offset="0%"></stop>
+            <stop stop-color="#EBF0F6" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0.942285041%" y1="7.12603062%" x2="176.14841%" y2="160.24735%" id="linearGradient-5">
+            <stop stop-color="#08A16E" offset="0%"></stop>
+            <stop stop-color="#EBF0F6" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="about-icons/user-friendly">
+            <g id="about-user-friendly-06" transform="translate(4.000000, 19.000000)">
+                <path d="M7,0.62 L85,0.62 C86.4193718,0.62 87.57,1.77062819 87.57,3.19 L87.57,57.77 L4.4,57.77 L4.4,3.18 C4.40261905,2.49489898 4.67867447,1.83920125 5.16685829,1.35852795 C5.65504211,0.877854648 6.31494071,0.611997647 7,0.62 Z" id="Shape" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+                <path d="M0,57.77 L92,57.77 L92,60.62 C92,61.0397364 91.6597364,61.38 91.24,61.38 L0.77,61.38 C0.35026359,61.38 0.01,61.0397364 0.01,60.62 L0.01,57.77 L0,57.77 Z" id="Shape" fill="url(#linearGradient-2)" fill-rule="nonzero"></path>
+                <path d="M37.89,57.77 L54.11,57.77 L54.11,59.53 C54.11,59.6459798 54.0159798,59.74 53.9,59.74 L38.1,59.74 C37.9840202,59.74 37.89,59.6459798 37.89,59.53 L37.89,57.77 Z" id="Shape" fill="url(#linearGradient-3)" fill-rule="nonzero"></path>
+                <rect id="Rectangle-path" fill="url(#linearGradient-4)" fill-rule="nonzero" x="7.83" y="4.7" width="76.33" height="50.79"></rect>
+                <rect id="Rectangle-path" fill="#FFFFFF" fill-rule="nonzero" x="16.42" y="10.41" width="59.16" height="39.36" rx="0.9"></rect>
+                <rect id="Rectangle-path" fill="#E6E6E6" fill-rule="nonzero" x="16.42" y="14.67" width="59.16" height="1"></rect>
+                <circle id="Oval" fill="#EF3434" fill-rule="nonzero" cx="18.74" cy="12.68" r="1"></circle>
+                <circle id="Oval" fill="#FFC56D" fill-rule="nonzero" cx="20.54" cy="12.68" r="1"></circle>
+                <circle id="Oval" fill="#0FC270" fill-rule="nonzero" cx="22.35" cy="12.68" r="1"></circle>
+                <circle id="Oval" fill="url(#linearGradient-5)" fill-rule="nonzero" cx="46" cy="31.53" r="8.49"></circle>
+                <polyline id="Shape" stroke="#FFFFFF" points="42 32.41 44.42 34.83 50.79 28.46"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

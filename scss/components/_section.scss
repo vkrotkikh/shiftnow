@@ -10,7 +10,27 @@
 	}
 
 	&-faq {
-		background-color: #f5f5f5;
+		background-color: $secondary;
 		padding: 50px 0 60px;
+	}
+	&-top {
+		color: #fff;
+		background-image: url(../img/main-bg.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: 0 -81px;
+		padding: 80px 0 70px;
+	}
+	&-advantages {
+		background-color: $secondary;
+		padding: 70px 0 65px;
+	}
+	&-how-it-works {
+		background-color: $secondary;
+		padding: 65px 0;
+	}
+	&-profile {
+		background-color: $secondary;
+		padding: 40px 0 95px;
 	}
 }

@@ -68,15 +68,15 @@ $colors: map-merge((
 
 
 
-$light-blue:    #0099f7;
-$dark-blue:     #162474;
-$primary:       $blue !default;
-$secondary:     $gray-600 !default;
-$success:       $green !default;
+$light-blue:    #0099f7 !default;
+$dark-blue:     #162474 !default;
+$primary:       #0099f7 !default;
+$secondary:     #f5f5f5 !default;
+$success:       #08A16E !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
-$danger:        $red !default;
-$light:         $gray-100 !default;
+$danger:        #EF3434 !default;
+$light:         #e6e6e6 !default;
 $dark:          $gray-800 !default;
 
 
@@ -193,7 +193,7 @@ $container-max-widths: (
   sm: 540px,
   md: 720px,
   lg: 960px,
-  xl: 1140px
+  xl: 1200px
 ) !default;
 
 @include _assert-ascending($container-max-widths, "$container-max-widths");
@@ -216,9 +216,9 @@ $line-height-sm:              1.5 !default;
 $border-width:                1px !default;
 $border-color:                $gray-300 !default;
 
-$border-radius:               .25rem !default;
-$border-radius-lg:            .3rem !default;
-$border-radius-sm:            .2rem !default;
+$border-radius:               28px !default;
+$border-radius-lg:            28px !default;
+$border-radius-sm:            28px !default;
 
 $component-active-color:      $white !default;
 $component-active-bg:         theme-color("primary") !default;
@@ -256,7 +256,7 @@ $h2-font-size:                2.75rem !default;
 $h3-font-size:                2.25rem !default;
 $h4-font-size:                $font-size-base * 1.5 !default;
 $h5-font-size:                1.5rem !default;
-$h6-font-size:                $font-size-base !default;
+$h6-font-size:                1rem !default;
 
 $headings-margin-bottom:      ($spacer / 2) !default;
 $headings-font-family:        inherit !default;
@@ -973,9 +973,9 @@ $slick-lightbox-close-size: 1.5rem;
 // SCROLLBAR STYLING =================================
 // =========================
 
-$scrollbar-width: 10px;
+$scrollbar-width: 4px;
 $scrollbar-height: $scrollbar-width;
-$scrollbar-track-bg-color: $secondary;
-$scrollbar-thumb-color: $primary;
+$scrollbar-track-bg-color: transparent;
+$scrollbar-thumb-color: rgba($primary, .4);
 $scrollbar-thumb-rounding: 0px;
 $scrollbar-thumb-icon: none; // url(../img/icon_scrollbar.png)

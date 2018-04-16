@@ -1,11 +1,30 @@
 .header {
 	.navbar {
-		background-color: #08A16E;
+		background-image: url(../img/main-bg.png);
+		background-size: cover;
+		background-position: 0 0;
+		background-repeat: no-repeat;
+		padding: 0 15px;
 		color: #fff;
+		&:before {
+			position: absolute;
+			content: '';
+			width: 100%;
+			height: 100%;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			background-color: #000;
+			opacity: .3;
+			z-index: 1;
+		}
 	}
 	.navbar-inner {
+		position: relative;
 		display: flex;
 		width: 100%;
+		z-index: 2;
 		.container {
 			display: flex;
 			justify-content: center;
@@ -17,10 +36,12 @@
 		padding: 0;
 		display: block;
 		line-height: 1;
+		padding-bottom: 4px;
 	}
 	.menu-wrap {
 		display: flex;
 		width: 100%;
+		align-items: center;
 	}
 	.main-menu {
 		.nav-item {
