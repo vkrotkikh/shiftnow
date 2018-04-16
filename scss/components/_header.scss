@@ -1,0 +1,41 @@
+.header {
+	.navbar {
+		background-color: #08A16E;
+		color: #fff;
+	}
+	.navbar-inner {
+		display: flex;
+		width: 100%;
+		.container {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-wrap: wrap;
+		}
+	}
+	.navbar-brand {
+		padding: 0;
+		display: block;
+		line-height: 1;
+	}
+	.menu-wrap {
+		display: flex;
+		width: 100%;
+	}
+	.main-menu {
+		.nav-item {
+			padding-right: 45px;
+			&:last-child {
+				padding-right: 50px;
+			}
+		}
+		a {
+			line-height: 1;
+			color: #fff;
+			text-decoration: none;
+			&:hover {
+				color: $light-blue;
+			}
+		}
+	}
+}

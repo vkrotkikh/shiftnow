@@ -1,0 +1,44 @@
+.faq-accordion {
+	.card-header {
+	}
+	h5 {
+		button {
+			text-align: left;
+			width: 100%;
+			font-weight: 800;
+			color: $dark-blue;
+			background-color: #fff;
+			display: flex;
+			align-items: center;
+			line-height: 1;
+			padding: 20px;
+			&.collapsed {
+				i {
+					&:before {
+						transform: translate(-50%, -58%) rotate(-180deg);
+					}
+				}
+			}
+		}
+		i {
+			color: $light-blue;
+			border: 1px solid $light-blue;
+			border-radius: 50%;
+			width: 28px;
+			height: 28px;
+			position: relative;
+			&:before {
+				position: absolute;
+				left: 50%;
+				top: 55%;
+				transform: translate(-50%, -50%);
+				line-height: 1;
+				font-size: 1rem;
+				transition: all .15s;
+			}
+		}
+		span {
+			padding: 3px 0 0 50px;
+		}
+	}
+}

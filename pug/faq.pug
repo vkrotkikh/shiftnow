@@ -1,0 +1,32 @@
+doctype html
+html(lang='en')
+  head
+    title ShiftNow
+    meta(name='description', content='Description of the site')
+    include modules/head.pug
+  body
+    include modules/header.pug
+    // CONTENT
+    main.main
+      section.section-faq
+        .container
+          .faq-accordion#accordion
+            .card.faq-card
+              .card-header#faq-head-1
+                h5.dark-blue
+                  button(class="" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1")
+                    i.fa.fa-angle-down
+                    span What is ShiftNow
+              div(id="collapse1" class="collapse show" aria-labelledby="heading1" data-parent="#accordion") Text
+              .card-header#faq-head-2
+                h5.dark-blue
+                  button(class="collapsed" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2")
+                    i.fa.fa-angle-down
+                    span How does ShiftNow work?
+              div(id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#accordion") Text2
+    // CONTENT END
+    include modules/footer.pug
+    include modules/scripts.pug
+
+
+
