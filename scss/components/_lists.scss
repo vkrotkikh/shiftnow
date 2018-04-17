@@ -1,0 +1,34 @@
+.fee{
+	&-list{
+		margin-top: 12px;
+	}
+	&-item{
+		position: relative;
+		padding-left: 30px;
+		margin-bottom: 12px;
+		&:last-child{
+			margin-bottom: 0;
+		}
+		&:before{
+			content: '';
+			display: block;
+			width: 8px;
+			height: 8px;
+			background: $primary;
+			border-radius: 50%;
+			position: absolute;
+			left: 7px;
+			top: 50%;
+			transform: translateY(-50%);
+		}
+	}
+	&-title{
+		margin-left: 15px;
+		color: rgba(#fff, .5);
+
+	}
+	&-value{
+		color: #fff;
+		text-transform: uppercase;
+	}
+}

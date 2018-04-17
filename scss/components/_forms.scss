@@ -1,0 +1,69 @@
+.form-group{
+	&_wrapper{
+		position: relative;
+		display: flex;
+	}
+}
+
+.custom{
+	&-select{
+		text-transform: uppercase;
+		height: 56px;
+		background: transparent;
+		display: flex;
+		align-items: center;
+		border-radius: 0;
+		border: none;
+		width: 140px;
+		background: #fff;
+		color: #000;
+		cursor: pointer;
+	}
+	&-dropdown{
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		background: #fff;
+		z-index: 2;
+		display: none;
+	}
+}
+
+
+
+.form{
+	&-control{
+		border-radius: 0;
+		height: 56px;
+		border: none;
+		padding: 15px;
+		&.-submit{
+			padding-left: 50px;
+		}
+	}
+	&-group{
+		position: relative;
+		flex-grow: 1;
+		& .btn-submit{
+			position: absolute;
+			font-weight: bold;
+			text-transform: uppercase;
+			left: 20px;
+			line-height: 56px;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			width: 40px;
+			text-align: right;
+			color: $primary;
+			background: transparent;
+		}
+	}
+}
+
+
+
+.section-welcome{
+	background: #162474;
+}

@@ -55,8 +55,115 @@
     <!-- HEADER END-->
     <!-- CONTENT-->
     <main class="main">
-      <section class="section">
-        <div class="container"></div>
+      <section class="section section-welcome">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h1>Exchange</h1>
+            </div>
+            <div class="col-md-5 offset-md-1">
+              <form class="exchange-block" action="javascript:void(0);">
+                <div class="form-group_wrapper">
+                  <div class="form-group">
+                    <input class="form-control form-control-lg -submit -custom-select text-right" type="text">
+                    <button class="btn-submit">Send</button>
+                  </div>
+                  <div class="custom-select js-custom-select">
+                    <div class="currency-item -lg">
+                      <div class="currency-icon"><i class="icon-bitcoin-btc"></i></div>
+                      <div class="currency-title">BTC</div>
+                    </div><i class="fas fa-angle-down -icon-open"></i>
+                  </div>
+                  <div class="custom-dropdown">
+                    <button class="custom-dropdown_close js-custom-dropdown_close"><i class="fas fa-angle-up"></i></button>
+                    <div class="form-group -icon -icon-right -search mb-0">
+                      <input class="form-control form-control-lg custom-dropdown_search js-filter-search" type="text" placeholder="Type a currency"><i class="fas fa-search form-control_icon"></i>
+                    </div>
+                    <div class="custom-dropdown_content">
+                      <div class="row no-gutters">
+                        <div class="col-6">
+                          <h6 class="custom-dropdown_title">Popular currencies</h6>
+                          <ul class="currency-list">
+                            <li><a class="currency-item -currency-link js-currency-link" href="javascript:void(0);">
+                                <div class="currency-icon"><i class="icon-bitcoin-btc"></i></div>
+                                <div class="currency-title">BTC</div>
+                                <div class="currency-subtitle">Bitcoin</div></a></li>
+                            <li><a class="currency-item -currency-link js-currency-link" href="javascript:void(0);">
+                                <div class="currency-icon"><i class="icon-ethereum-eth"></i></div>
+                                <div class="currency-title">ETH</div>
+                                <div class="currency-subtitle">Ethereum</div></a></li>
+                            <li><a class="currency-item -currency-link js-currency-link" href="javascript:void(0);">
+                                <div class="currency-icon"><i class="icon-litecoin-ltc"></i></div>
+                                <div class="currency-title">LTC</div>
+                                <div class="currency-subtitle">Litecoin</div></a></li>
+                            <li><a class="currency-item -currency-link js-currency-link" href="javascript:void(0);">
+                                <div class="currency-icon"><i class="icon-ripple-xrp"></i></div>
+                                <div class="currency-title">XRP</div>
+                                <div class="currency-subtitle">Ripple</div></a></li>
+                            <li><a class="currency-item -currency-link js-currency-link" href="javascript:void(0);">
+                                <div class="currency-icon"><i class="icon-dollar-usd"></i></div>
+                                <div class="currency-title">USD</div>
+                                <div class="currency-subtitle">US Dollar</div></a></li>
+                          </ul>
+                        </div>
+                        <div class="col-6">
+                          <h6 class="custom-dropdown_title">All other currencies</h6>
+                          <ul class="currency-list js-filter-list">
+                            <li><a class="currency-item -currency-link js-currency-link" href="javascript:void(0);">
+                                <div class="currency-icon"><i class="icon-bitcoin-btc"></i></div>
+                                <div class="currency-title">BTC</div>
+                                <div class="currency-subtitle">Bitcoin</div></a></li>
+                            <li><a class="currency-item -currency-link js-currency-link" href="javascript:void(0);">
+                                <div class="currency-icon"><i class="icon-ethereum-eth"></i></div>
+                                <div class="currency-title">ETH</div>
+                                <div class="currency-subtitle">Ethereum</div></a></li>
+                            <li><a class="currency-item -currency-link js-currency-link" href="javascript:void(0);">
+                                <div class="currency-icon"><i class="icon-litecoin-ltc"></i></div>
+                                <div class="currency-title">LTC</div>
+                                <div class="currency-subtitle">Litecoin</div></a></li>
+                            <li><a class="currency-item -currency-link js-currency-link" href="javascript:void(0);">
+                                <div class="currency-icon"><i class="icon-ripple-xrp"></i></div>
+                                <div class="currency-title">XRP</div>
+                                <div class="currency-subtitle">Ripple</div></a></li>
+                            <li><a class="currency-item -currency-link js-currency-link" href="javascript:void(0);">
+                                <div class="currency-icon"><i class="icon-dollar-usd"></i></div>
+                                <div class="currency-title">USD</div>
+                                <div class="currency-subtitle">US Dollar</div></a></li>
+                            <li><a class="currency-item -currency-link js-currency-link" href="javascript:void(0);">
+                                <div class="currency-icon"><i class="icon-bitcoin-cash-bch"></i></div>
+                                <div class="currency-title">BTH</div>
+                                <div class="currency-subtitle">Bitcoin Cash</div></a></li>
+                            <li><a class="currency-item -currency-link js-currency-link" href="javascript:void(0);">
+                                <div class="currency-icon"><i class="icon-dogecoin-doge"></i></div>
+                                <div class="currency-title">DOGE</div>
+                                <div class="currency-subtitle">Dogecoin</div></a></li>
+                            <li><a class="currency-item -currency-link js-currency-link" href="javascript:void(0);">
+                                <div class="currency-icon"><i class="icon-nem-xem"></i></div>
+                                <div class="currency-title">XEM</div>
+                                <div class="currency-subtitle">NEM</div></a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="custom-acc">
+                  <div class="custom-acc_header" id="headingOne">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#acc_exchange" aria-expanded="false" aria-controls="acc_exchange"><i class="icon-icon-expand"></i><span>Show fee breakdown</span></button>
+                  </div>
+                  <div class="collapse" id="acc_exchange" aria-labelledby="headingOne">
+                    <div class="custom-acc_body">
+                      <ul class="fee-list">
+                        <li class="fee-item"><span class="fee-value">~ 0.08505 ETH</span><span class="fee-title">Service fee</span></li>
+                        <li class="fee-item"><span class="fee-value">1 BTC ~ 17.011131 ET</span><span class="fee-title">Expected exchange rate</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
     <!-- CONTENT END-->

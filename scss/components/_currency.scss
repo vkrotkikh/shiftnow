@@ -1,0 +1,50 @@
+.currency{
+	&-item{
+		display: flex;
+		align-items: center;
+		&.-lg{
+			& .currency{
+				&-title{
+					font-size: 20px;
+					font-weight: 400;
+				}
+				&-icon{
+					font-size: 20px;
+					margin-right: 7px;
+				}
+			}
+		}
+		&.-currency-link{
+			cursor: pointer;
+			padding: 15px 8px;
+			&:hover{
+				background: $secondary;
+				text-decoration: none;
+				& .currency{
+					&-title{
+						color: #333333;
+					}
+				}
+			}
+		}
+	}
+	&-title{
+		font-size: 16px;
+		font-weight: 700;
+		text-transform: uppercase;
+		min-width: 40px;
+		color: #333333;
+	}
+	&-icon{
+			display: flex;
+			align-items: center;
+			transform: translateY(-2px);
+			font-size: 20px;
+			margin-right: 7px;
+	}
+	&-subtitle{
+		margin-left: 5px;
+		font-size: 14px;
+		color: $darkGrey;
+	}
+}

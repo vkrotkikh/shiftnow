@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: 'icomoon';
-  src:  url('#{$icomoon-font-path}/icomoon.eot?prmcby');
-  src:  url('#{$icomoon-font-path}/icomoon.eot?prmcby#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/icomoon.ttf?prmcby') format('truetype'),
-    url('#{$icomoon-font-path}/icomoon.woff?prmcby') format('woff'),
-    url('#{$icomoon-font-path}/icomoon.svg?prmcby#icomoon') format('svg');
+  src:  url('#{$icomoon-font-path}/icomoon.eot?r34oah');
+  src:  url('#{$icomoon-font-path}/icomoon.eot?r34oah#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/icomoon.ttf?r34oah') format('truetype'),
+    url('#{$icomoon-font-path}/icomoon.woff?r34oah') format('woff'),
+    url('#{$icomoon-font-path}/icomoon.svg?r34oah#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -52,6 +52,697 @@
   &:before {
     content: unicode($icon-refunded);     
     color: #0099f7;
+  }
+}
+.icon-civic-cvc {
+  &:before {
+    content: unicode($icon-civic-cvc);     
+    color: #0099f7;
+  }
+}
+.icon-cofound-it-cfi {
+  &:before {
+    content: unicode($icon-cofound-it-cfi);     
+    color: #0099f7;
+  }
+}
+.icon-coinlancer-cl {
+  &:before {
+    content: unicode($icon-coinlancer-cl);     
+    color: #0099f7;
+  }
+}
+.icon-darcrus-dar {
+  &:before {
+    content: unicode($icon-darcrus-dar);     
+    color: #0099f7;
+  }
+}
+.icon-dashcoin-dsh {
+  &:before {
+    content: unicode($icon-dashcoin-dsh);     
+    color: #0099f7;
+  }
+}
+.icon-dash-dash {
+  &:before {
+    content: unicode($icon-dash-dash);     
+    color: #0099f7;
+  }
+}
+.icon-decent-dct {
+  &:before {
+    content: unicode($icon-decent-dct);     
+    color: #0099f7;
+  }
+}
+.icon-decred-dcr {
+  &:before {
+    content: unicode($icon-decred-dcr);     
+    color: #0099f7;
+  }
+}
+.icon-dentacoin-dcn {
+  &:before {
+    content: unicode($icon-dentacoin-dcn);     
+    color: #0099f7;
+  }
+}
+.icon-digi-byte-dgb {
+  &:before {
+    content: unicode($icon-digi-byte-dgb);     
+    color: #0099f7;
+  }
+}
+.icon-digital-note-xdn {
+  &:before {
+    content: unicode($icon-digital-note-xdn);     
+    color: #0099f7;
+  }
+}
+.icon-digix-dao-dgd {
+  &:before {
+    content: unicode($icon-digix-dao-dgd);     
+    color: #0099f7;
+  }
+}
+.icon-district-0-x-dnt {
+  &:before {
+    content: unicode($icon-district-0-x-dnt);     
+    color: #0099f7;
+  }
+}
+.icon-dogecoin-doge {
+  &:before {
+    content: unicode($icon-dogecoin-doge);     
+    color: #0099f7;
+  }
+}
+.icon-dollar-usd {
+  &:before {
+    content: unicode($icon-dollar-usd);     
+    color: #0099f7;
+  }
+}
+.icon-drp-utility-drpu {
+  &:before {
+    content: unicode($icon-drp-utility-drpu);     
+    color: #0099f7;
+  }
+}
+.icon-edgeless-edg {
+  &:before {
+    content: unicode($icon-edgeless-edg);     
+    color: #0099f7;
+  }
+}
+.icon-eos {
+  &:before {
+    content: unicode($icon-eos);     
+    color: #0099f7;
+  }
+}
+.icon-ethereum-classic-etc {
+  &:before {
+    content: unicode($icon-ethereum-classic-etc);     
+    color: #0099f7;
+  }
+}
+.icon-ethereum-eth {
+  &:before {
+    content: unicode($icon-ethereum-eth);     
+    color: #0099f7;
+  }
+}
+.icon-euro-eur {
+  &:before {
+    content: unicode($icon-euro-eur);     
+    color: #0099f7;
+  }
+}
+.icon-expanse-exp {
+  &:before {
+    content: unicode($icon-expanse-exp);     
+    color: #0099f7;
+  }
+}
+.icon-factom-ftc {
+  &:before {
+    content: unicode($icon-factom-ftc);     
+    color: #0099f7;
+  }
+}
+.icon-fantom-coin-fcn {
+  &:before {
+    content: unicode($icon-fantom-coin-fcn);     
+    color: #0099f7;
+  }
+}
+.icon-first-blood-1-st {
+  &:before {
+    content: unicode($icon-first-blood-1-st);     
+    color: #0099f7;
+  }
+}
+.icon-fun-fair-fun {
+  &:before {
+    content: unicode($icon-fun-fair-fun);     
+    color: #0099f7;
+  }
+}
+.icon-game-credits-game {
+  &:before {
+    content: unicode($icon-game-credits-game);     
+    color: #0099f7;
+  }
+}
+.icon-gnosis-gno {
+  &:before {
+    content: unicode($icon-gnosis-gno);     
+    color: #0099f7;
+  }
+}
+.icon-golem-gnt {
+  &:before {
+    content: unicode($icon-golem-gnt);     
+    color: #0099f7;
+  }
+}
+.icon-golos-gold-gbg {
+  &:before {
+    content: unicode($icon-golos-gold-gbg);     
+    color: #0099f7;
+  }
+}
+.icon-golos-golos {
+  &:before {
+    content: unicode($icon-golos-golos);     
+    color: #0099f7;
+  }
+}
+.icon-gulden-nlg {
+  &:before {
+    content: unicode($icon-gulden-nlg);     
+    color: #0099f7;
+  }
+}
+.icon-humaniq-hmq {
+  &:before {
+    content: unicode($icon-humaniq-hmq);     
+    color: #0099f7;
+  }
+}
+.icon-i-exec-rlc {
+  &:before {
+    content: unicode($icon-i-exec-rlc);     
+    color: #0099f7;
+  }
+}
+.icon-iota-miota {
+  &:before {
+    content: unicode($icon-iota-miota);     
+    color: #0099f7;
+  }
+}
+.icon-komodo-kmd {
+  &:before {
+    content: unicode($icon-komodo-kmd);     
+    color: #0099f7;
+  }
+}
+.icon-lbry-credits-lbc {
+  &:before {
+    content: unicode($icon-lbry-credits-lbc);     
+    color: #0099f7;
+  }
+}
+.icon-lisk-lsk {
+  &:before {
+    content: unicode($icon-lisk-lsk);     
+    color: #0099f7;
+  }
+}
+.icon-litecoin-ltc {
+  &:before {
+    content: unicode($icon-litecoin-ltc);     
+    color: #0099f7;
+  }
+}
+.icon-lunyr-lun {
+  &:before {
+    content: unicode($icon-lunyr-lun);     
+    color: #0099f7;
+  }
+}
+.icon-maid-safe-coin-maid {
+  &:before {
+    content: unicode($icon-maid-safe-coin-maid);     
+    color: #0099f7;
+  }
+}
+.icon-matchpool-guppy-gup {
+  &:before {
+    content: unicode($icon-matchpool-guppy-gup);     
+    color: #0099f7;
+  }
+}
+.icon-melon-mln {
+  &:before {
+    content: unicode($icon-melon-mln);     
+    color: #0099f7;
+  }
+}
+.icon-metal-mtl {
+  &:before {
+    content: unicode($icon-metal-mtl);     
+    color: #0099f7;
+  }
+}
+.icon-monaco-mco {
+  &:before {
+    content: unicode($icon-monaco-mco);     
+    color: #0099f7;
+  }
+}
+.icon-monero-xmr {
+  &:before {
+    content: unicode($icon-monero-xmr);     
+    color: #0099f7;
+  }
+}
+.icon-mysterium-myst {
+  &:before {
+    content: unicode($icon-mysterium-myst);     
+    color: #0099f7;
+  }
+}
+.icon-naga-ngc {
+  &:before {
+    content: unicode($icon-naga-ngc);     
+    color: #0099f7;
+  }
+}
+.icon-nav-coin-nav {
+  &:before {
+    content: unicode($icon-nav-coin-nav);     
+    color: #0099f7;
+  }
+}
+.icon-nem-xem {
+  &:before {
+    content: unicode($icon-nem-xem);     
+    color: #0099f7;
+  }
+}
+.icon-neo-neo {
+  &:before {
+    content: unicode($icon-neo-neo);     
+    color: #0099f7;
+  }
+}
+.icon-nu-bits-nbt {
+  &:before {
+    content: unicode($icon-nu-bits-nbt);     
+    color: #0099f7;
+  }
+}
+.icon-numeraire-nmr {
+  &:before {
+    content: unicode($icon-numeraire-nmr);     
+    color: #0099f7;
+  }
+}
+.icon-nxt-nxt {
+  &:before {
+    content: unicode($icon-nxt-nxt);     
+    color: #0099f7;
+  }
+}
+.icon-omise-go-omg {
+  &:before {
+    content: unicode($icon-omise-go-omg);     
+    color: #0099f7;
+  }
+}
+.icon-patientory-ptoy {
+  &:before {
+    content: unicode($icon-patientory-ptoy);     
+    color: #0099f7;
+  }
+}
+.icon-pivx {
+  &:before {
+    content: unicode($icon-pivx);     
+    color: #0099f7;
+  }
+}
+.icon-populous-ppt {
+  &:before {
+    content: unicode($icon-populous-ppt);     
+    color: #0099f7;
+  }
+}
+.icon-pot-coin-pot {
+  &:before {
+    content: unicode($icon-pot-coin-pot);     
+    color: #0099f7;
+  }
+}
+.icon-power-ledger-powr {
+  &:before {
+    content: unicode($icon-power-ledger-powr);     
+    color: #0099f7;
+  }
+}
+.icon-qtum-ignition-qtum {
+  &:before {
+    content: unicode($icon-qtum-ignition-qtum);     
+    color: #0099f7;
+  }
+}
+.icon-qtum-qtum {
+  &:before {
+    content: unicode($icon-qtum-qtum);     
+    color: #0099f7;
+  }
+}
+.icon-quazar-coin-qcn {
+  &:before {
+    content: unicode($icon-quazar-coin-qcn);     
+    color: #0099f7;
+  }
+}
+.icon-radium-rads {
+  &:before {
+    content: unicode($icon-radium-rads);     
+    color: #0099f7;
+  }
+}
+.icon-ripio-credit-network-rcn {
+  &:before {
+    content: unicode($icon-ripio-credit-network-rcn);     
+    color: #0099f7;
+  }
+}
+.icon-ripple-xrp {
+  &:before {
+    content: unicode($icon-ripple-xrp);     
+    color: #0099f7;
+  }
+}
+.icon-salt-salt {
+  &:before {
+    content: unicode($icon-salt-salt);     
+    color: #0099f7;
+  }
+}
+.icon-singular-dtv-sngls {
+  &:before {
+    content: unicode($icon-singular-dtv-sngls);     
+    color: #0099f7;
+  }
+}
+.icon-sonm-snm {
+  &:before {
+    content: unicode($icon-sonm-snm);     
+    color: #0099f7;
+  }
+}
+.icon-status-snt {
+  &:before {
+    content: unicode($icon-status-snt);     
+    color: #0099f7;
+  }
+}
+.icon-steem-dollars-sbd {
+  &:before {
+    content: unicode($icon-steem-dollars-sbd);     
+    color: #0099f7;
+  }
+}
+.icon-steem-steem {
+  &:before {
+    content: unicode($icon-steem-steem);     
+    color: #0099f7;
+  }
+}
+.icon-stellar-xlm-str {
+  &:before {
+    content: unicode($icon-stellar-xlm-str);     
+    color: #0099f7;
+  }
+}
+.icon-storj-storj {
+  &:before {
+    content: unicode($icon-storj-storj);     
+    color: #0099f7;
+  }
+}
+.icon-stox-stx {
+  &:before {
+    content: unicode($icon-stox-stx);     
+    color: #0099f7;
+  }
+}
+.icon-stratis-strat {
+  &:before {
+    content: unicode($icon-stratis-strat);     
+    color: #0099f7;
+  }
+}
+.icon-swarm-city-swt {
+  &:before {
+    content: unicode($icon-swarm-city-swt);     
+    color: #0099f7;
+  }
+}
+.icon-synereo-amp {
+  &:before {
+    content: unicode($icon-synereo-amp);     
+    color: #0099f7;
+  }
+}
+.icon-syscoin-sys {
+  &:before {
+    content: unicode($icon-syscoin-sys);     
+    color: #0099f7;
+  }
+}
+.icon-ten-x-pay {
+  &:before {
+    content: unicode($icon-ten-x-pay);     
+    color: #0099f7;
+  }
+}
+.icon-tether-usd-usdt {
+  &:before {
+    content: unicode($icon-tether-usd-usdt);     
+    color: #0099f7;
+  }
+}
+.icon-token-card-tkn {
+  &:before {
+    content: unicode($icon-token-card-tkn);     
+    color: #0099f7;
+  }
+}
+.icon-tron-trx {
+  &:before {
+    content: unicode($icon-tron-trx);     
+    color: #0099f7;
+  }
+}
+.icon-ve-chain-ven {
+  &:before {
+    content: unicode($icon-ve-chain-ven);     
+    color: #0099f7;
+  }
+}
+.icon-verge-xvg {
+  &:before {
+    content: unicode($icon-verge-xvg);     
+    color: #0099f7;
+  }
+}
+.icon-viberate-vib {
+  &:before {
+    content: unicode($icon-viberate-vib);     
+    color: #0099f7;
+  }
+}
+.icon-waves-waves {
+  &:before {
+    content: unicode($icon-waves-waves);     
+    color: #0099f7;
+  }
+}
+.icon-wax-wax {
+  &:before {
+    content: unicode($icon-wax-wax);     
+    color: #0099f7;
+  }
+}
+.icon-we-trust-trst {
+  &:before {
+    content: unicode($icon-we-trust-trst);     
+    color: #0099f7;
+  }
+}
+.icon-wings-wings {
+  &:before {
+    content: unicode($icon-wings-wings);     
+    color: #0099f7;
+  }
+}
+.icon-xaurum-xaur {
+  &:before {
+    content: unicode($icon-xaurum-xaur);     
+    color: #0099f7;
+  }
+}
+.icon-xmo {
+  &:before {
+    content: unicode($icon-xmo);     
+    color: #0099f7;
+  }
+}
+.icon-zcash-zec {
+  &:before {
+    content: unicode($icon-zcash-zec);     
+    color: #0099f7;
+  }
+}
+.icon-zclassic-zcl {
+  &:before {
+    content: unicode($icon-zclassic-zcl);     
+    color: #0099f7;
+  }
+}
+.icon-x-zrx {
+  &:before {
+    content: unicode($icon-x-zrx);     
+    color: #0099f7;
+  }
+}
+.icon-ad-ex-adx {
+  &:before {
+    content: unicode($icon-ad-ex-adx);     
+    color: #0099f7;
+  }
+}
+.icon-aeon-coin-aeon {
+  &:before {
+    content: unicode($icon-aeon-coin-aeon);     
+    color: #0099f7;
+  }
+}
+.icon-aragon-ant {
+  &:before {
+    content: unicode($icon-aragon-ant);     
+    color: #0099f7;
+  }
+}
+.icon-ardor-ardr {
+  &:before {
+    content: unicode($icon-ardor-ardr);     
+    color: #0099f7;
+  }
+}
+.icon-atlant-atl {
+  &:before {
+    content: unicode($icon-atlant-atl);     
+    color: #0099f7;
+  }
+}
+.icon-augur-rep {
+  &:before {
+    content: unicode($icon-augur-rep);     
+    color: #0099f7;
+  }
+}
+.icon-bancor-bnt {
+  &:before {
+    content: unicode($icon-bancor-bnt);     
+    color: #0099f7;
+  }
+}
+.icon-basic-attention-token-bat {
+  &:before {
+    content: unicode($icon-basic-attention-token-bat);     
+    color: #0099f7;
+  }
+}
+.icon-bitcoin-btc {
+  &:before {
+    content: unicode($icon-bitcoin-btc);     
+    color: #0099f7;
+  }
+}
+.icon-bitcoin-cash-bch {
+  &:before {
+    content: unicode($icon-bitcoin-cash-bch);     
+    color: #0099f7;
+  }
+}
+.icon-bitcoin-gold-btg {
+  &:before {
+    content: unicode($icon-bitcoin-gold-btg);     
+    color: #0099f7;
+  }
+}
+.icon-bread-brd {
+  &:before {
+    content: unicode($icon-bread-brd);     
+    color: #0099f7;
+  }
+}
+.icon-byteball-gbyte {
+  &:before {
+    content: unicode($icon-byteball-gbyte);     
+    color: #0099f7;
+  }
+}
+.icon-bytecoin-bcn {
+  &:before {
+    content: unicode($icon-bytecoin-bcn);     
+    color: #0099f7;
+  }
+}
+.icon-centra-ctr {
+  &:before {
+    content: unicode($icon-centra-ctr);     
+    color: #0099f7;
+  }
+}
+.icon-chronobank-time {
+  &:before {
+    content: unicode($icon-chronobank-time);     
+    color: #0099f7;
+  }
+}
+.icon-android {
+  &:before {
+    content: unicode($icon-android); 
+  }
+}
+.icon-i-os {
+  &:before {
+    content: unicode($icon-i-os); 
+  }
+}
+.icon-dark {
+  &:before {
+    content: unicode($icon-dark); 
+  }
+}
+.icon-icon-collapse {
+  &:before {
+    content: unicode($icon-icon-collapse); 
+  }
+}
+.icon-icon-expand {
+  &:before {
+    content: unicode($icon-icon-expand); 
   }
 }
 .icon-angle-down {

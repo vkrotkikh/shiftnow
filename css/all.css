@@ -319,7 +319,7 @@ h5, .h5 {
   font-size: 1.5rem; }
 
 h6, .h6 {
-  font-size: 1rem; }
+  font-size: 0.875rem; }
 
 .lead {
   font-size: 1.09375rem;
@@ -8551,8 +8551,8 @@ readers do not read off random characters that represent icons */
 
 @font-face {
   font-family: 'icomoon';
-  src: url("../libs/icomoon/fonts//icomoon.eot?prmcby");
-  src: url("../libs/icomoon/fonts//icomoon.eot?prmcby#iefix") format("embedded-opentype"), url("../libs/icomoon/fonts//icomoon.ttf?prmcby") format("truetype"), url("../libs/icomoon/fonts//icomoon.woff?prmcby") format("woff"), url("../libs/icomoon/fonts//icomoon.svg?prmcby#icomoon") format("svg");
+  src: url("../libs/icomoon/fonts//icomoon.eot?r34oah");
+  src: url("../libs/icomoon/fonts//icomoon.eot?r34oah#iefix") format("embedded-opentype"), url("../libs/icomoon/fonts//icomoon.ttf?r34oah") format("truetype"), url("../libs/icomoon/fonts//icomoon.woff?r34oah") format("woff"), url("../libs/icomoon/fonts//icomoon.svg?r34oah#icomoon") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -8584,6 +8584,465 @@ readers do not read off random characters that represent icons */
 .icon-refunded:before {
   content: "\e90f";
   color: #0099f7; }
+
+.icon-civic-cvc:before {
+  content: "\e910";
+  color: #0099f7; }
+
+.icon-cofound-it-cfi:before {
+  content: "\e911";
+  color: #0099f7; }
+
+.icon-coinlancer-cl:before {
+  content: "\e912";
+  color: #0099f7; }
+
+.icon-darcrus-dar:before {
+  content: "\e913";
+  color: #0099f7; }
+
+.icon-dashcoin-dsh:before {
+  content: "\e914";
+  color: #0099f7; }
+
+.icon-dash-dash:before {
+  content: "\e915";
+  color: #0099f7; }
+
+.icon-decent-dct:before {
+  content: "\e916";
+  color: #0099f7; }
+
+.icon-decred-dcr:before {
+  content: "\e917";
+  color: #0099f7; }
+
+.icon-dentacoin-dcn:before {
+  content: "\e918";
+  color: #0099f7; }
+
+.icon-digi-byte-dgb:before {
+  content: "\e919";
+  color: #0099f7; }
+
+.icon-digital-note-xdn:before {
+  content: "\e91a";
+  color: #0099f7; }
+
+.icon-digix-dao-dgd:before {
+  content: "\e91b";
+  color: #0099f7; }
+
+.icon-district-0-x-dnt:before {
+  content: "\e91c";
+  color: #0099f7; }
+
+.icon-dogecoin-doge:before {
+  content: "\e91d";
+  color: #0099f7; }
+
+.icon-dollar-usd:before {
+  content: "\e91e";
+  color: #0099f7; }
+
+.icon-drp-utility-drpu:before {
+  content: "\e91f";
+  color: #0099f7; }
+
+.icon-edgeless-edg:before {
+  content: "\e920";
+  color: #0099f7; }
+
+.icon-eos:before {
+  content: "\e921";
+  color: #0099f7; }
+
+.icon-ethereum-classic-etc:before {
+  content: "\e922";
+  color: #0099f7; }
+
+.icon-ethereum-eth:before {
+  content: "\e923";
+  color: #0099f7; }
+
+.icon-euro-eur:before {
+  content: "\e924";
+  color: #0099f7; }
+
+.icon-expanse-exp:before {
+  content: "\e925";
+  color: #0099f7; }
+
+.icon-factom-ftc:before {
+  content: "\e926";
+  color: #0099f7; }
+
+.icon-fantom-coin-fcn:before {
+  content: "\e927";
+  color: #0099f7; }
+
+.icon-first-blood-1-st:before {
+  content: "\e928";
+  color: #0099f7; }
+
+.icon-fun-fair-fun:before {
+  content: "\e929";
+  color: #0099f7; }
+
+.icon-game-credits-game:before {
+  content: "\e92a";
+  color: #0099f7; }
+
+.icon-gnosis-gno:before {
+  content: "\e92b";
+  color: #0099f7; }
+
+.icon-golem-gnt:before {
+  content: "\e92c";
+  color: #0099f7; }
+
+.icon-golos-gold-gbg:before {
+  content: "\e92d";
+  color: #0099f7; }
+
+.icon-golos-golos:before {
+  content: "\e92e";
+  color: #0099f7; }
+
+.icon-gulden-nlg:before {
+  content: "\e92f";
+  color: #0099f7; }
+
+.icon-humaniq-hmq:before {
+  content: "\e930";
+  color: #0099f7; }
+
+.icon-i-exec-rlc:before {
+  content: "\e931";
+  color: #0099f7; }
+
+.icon-iota-miota:before {
+  content: "\e932";
+  color: #0099f7; }
+
+.icon-komodo-kmd:before {
+  content: "\e933";
+  color: #0099f7; }
+
+.icon-lbry-credits-lbc:before {
+  content: "\e934";
+  color: #0099f7; }
+
+.icon-lisk-lsk:before {
+  content: "\e935";
+  color: #0099f7; }
+
+.icon-litecoin-ltc:before {
+  content: "\e936";
+  color: #0099f7; }
+
+.icon-lunyr-lun:before {
+  content: "\e937";
+  color: #0099f7; }
+
+.icon-maid-safe-coin-maid:before {
+  content: "\e938";
+  color: #0099f7; }
+
+.icon-matchpool-guppy-gup:before {
+  content: "\e939";
+  color: #0099f7; }
+
+.icon-melon-mln:before {
+  content: "\e93a";
+  color: #0099f7; }
+
+.icon-metal-mtl:before {
+  content: "\e93b";
+  color: #0099f7; }
+
+.icon-monaco-mco:before {
+  content: "\e93c";
+  color: #0099f7; }
+
+.icon-monero-xmr:before {
+  content: "\e93d";
+  color: #0099f7; }
+
+.icon-mysterium-myst:before {
+  content: "\e93e";
+  color: #0099f7; }
+
+.icon-naga-ngc:before {
+  content: "\e93f";
+  color: #0099f7; }
+
+.icon-nav-coin-nav:before {
+  content: "\e940";
+  color: #0099f7; }
+
+.icon-nem-xem:before {
+  content: "\e941";
+  color: #0099f7; }
+
+.icon-neo-neo:before {
+  content: "\e942";
+  color: #0099f7; }
+
+.icon-nu-bits-nbt:before {
+  content: "\e943";
+  color: #0099f7; }
+
+.icon-numeraire-nmr:before {
+  content: "\e944";
+  color: #0099f7; }
+
+.icon-nxt-nxt:before {
+  content: "\e945";
+  color: #0099f7; }
+
+.icon-omise-go-omg:before {
+  content: "\e946";
+  color: #0099f7; }
+
+.icon-patientory-ptoy:before {
+  content: "\e947";
+  color: #0099f7; }
+
+.icon-pivx:before {
+  content: "\e948";
+  color: #0099f7; }
+
+.icon-populous-ppt:before {
+  content: "\e949";
+  color: #0099f7; }
+
+.icon-pot-coin-pot:before {
+  content: "\e94a";
+  color: #0099f7; }
+
+.icon-power-ledger-powr:before {
+  content: "\e94b";
+  color: #0099f7; }
+
+.icon-qtum-ignition-qtum:before {
+  content: "\e94c";
+  color: #0099f7; }
+
+.icon-qtum-qtum:before {
+  content: "\e94d";
+  color: #0099f7; }
+
+.icon-quazar-coin-qcn:before {
+  content: "\e94e";
+  color: #0099f7; }
+
+.icon-radium-rads:before {
+  content: "\e94f";
+  color: #0099f7; }
+
+.icon-ripio-credit-network-rcn:before {
+  content: "\e950";
+  color: #0099f7; }
+
+.icon-ripple-xrp:before {
+  content: "\e951";
+  color: #0099f7; }
+
+.icon-salt-salt:before {
+  content: "\e952";
+  color: #0099f7; }
+
+.icon-singular-dtv-sngls:before {
+  content: "\e953";
+  color: #0099f7; }
+
+.icon-sonm-snm:before {
+  content: "\e954";
+  color: #0099f7; }
+
+.icon-status-snt:before {
+  content: "\e955";
+  color: #0099f7; }
+
+.icon-steem-dollars-sbd:before {
+  content: "\e956";
+  color: #0099f7; }
+
+.icon-steem-steem:before {
+  content: "\e957";
+  color: #0099f7; }
+
+.icon-stellar-xlm-str:before {
+  content: "\e958";
+  color: #0099f7; }
+
+.icon-storj-storj:before {
+  content: "\e959";
+  color: #0099f7; }
+
+.icon-stox-stx:before {
+  content: "\e95a";
+  color: #0099f7; }
+
+.icon-stratis-strat:before {
+  content: "\e95b";
+  color: #0099f7; }
+
+.icon-swarm-city-swt:before {
+  content: "\e95c";
+  color: #0099f7; }
+
+.icon-synereo-amp:before {
+  content: "\e95d";
+  color: #0099f7; }
+
+.icon-syscoin-sys:before {
+  content: "\e95e";
+  color: #0099f7; }
+
+.icon-ten-x-pay:before {
+  content: "\e95f";
+  color: #0099f7; }
+
+.icon-tether-usd-usdt:before {
+  content: "\e960";
+  color: #0099f7; }
+
+.icon-token-card-tkn:before {
+  content: "\e961";
+  color: #0099f7; }
+
+.icon-tron-trx:before {
+  content: "\e962";
+  color: #0099f7; }
+
+.icon-ve-chain-ven:before {
+  content: "\e963";
+  color: #0099f7; }
+
+.icon-verge-xvg:before {
+  content: "\e964";
+  color: #0099f7; }
+
+.icon-viberate-vib:before {
+  content: "\e965";
+  color: #0099f7; }
+
+.icon-waves-waves:before {
+  content: "\e966";
+  color: #0099f7; }
+
+.icon-wax-wax:before {
+  content: "\e967";
+  color: #0099f7; }
+
+.icon-we-trust-trst:before {
+  content: "\e968";
+  color: #0099f7; }
+
+.icon-wings-wings:before {
+  content: "\e969";
+  color: #0099f7; }
+
+.icon-xaurum-xaur:before {
+  content: "\e96a";
+  color: #0099f7; }
+
+.icon-xmo:before {
+  content: "\e96b";
+  color: #0099f7; }
+
+.icon-zcash-zec:before {
+  content: "\e96c";
+  color: #0099f7; }
+
+.icon-zclassic-zcl:before {
+  content: "\e96d";
+  color: #0099f7; }
+
+.icon-x-zrx:before {
+  content: "\e96e";
+  color: #0099f7; }
+
+.icon-ad-ex-adx:before {
+  content: "\e96f";
+  color: #0099f7; }
+
+.icon-aeon-coin-aeon:before {
+  content: "\e970";
+  color: #0099f7; }
+
+.icon-aragon-ant:before {
+  content: "\e971";
+  color: #0099f7; }
+
+.icon-ardor-ardr:before {
+  content: "\e972";
+  color: #0099f7; }
+
+.icon-atlant-atl:before {
+  content: "\e973";
+  color: #0099f7; }
+
+.icon-augur-rep:before {
+  content: "\e974";
+  color: #0099f7; }
+
+.icon-bancor-bnt:before {
+  content: "\e975";
+  color: #0099f7; }
+
+.icon-basic-attention-token-bat:before {
+  content: "\e976";
+  color: #0099f7; }
+
+.icon-bitcoin-btc:before {
+  content: "\e977";
+  color: #0099f7; }
+
+.icon-bitcoin-cash-bch:before {
+  content: "\e978";
+  color: #0099f7; }
+
+.icon-bitcoin-gold-btg:before {
+  content: "\e979";
+  color: #0099f7; }
+
+.icon-bread-brd:before {
+  content: "\e97a";
+  color: #0099f7; }
+
+.icon-byteball-gbyte:before {
+  content: "\e97b";
+  color: #0099f7; }
+
+.icon-bytecoin-bcn:before {
+  content: "\e97c";
+  color: #0099f7; }
+
+.icon-centra-ctr:before {
+  content: "\e97d";
+  color: #0099f7; }
+
+.icon-chronobank-time:before {
+  content: "\e97e";
+  color: #0099f7; }
+
+.icon-android:before {
+  content: "\e980"; }
+
+.icon-i-os:before {
+  content: "\e981"; }
+
+.icon-dark:before {
+  content: "\e982"; }
+
+.icon-icon-collapse:before {
+  content: "\e983"; }
+
+.icon-icon-expand:before {
+  content: "\e97f"; }
 
 .icon-angle-down:before {
   content: "\e908";
@@ -9203,6 +9662,68 @@ button {
 
 a img {
   display: block; }
+
+.form-group_wrapper {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.custom-select {
+  text-transform: uppercase;
+  height: 56px;
+  background: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 0;
+  border: none;
+  width: 140px;
+  background: #fff;
+  color: #000;
+  cursor: pointer; }
+
+.custom-dropdown {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  z-index: 2;
+  display: none; }
+
+.form-control {
+  border-radius: 0;
+  height: 56px;
+  border: none;
+  padding: 15px; }
+  .form-control.-submit {
+    padding-left: 50px; }
+
+.form-group {
+  position: relative;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1; }
+  .form-group .btn-submit {
+    position: absolute;
+    font-weight: bold;
+    text-transform: uppercase;
+    left: 20px;
+    line-height: 56px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 40px;
+    text-align: right;
+    color: #0099f7;
+    background: transparent; }
+
+.section-welcome {
+  background: #162474; }
 
 .header .navbar {
   background-image: url(../img/main-bg.png);
@@ -9840,5 +10361,239 @@ body {
   scrollbar-track-color: transparent;
   scrollbar-shadow-color: rgba(0, 153, 247, 0.4);
   scrollbar-arrow-color: rgba(0, 153, 247, 0.4); }
+
+.form-group_wrapper {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.custom-acc_header button {
+  background: transparent;
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  padding: 0; }
+  .custom-acc_header button:hover, .custom-acc_header button:active, .custom-acc_header button:focus {
+    background: transparent;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    text-decoration: none; }
+    .custom-acc_header button:hover i, .custom-acc_header button:active i, .custom-acc_header button:focus i {
+      color: #fff; }
+  .custom-acc_header button span {
+    border-bottom: 1px dashed #0099f7;
+    color: #fff;
+    margin-left: 10px; }
+  .custom-acc_header button i {
+    border: 1px solid #E6E6E6;
+    border-radius: 50%;
+    font-size: 18px;
+    vertical-align: inherit; }
+
+.custom-select {
+  text-transform: uppercase;
+  height: 56px;
+  background: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 0;
+  border: none;
+  width: 140px;
+  background: #fff;
+  color: #000;
+  cursor: pointer;
+  position: relative;
+  text-transform: uppercase;
+  font-size: 20px; }
+  .custom-select .-icon-open {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 10px;
+    color: #0099f7;
+    font-size: 14px; }
+
+.custom-dropdown {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  z-index: 2;
+  display: block;
+  background-color: #fffefe;
+  -webkit-box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.3);
+  display: none; }
+  .custom-dropdown_close {
+    background: red;
+    position: absolute;
+    right: 10px;
+    color: #0099f7;
+    z-index: 5;
+    height: 56px;
+    top: 0;
+    right: 0;
+    width: 28px;
+    background: transparent; }
+  .custom-dropdown_search.form-control.form-control-lg, .input-group-lg > .custom-dropdown_search.form-control,
+  .input-group-lg > .input-group-prepend > .custom-dropdown_search.form-control.input-group-text,
+  .input-group-lg > .input-group-append > .custom-dropdown_search.form-control.input-group-text,
+  .input-group-lg > .input-group-prepend > .custom-dropdown_search.form-control.btn,
+  .input-group-lg > .input-group-append > .custom-dropdown_search.form-control.btn {
+    padding-right: 30px;
+    border-bottom: 1px solid #f5f5f5; }
+  .custom-dropdown_title {
+    font-weight: 400;
+    color: #333333;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 0 15px; }
+  .custom-dropdown_content .row .col-6 {
+    max-height: 430px;
+    overflow-y: auto; }
+  .custom-dropdown_content .row .col-6:first-child {
+    border-right: 1px solid #f5f5f5; }
+
+.form-control.form-control-lg, .input-group-lg > .form-control,
+.input-group-lg > .input-group-prepend > .form-control.input-group-text,
+.input-group-lg > .input-group-append > .form-control.input-group-text,
+.input-group-lg > .input-group-prepend > .form-control.btn,
+.input-group-lg > .input-group-append > .form-control.btn {
+  border-radius: 0;
+  height: 56px;
+  border: none;
+  padding: 15px; }
+  .form-control.form-control-lg.-submit, .input-group-lg > .form-control.-submit,
+  .input-group-lg > .input-group-prepend > .form-control.-submit.input-group-text,
+  .input-group-lg > .input-group-append > .form-control.-submit.input-group-text,
+  .input-group-lg > .input-group-prepend > .form-control.-submit.btn,
+  .input-group-lg > .input-group-append > .form-control.-submit.btn {
+    padding-left: 60px; }
+  .form-control.form-control-lg.-custom-select, .input-group-lg > .form-control.-custom-select,
+  .input-group-lg > .input-group-prepend > .form-control.-custom-select.input-group-text,
+  .input-group-lg > .input-group-append > .form-control.-custom-select.input-group-text,
+  .input-group-lg > .input-group-prepend > .form-control.-custom-select.btn,
+  .input-group-lg > .input-group-append > .form-control.-custom-select.btn {
+    border-right: 1px solid #e6e6e6; }
+
+.form-group {
+  position: relative;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1; }
+  .form-group.-search .form-control_icon {
+    color: #9B9B9B; }
+  .form-group.-icon .form-control {
+    padding-left: 50px; }
+    .form-group.-icon .form-control_icon {
+      position: absolute;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      left: 16px;
+      font-size: 16px; }
+  .form-group .btn-submit {
+    position: absolute;
+    font-weight: bold;
+    text-transform: uppercase;
+    left: 20px;
+    line-height: 56px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 55px;
+    text-align: right;
+    color: #0099f7;
+    background: transparent; }
+
+.section-welcome {
+  background: #162474; }
+
+.currency-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .currency-item.-lg .currency-title {
+    font-size: 20px;
+    font-weight: 400; }
+  .currency-item.-lg .currency-icon {
+    font-size: 20px;
+    margin-right: 7px; }
+  .currency-item.-currency-link {
+    cursor: pointer;
+    padding: 15px 8px; }
+    .currency-item.-currency-link:hover {
+      background: #f5f5f5;
+      text-decoration: none; }
+      .currency-item.-currency-link:hover .currency-title {
+        color: #333333; }
+
+.currency-title {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  min-width: 40px;
+  color: #333333; }
+
+.currency-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transform: translateY(-2px);
+  -ms-transform: translateY(-2px);
+  transform: translateY(-2px);
+  font-size: 20px;
+  margin-right: 7px; }
+
+.currency-subtitle {
+  margin-left: 5px;
+  font-size: 14px;
+  color: #9B9B9B; }
+
+.fee-list {
+  margin-top: 12px; }
+
+.fee-item {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 12px; }
+  .fee-item:last-child {
+    margin-bottom: 0; }
+  .fee-item:before {
+    content: '';
+    display: block;
+    width: 8px;
+    height: 8px;
+    background: #0099f7;
+    border-radius: 50%;
+    position: absolute;
+    left: 7px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%); }
+
+.fee-title {
+  margin-left: 15px;
+  color: rgba(255, 255, 255, 0.5); }
+
+.fee-value {
+  color: #fff;
+  text-transform: uppercase; }
 
 /*# sourceMappingURL=all.css.map */
