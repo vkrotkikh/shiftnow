@@ -8,6 +8,7 @@ html(lang='en')
 		include modules/header.pug
 		// CONTENT
 		main.main
+
 			// SECTION PROFILE HISTORY
 			section.section-profile
 				.container
@@ -102,6 +103,8 @@ html(lang='en')
 									.profile-table-cell
 										span.rate-blue 11 590 LTC
 			.empty-div(style="padding-bottom: 10px")
+			// SECTION PROFILE HISTORY END
+
 			// SECTION PROFILE HISTORY NO TRANSACTIONS
 			section.section-profile
 				.container
@@ -120,6 +123,63 @@ html(lang='en')
 								span Seems like you have no transactions yet
 								a(class="btn btn-primary btn-lg" href="#?") Make a first transaction
 			.empty-div(style="padding-bottom: 10px")
+			// SECTION PROFILE HISTORY NO TRANSACTIONS END
+
+			// SECTION PROFILE HISTORY NO TRANSACTIONS
+			section.section-profile
+				.container
+					.profile
+						.profile-heading
+							ul.profile-menu
+								li
+									a(href="#?")
+										| History
+								li
+									a(class="active" href="#?")
+										| Profile settings
+						.profile-body
+							.profile-settings
+								.row
+									.col-md-4.right-line
+										.profile-settings-item
+											h5.dark-blue Change password
+											form.form
+												.form-group
+													input(type="password" class="form-control" id="old-pass" placeholder="Old password")
+													label(class="form-label" for="old-pass") Old password
+												.form-group
+													input(type="password" class="form-control" id="new-pass" placeholder="New password")
+													label(class="form-label" for="new-pass") New password
+												.form-group
+													input(type="password" class="form-control" id="new-pass-again" placeholder="New password again")
+													label(class="form-label" for="new-pass-again") New password again
+												.form-btn-wrap
+													input(type="submit" value="Save" class="btn btn-white btn-md")
+									.col-md-4.right-line
+										.profile-settings-item
+											.d-flex.justify-content-between
+												h5.dark-blue Two-step verification
+												.onoffswitch
+													input( type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch")
+													label(class="onoffswitch-label" for="myonoffswitch")
+														span.onoffswitch-inner
+															span.onoffswitch-switch
+											.profile-settings-text
+												p With 2-Step verification, you protect your account with both your password and your phone. To log in into account or withdraw funds you will require a separate code that you will get in the Google Authenticator app.
+												p Download app:
+												.btn-wrap
+													a
+									.col-md-4
+										.profile-settings-item
+											h5.dark-blue Change email address
+											form.form
+												.form-group
+													input(type="email" class="form-control active" id="current-email" placeholder="Current email" value="testuser@gmail.com")
+													label(class="form-label active" for="current-email") Current email
+												.form-btn-wrap
+													input(type="submit" value="Save" class="btn btn-white btn-md")
+			.empty-div(style="padding-bottom: 10px")
+			// SECTION PROFILE HISTORY NO TRANSACTIONS END
 
 
 

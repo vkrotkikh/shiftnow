@@ -10,9 +10,21 @@ $(document).ready(function() {
 		return false;
 	});
 
+
 	// Init
 
 	customSelect();
+
+	$('input , textarea').blur(function() {
+		if (!$(this).val()) {
+			$(this).parent().find('label').removeClass('active');
+			$(this).removeClass('active');
+		} else {
+			$(this).parent().find('label').addClass('active');
+			$(this).addClass('active');
+		}
+	});
+
 
 });
 

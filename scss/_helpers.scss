@@ -55,3 +55,17 @@
 	display: inline-block;
 	margin: 0;
 }
+
+
+.right-line {
+	position: relative;
+	&:before {
+		position: absolute;
+		content: '';
+		width: 1px;
+		height: calc(100% + 10px);
+		background-color: $secondary;
+		top: 0;
+		right: 0;
+	}
+}

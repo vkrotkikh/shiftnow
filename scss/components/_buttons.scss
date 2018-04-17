@@ -8,6 +8,11 @@
 		padding: 22px 20px 18px;
 		min-width: 350px;
 	}
+	&-md {
+		min-width: 112px;
+		font-weight: 700;
+		padding: 12px;
+	}
 	&:hover {
 		box-shadow: 0 2px 10px 0 rgba(0, 153, 247, 0.5);
 	}
@@ -24,6 +29,25 @@
 			&:focus {
 				box-shadow: 0 2px 10px 0 rgba(0, 153, 247, 0.5) !important;
 			}
+		}
+	}
+	&-white {
+		color: $light-blue;
+		border-color: $light-blue;
+		background-color: #fff;
+		&:hover {
+			color: $light-blue;
+		}
+		&:active {
+			background-color: rgba(0, 153, 247, 0.2);
+		}
+		&.disabled,
+		&[disabled] {
+			background-color: $light;
+			border-color: #9b9b9b;
+			box-shadow: none;
+			color: #9b9b9b;
+			opacity: 1;
 		}
 	}
 }
