@@ -139,7 +139,7 @@
       </section>
       <div class="empty-div" style="padding-bottom: 10px"></div>
       <!-- SECTION PROFILE HISTORY NO TRANSACTIONS END-->
-      <!-- SECTION PROFILE HISTORY NO TRANSACTIONS-->
+      <!-- SECTION PROFILE SETTINGS 2-STEP-OFF-->
       <section class="section-profile">
         <div class="container">
           <div class="profile">
@@ -186,7 +186,7 @@
                       <div class="profile-settings-text">
                         <p>With 2-Step verification, you protect your account with both your password and your phone. To log in into account or withdraw funds you will require a separate code that you will get in the Google Authenticator app.</p>
                         <p>Download app:</p>
-                        <div class="btn-wrap"><a></a></div>
+                        <div class="btn-wrap"><a class="btn btn-secondary btn-md btn-icon" href="#?"> <span><i class="icon-i-os"></i>iOS</span></a><a class="btn btn-secondary btn-md btn-icon" href="#?"> <span><i class="icon-android"></i>Android</span></a></div>
                       </div>
                     </div>
                   </div>
@@ -211,7 +211,252 @@
         </div>
       </section>
       <div class="empty-div" style="padding-bottom: 10px"></div>
-      <!-- SECTION PROFILE HISTORY NO TRANSACTIONS END-->
+      <!-- SECTION PROFILE SETTINGS 2-STEP-OFF END-->
+      <!-- SECTION PROFILE SETTINGS 2-STEP-ON-->
+      <section class="section-profile">
+        <div class="container">
+          <div class="profile">
+            <div class="profile-heading">
+              <ul class="profile-menu">
+                <li><a href="#?">History</a></li>
+                <li><a class="active" href="#?">Profile settings</a></li>
+              </ul>
+            </div>
+            <div class="profile-body">
+              <div class="profile-settings">
+                <div class="row">
+                  <div class="col-md-4 right-line">
+                    <div class="profile-settings-item">
+                      <h5 class="dark-blue">Change password</h5>
+                      <form class="form">
+                        <div class="form-group">
+                          <input class="form-control" type="password" id="old-pass" placeholder="Old password">
+                          <label class="form-label" for="old-pass">Old password</label>
+                        </div>
+                        <div class="form-group">
+                          <input class="form-control" type="password" id="new-pass" placeholder="New password">
+                          <label class="form-label" for="new-pass">New password</label>
+                        </div>
+                        <div class="form-group">
+                          <input class="form-control" type="password" id="new-pass-again" placeholder="New password again">
+                          <label class="form-label" for="new-pass-again">New password again</label>
+                        </div>
+                        <div class="form-btn-wrap">
+                          <input class="btn btn-white btn-md" type="submit" value="Save">
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                  <div class="col-md-4 right-line">
+                    <div class="profile-settings-item">
+                      <div class="d-flex justify-content-between">
+                        <h5 class="dark-blue">Two-step verification</h5>
+                        <div class="onoffswitch">
+                          <input class="onoffswitch-checkbox" type="checkbox" name="onoffswitch2" id="myonoffswitch2" checked>
+                          <label class="onoffswitch-label" for="myonoffswitch2"><span class="onoffswitch-inner"><span class="onoffswitch-switch"></span></span></label>
+                        </div>
+                      </div>
+                      <div class="profile-settings-qr">
+                        <div class="qr-img-wrap"><img src="img/qr.png"></div>
+                        <div class="qr-descr">
+                          <p>Scan QR code in <a href="">Google Authenticator</a></p>
+                          <p>Or type the key manually</p><span>KVVWGY3QNNVTSOLZ</span>
+                        </div>
+                      </div>
+                      <form class="form">
+                        <div class="form-group">
+                          <input class="form-control" type="tel" id="qr-code" placeholder="Verification code">
+                          <label class="form-label" for="qr-code">Verification code</label>
+                        </div>
+                        <div class="form-btn-wrap">
+                          <input class="btn btn-white btn-md" type="submit" value="Enable">
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="profile-settings-item">
+                      <h5 class="dark-blue">Change email address</h5>
+                      <form class="form">
+                        <div class="form-group">
+                          <input class="form-control active" type="email" id="current-email" placeholder="Current email" value="testuser@gmail.com">
+                          <label class="form-label active" for="current-email">Current email</label>
+                        </div>
+                        <div class="form-btn-wrap">
+                          <input class="btn btn-white btn-md" type="submit" value="Save">
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="empty-div" style="padding-bottom: 10px"></div>
+      <!-- SECTION PROFILE SETTINGS 2-STEP-ON END-->
+      <!-- SECTION PROFILE SETTINGS 2-STEP-ON-ENABLED-->
+      <section class="section-profile">
+        <div class="container">
+          <div class="profile">
+            <div class="profile-heading">
+              <ul class="profile-menu">
+                <li><a href="#?">History</a></li>
+                <li><a class="active" href="#?">Profile settings</a></li>
+              </ul>
+            </div>
+            <div class="profile-body">
+              <div class="profile-settings">
+                <div class="row">
+                  <div class="col-md-4 right-line">
+                    <div class="profile-settings-item">
+                      <h5 class="dark-blue">Change password</h5>
+                      <form class="form">
+                        <div class="form-group">
+                          <input class="form-control" type="password" id="old-pass" placeholder="Old password">
+                          <label class="form-label" for="old-pass">Old password</label>
+                        </div>
+                        <div class="form-group">
+                          <input class="form-control" type="password" id="new-pass" placeholder="New password">
+                          <label class="form-label" for="new-pass">New password</label>
+                        </div>
+                        <div class="form-group">
+                          <input class="form-control" type="password" id="new-pass-again" placeholder="New password again">
+                          <label class="form-label" for="new-pass-again">New password again</label>
+                        </div>
+                        <div class="form-btn-wrap">
+                          <input class="btn btn-white btn-md" type="submit" value="Save">
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                  <div class="col-md-4 right-line">
+                    <div class="profile-settings-item">
+                      <div class="d-flex justify-content-between">
+                        <h5 class="dark-blue">Two-step verification</h5>
+                        <div class="onoffswitch">
+                          <input class="onoffswitch-checkbox" type="checkbox" name="onoffswitch3" id="myonoffswitch3" checked>
+                          <label class="onoffswitch-label" for="myonoffswitch3"><span class="onoffswitch-inner"><span class="onoffswitch-switch"></span></span></label>
+                        </div>
+                      </div>
+                      <div class="profile-settings-text">
+                        <p>Verification code from <a href="#?">Google Authenticator </a>app will be required for:</p>
+                        <ul>
+                          <li>Logging in.</li>
+                          <li>Changing password.</li>
+                          <li>Changing sensitive payment information like BTC payout address.</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="profile-settings-item">
+                      <h5 class="dark-blue">Change email address</h5>
+                      <form class="form">
+                        <div class="form-group">
+                          <input class="form-control active" type="email" id="current-email" placeholder="Current email" value="testuser@gmail.com">
+                          <label class="form-label active" for="current-email">Current email</label>
+                        </div>
+                        <div class="form-btn-wrap">
+                          <input class="btn btn-white btn-md" type="submit" value="Save">
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="empty-div" style="padding-bottom: 10px"></div>
+      <!-- SECTION PROFILE SETTINGS 2-STEP-ON-ENABLED END-->
+      <!-- SECTION PROFILE SETTINGS 2-STEP-ON-DISABLED-->
+      <section class="section-profile">
+        <div class="container">
+          <div class="profile">
+            <div class="profile-heading">
+              <ul class="profile-menu">
+                <li><a href="#?">History</a></li>
+                <li><a class="active" href="#?">Profile settings</a></li>
+              </ul>
+            </div>
+            <div class="profile-body">
+              <div class="profile-settings">
+                <div class="row">
+                  <div class="col-md-4 right-line">
+                    <div class="profile-settings-item">
+                      <h5 class="dark-blue">Change password</h5>
+                      <form class="form">
+                        <div class="form-group">
+                          <input class="form-control" type="password" id="old-pass" placeholder="Old password">
+                          <label class="form-label" for="old-pass">Old password</label>
+                        </div>
+                        <div class="form-group">
+                          <input class="form-control" type="password" id="new-pass" placeholder="New password">
+                          <label class="form-label" for="new-pass">New password</label>
+                        </div>
+                        <div class="form-group">
+                          <input class="form-control" type="password" id="new-pass-again" placeholder="New password again">
+                          <label class="form-label" for="new-pass-again">New password again</label>
+                        </div>
+                        <div class="form-btn-wrap">
+                          <input class="btn btn-white btn-md" type="submit" value="Save">
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                  <div class="col-md-4 right-line">
+                    <div class="profile-settings-item">
+                      <div class="d-flex justify-content-between">
+                        <h5 class="dark-blue">Two-step verification</h5>
+                        <div class="onoffswitch">
+                          <input class="onoffswitch-checkbox" type="checkbox" name="onoffswitch4" id="myonoffswitch4">
+                          <label class="onoffswitch-label" for="myonoffswitch4"><span class="onoffswitch-inner"><span class="onoffswitch-switch"></span></span></label>
+                        </div>
+                      </div>
+                      <div class="profile-settings-text">
+                        <p>Enter password and verification code to disable Two-step verification:</p>
+                        <form class="form">
+                          <div class="form-group">
+                            <input class="form-control" type="password" id="account-pass" placeholder="Account password">
+                            <label class="form-label" for="account-pass">Account password</label>
+                          </div>
+                          <div class="form-group">
+                            <input class="form-control" type="password" id="verification-code-1" placeholder="Verification code">
+                            <label class="form-label" for="verification-code-1">Verification code</label>
+                          </div>
+                          <div class="form-btn-wrap">
+                            <input class="btn btn-white btn-md" type="submit" value="Disable">
+                            <input class="btn btn-secondary btn-md" type="submit" value="Cancel">
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="profile-settings-item">
+                      <h5 class="dark-blue">Change email address</h5>
+                      <form class="form">
+                        <div class="form-group">
+                          <input class="form-control active" type="email" id="current-email" placeholder="Current email" value="testuser@gmail.com">
+                          <label class="form-label active" for="current-email">Current email</label>
+                        </div>
+                        <div class="form-btn-wrap">
+                          <input class="btn btn-white btn-md" type="submit" value="Save">
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="empty-div" style="padding-bottom: 10px"></div>
+      <!-- SECTION PROFILE SETTINGS 2-STEP-ON-DISABLED END-->
     </main>
     <!-- CONTENT END-->
     <!-- FOOTER-->

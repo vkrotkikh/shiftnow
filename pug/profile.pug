@@ -125,7 +125,7 @@ html(lang='en')
 			.empty-div(style="padding-bottom: 10px")
 			// SECTION PROFILE HISTORY NO TRANSACTIONS END
 
-			// SECTION PROFILE HISTORY NO TRANSACTIONS
+			// SECTION PROFILE SETTINGS 2-STEP-OFF
 			section.section-profile
 				.container
 					.profile
@@ -168,7 +168,14 @@ html(lang='en')
 												p With 2-Step verification, you protect your account with both your password and your phone. To log in into account or withdraw funds you will require a separate code that you will get in the Google Authenticator app.
 												p Download app:
 												.btn-wrap
-													a
+													a(class="btn btn-secondary btn-md btn-icon" href="#?") 
+														span
+															i.icon-i-os
+															| iOS
+													a(class="btn btn-secondary btn-md btn-icon" href="#?") 
+														span
+															i.icon-android
+															| Android
 									.col-md-4
 										.profile-settings-item
 											h5.dark-blue Change email address
@@ -179,7 +186,194 @@ html(lang='en')
 												.form-btn-wrap
 													input(type="submit" value="Save" class="btn btn-white btn-md")
 			.empty-div(style="padding-bottom: 10px")
-			// SECTION PROFILE HISTORY NO TRANSACTIONS END
+			// SECTION PROFILE SETTINGS 2-STEP-OFF END
+
+			// SECTION PROFILE SETTINGS 2-STEP-ON
+			section.section-profile
+				.container
+					.profile
+						.profile-heading
+							ul.profile-menu
+								li
+									a(href="#?")
+										| History
+								li
+									a(class="active" href="#?")
+										| Profile settings
+						.profile-body
+							.profile-settings
+								.row
+									.col-md-4.right-line
+										.profile-settings-item
+											h5.dark-blue Change password
+											form.form
+												.form-group
+													input(type="password" class="form-control" id="old-pass" placeholder="Old password")
+													label(class="form-label" for="old-pass") Old password
+												.form-group
+													input(type="password" class="form-control" id="new-pass" placeholder="New password")
+													label(class="form-label" for="new-pass") New password
+												.form-group
+													input(type="password" class="form-control" id="new-pass-again" placeholder="New password again")
+													label(class="form-label" for="new-pass-again") New password again
+												.form-btn-wrap
+													input(type="submit" value="Save" class="btn btn-white btn-md")
+									.col-md-4.right-line
+										.profile-settings-item
+											.d-flex.justify-content-between
+												h5.dark-blue Two-step verification
+												.onoffswitch
+													input( type="checkbox" name="onoffswitch2" class="onoffswitch-checkbox" id="myonoffswitch2" checked)
+													label(class="onoffswitch-label" for="myonoffswitch2")
+														span.onoffswitch-inner
+															span.onoffswitch-switch
+											.profile-settings-qr
+												.qr-img-wrap
+													img(src="img/qr.png")
+												.qr-descr
+													p Scan QR code in 
+														a(href="") Google Authenticator
+													p Or type the key manually
+													span KVVWGY3QNNVTSOLZ
+											form.form
+												.form-group
+													input(type="tel" class="form-control" id="qr-code" placeholder="Verification code")
+													label(class="form-label" for="qr-code") Verification code
+												.form-btn-wrap
+													input(type="submit" value="Enable" class="btn btn-white btn-md")
+									.col-md-4
+										.profile-settings-item
+											h5.dark-blue Change email address
+											form.form
+												.form-group
+													input(type="email" class="form-control active" id="current-email" placeholder="Current email" value="testuser@gmail.com")
+													label(class="form-label active" for="current-email") Current email
+												.form-btn-wrap
+													input(type="submit" value="Save" class="btn btn-white btn-md")
+			.empty-div(style="padding-bottom: 10px")
+			// SECTION PROFILE SETTINGS 2-STEP-ON END
+
+			// SECTION PROFILE SETTINGS 2-STEP-ON-ENABLED
+			section.section-profile
+				.container
+					.profile
+						.profile-heading
+							ul.profile-menu
+								li
+									a(href="#?")
+										| History
+								li
+									a(class="active" href="#?")
+										| Profile settings
+						.profile-body
+							.profile-settings
+								.row
+									.col-md-4.right-line
+										.profile-settings-item
+											h5.dark-blue Change password
+											form.form
+												.form-group
+													input(type="password" class="form-control" id="old-pass" placeholder="Old password")
+													label(class="form-label" for="old-pass") Old password
+												.form-group
+													input(type="password" class="form-control" id="new-pass" placeholder="New password")
+													label(class="form-label" for="new-pass") New password
+												.form-group
+													input(type="password" class="form-control" id="new-pass-again" placeholder="New password again")
+													label(class="form-label" for="new-pass-again") New password again
+												.form-btn-wrap
+													input(type="submit" value="Save" class="btn btn-white btn-md")
+									.col-md-4.right-line
+										.profile-settings-item
+											.d-flex.justify-content-between
+												h5.dark-blue Two-step verification
+												.onoffswitch
+													input( type="checkbox" name="onoffswitch3" class="onoffswitch-checkbox" id="myonoffswitch3" checked)
+													label(class="onoffswitch-label" for="myonoffswitch3")
+														span.onoffswitch-inner
+															span.onoffswitch-switch
+											.profile-settings-text
+												p Verification code from 
+													a(href="#?") Google Authenticator 
+													| app will be required for:
+												ul
+													li Logging in.
+													li Changing password.
+													li Changing sensitive payment information like BTC payout address.
+									.col-md-4
+										.profile-settings-item
+											h5.dark-blue Change email address
+											form.form
+												.form-group
+													input(type="email" class="form-control active" id="current-email" placeholder="Current email" value="testuser@gmail.com")
+													label(class="form-label active" for="current-email") Current email
+												.form-btn-wrap
+													input(type="submit" value="Save" class="btn btn-white btn-md")
+			.empty-div(style="padding-bottom: 10px")
+			// SECTION PROFILE SETTINGS 2-STEP-ON-ENABLED END
+
+			// SECTION PROFILE SETTINGS 2-STEP-ON-DISABLED
+			section.section-profile
+				.container
+					.profile
+						.profile-heading
+							ul.profile-menu
+								li
+									a(href="#?")
+										| History
+								li
+									a(class="active" href="#?")
+										| Profile settings
+						.profile-body
+							.profile-settings
+								.row
+									.col-md-4.right-line
+										.profile-settings-item
+											h5.dark-blue Change password
+											form.form
+												.form-group
+													input(type="password" class="form-control" id="old-pass" placeholder="Old password")
+													label(class="form-label" for="old-pass") Old password
+												.form-group
+													input(type="password" class="form-control" id="new-pass" placeholder="New password")
+													label(class="form-label" for="new-pass") New password
+												.form-group
+													input(type="password" class="form-control" id="new-pass-again" placeholder="New password again")
+													label(class="form-label" for="new-pass-again") New password again
+												.form-btn-wrap
+													input(type="submit" value="Save" class="btn btn-white btn-md")
+									.col-md-4.right-line
+										.profile-settings-item
+											.d-flex.justify-content-between
+												h5.dark-blue Two-step verification
+												.onoffswitch
+													input( type="checkbox" name="onoffswitch4" class="onoffswitch-checkbox" id="myonoffswitch4")
+													label(class="onoffswitch-label" for="myonoffswitch4")
+														span.onoffswitch-inner
+															span.onoffswitch-switch
+											.profile-settings-text
+												p Enter password and verification code to disable Two-step verification:
+												form.form
+													.form-group
+														input(type="password" class="form-control" id="account-pass" placeholder="Account password")
+														label(class="form-label" for="account-pass") Account password
+													.form-group
+														input(type="password" class="form-control" id="verification-code-1" placeholder="Verification code")
+														label(class="form-label" for="verification-code-1") Verification code
+													.form-btn-wrap
+														input(type="submit" value="Disable" class="btn btn-white btn-md")
+														input(type="submit" value="Cancel" class="btn btn-secondary btn-md")
+									.col-md-4
+										.profile-settings-item
+											h5.dark-blue Change email address
+											form.form
+												.form-group
+													input(type="email" class="form-control active" id="current-email" placeholder="Current email" value="testuser@gmail.com")
+													label(class="form-label active" for="current-email") Current email
+												.form-btn-wrap
+													input(type="submit" value="Save" class="btn btn-white btn-md")
+			.empty-div(style="padding-bottom: 10px")
+			// SECTION PROFILE SETTINGS 2-STEP-ON-DISABLED END
 
 
 

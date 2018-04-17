@@ -11,7 +11,7 @@
 	&-md {
 		min-width: 112px;
 		font-weight: 700;
-		padding: 12px;
+		padding: 13px 12px 11px;
 	}
 	&:hover {
 		box-shadow: 0 2px 10px 0 rgba(0, 153, 247, 0.5);
@@ -50,6 +50,43 @@
 			opacity: 1;
 		}
 	}
+	&-secondary {
+		color: #333;
+		&:hover,
+		&:active,
+		&:focus {
+			box-shadow: none !important;
+			border-color: $light-blue !important;
+			background-color: $secondary !important;
+		}
+	}
+	&-icon {
+		span {
+		position: relative;
+			padding-left: 24px;
+			display: inline-block;
+		}
+		i {
+			position: absolute;
+			left: 0;
+			top: -6px;
+			font-size: 24px;
+		}
+	}
+	&-icon-right {
+		span {
+			width: 100%;
+			display: block;
+			position: relative;
+			i {
+				position: absolute;
+				right: 0;
+				top: 45%;
+				transform: translateY(-50%);
+				font-size: 22px;
+			}
+		}
+	}
 }
 
 .white-link {
@@ -72,22 +109,6 @@
 	background-color: #fff;
 	padding: 30px 10px;
 	border-radius: 60px;
-	.btn {
-		
-		
-		span {
-			width: 100%;
-			display: block;
-			position: relative;
-			i {
-				position: absolute;
-				right: 0;
-				top: 45%;
-				transform: translateY(-50%);
-				font-size: 22px;
-			}
-		}
-	}
 }
 
 a {

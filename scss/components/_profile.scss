@@ -91,7 +91,7 @@
 				box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
 				.profile-table-cell {
 					padding: 5px 0;
-						color: #9b9b9b;
+					color: #9b9b9b;
 					&:nth-child(1) {
 						padding-left: 30px;
 					}
@@ -134,8 +134,72 @@
 			p {
 				line-height: 1.7;
 				margin-bottom: 25px;
-				&:last-child {
+				&:last-of-type {
 					margin-bottom: 0;
+				}
+			}
+			.btn-wrap {
+				margin-top: .5rem;
+				a {
+					margin-right: 1rem;
+					&:last-child {
+						margin: 0;
+					}
+				}
+			}
+			ul {
+				padding-top: .875rem;
+				li {
+					position: relative;
+					padding-left: 1.5rem;
+					line-height: 2;
+					&:before {
+						position: absolute;
+						content: '';
+						width: 8px;
+						height: 8px;
+						border-radius: 50%;
+						background-color: $light-blue;
+						top: 10px;
+						left: 0;
+					}
+				}
+			}
+			.form {
+				margin-top: 2rem;
+				&-btn-wrap {
+					.btn {
+						&:first-child {
+							margin-right: 1rem;
+						}
+					}
+				}
+			}
+		}
+		&-qr {
+			display: flex;
+			margin-bottom: 3rem;
+			.qr {
+				&-img-wrap {
+					max-width: 96px;
+					width: 100%;
+					margin-right: 1.5rem;
+					img {
+						display: block;
+					}
+				}
+				&-descr {
+					line-height: 1.7;
+					margin-top: -4px;
+					p {
+						margin-bottom: .5rem;
+						&:last-of-type {
+							margin: 0;
+						}
+					}
+					span {
+						font-weight: 700;
+					}
 				}
 			}
 		}
