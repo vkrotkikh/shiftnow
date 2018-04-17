@@ -2,9 +2,58 @@
 	// padding: 80px 0;
 
 	&-welcome {
-
+		color: #fff;
+		background-image: url(../img/main-bg.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: 0 -81px;
+		padding-top: 120px;
+		& .welcome-descr{
+			& h1 {
+				margin-bottom: 15px;
+			}
+			& h2 {
+			}
+			& .dot{
+				width: 15px;
+				height: 15px;
+				border-radius: 50%;
+				display: inline-block;
+				vertical-align: middle;
+				margin: 0 10px;
+				background: $primary;
+			}
+			&_bot{
+				margin-top: 90px;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				& .welcome{
+					&-payment{
+						display: flex;
+						align-items: center;
+						& span{
+							margin-left: 10px;
+						}
+					}
+					&-creating{
+						display: flex;
+						align-items: center;
+						& span{
+							margin-right: 10px;
+						}
+					}
+				}
+			}
+		}
 	}
-
+	&-features{
+		padding: 80px 0;
+	}
+	&-interface{
+		padding: 50px 0;
+		background-image: linear-gradient(to top, #ff0089, #ff0387 17%, #ff0d81 30%, #ff1e78 42%, #ff366a 54%, #ff5558 65%, #ff7b43 76%, #ffa729 86%, #ffda0c 96%, #ffef00);
+	}
 	&-about {
 
 	}

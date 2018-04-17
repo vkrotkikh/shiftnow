@@ -1,0 +1,27 @@
+.exchange{
+	&-info{
+		position: relative;
+	}
+	&-swap{
+		background: #fff;
+		width: 32px;
+		height: 32px;
+		border-radius: 50%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		right: 0;
+		cursor: pointer;
+		transition: all .35s;
+		&:hover{
+			background: darken(#fff , 15%);
+		}
+		& img {
+			width: 24px;
+			height: 24px;
+		}
+	}
+}

@@ -24,21 +24,53 @@
 					}
 
 				}
-				& span{
-					border-bottom: 1px dashed $primary;
-					color: #fff;
-					margin-left: 10px;
-				}
-				& i {
-					border: 1px solid #E6E6E6;
-					border-radius: 50%;
-					font-size: 18px;
-    			vertical-align: inherit;
+				&[aria-expanded="true"]{
+					& .custom-acc{
+						&_icon{
+							& i {
+								&.-open{
+									opacity: 0;
+			    			}
+			    			&.-close{
+									opacity: 1;
+			    			}
+							}
+						}
+					}
 				}
 			}
 		}
 		&_body{
 
+		}
+		&_title{
+				border-bottom: 1px dashed $primary;
+				color: #fff;
+				margin-left: 10px;	
+		}
+		&_icon{
+				border: 1px solid #E6E6E6;
+				border-radius: 50%;
+				font-size: 18px;
+  			vertical-align: inherit;
+  			width: 20px;
+  			height: 20px;
+  			position: relative;
+  			display: inline-block;
+  			text-align: center;
+			& i {
+				position: absolute;
+  			top: 0;
+  			left: 0;
+				transition: all .3s;
+    			&.-open{
+						opacity: 1;
+    			}
+    			&.-close{
+						opacity: 0;
+    			}
+				
+			}
 		}
 	}
 	&-select{
@@ -91,6 +123,8 @@
 		&_search.form-control.form-control-lg{
 			padding-right: 30px;
 			border-bottom: 1px solid $secondary;
+			font-size: 16px;
+			font-weight: 400;
 		}
 		&_title{
 			font-weight: 400;
@@ -122,11 +156,17 @@
 			height: 56px;
 			border: none;
 			padding: 15px;
+			font-size: 20px;
+			font-weight: 700;
 			&.-submit{
 				padding-left: 60px;
 			}
 			&.-custom-select{
 				border-right: 1px solid #e6e6e6;
+			}
+			&.-bg-transparent{
+				background: rgba(#fffefe , .1);
+				color: #fff;
 			}
 		}
 	}
@@ -167,10 +207,4 @@
 			background: transparent;
 		}
 	}
-}
-
-
-
-.section-welcome{
-	background: #162474;
 }
