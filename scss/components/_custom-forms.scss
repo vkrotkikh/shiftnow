@@ -2,6 +2,9 @@
 	&_wrapper{
 		position: relative;
 		display: flex;
+		&.-border{
+			border: solid 1px #e6e6e6;
+		}
 	}
 }
 

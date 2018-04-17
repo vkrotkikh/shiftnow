@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ShiftNow</title>
+    <meta name="description" content="Description of the site">
+    <meta charset="UTF-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes, maximum-scale=1">
+    <!-- connection FAVICONS-->
+    <link rel="icon" href="img/favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+    <!-- THE BACKGROUND OF THE STATUS-BAR (ON MOBILE)-->
+    <meta name="theme-color" content="#000">
+    <!-- connection GOOGLE FONTS-->
+    <!-- connection CSS-->
+    <link rel="stylesheet" href="css/all.css">
+  </head>
+  <body>
+    <!-- HEADER-->
+    <header class="header">
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="navbar-inner">
+          <div class="container"><a class="navbar-brand" href="index.html"><img src="img/home-light.svg" alt="shiftnow"></a>
+            <button class="navbar-toggler JS_open-menu" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="fa fa-bars"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div class="menu-wrap">
+                <ul class="main-menu navbar-nav ml-auto">
+                  <li class="nav-item"><a href="how-it-works.html">How it works</a></li>
+                  <li class="nav-item"><a href="faq.html">FAQ</a></li>
+                  <li class="nav-item"><a href="#?">Support</a></li>
+                  <li class="nav-item"><a href="about.html">About Us</a></li>
+                  <li class="nav-item"><a href="profile.html">Profile</a></li>
+                </ul>
+                <div class="dropdown show"><a class="btn-dropdown" href="#" role="button" id="dropdownLanguage" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <div class="flag-img-wrap"><img src="img/flags/usa.svg" alt="lang"></div><span>English<i class="icon-angle-down"></i></span></a>
+                  <div class="dropdown-menu custom-dropdown-menu" aria-labelledby="dropdownLanguage"><a class="dropdown-item" href="#?">
+                      <div class="flag-img-wrap"><img src="img/flags/arab.svg" alt="lang"></div><span>العربية</span></a><a class="dropdown-item" href="#?">
+                      <div class="flag-img-wrap"><img src="img/flags/spain.svg" alt="lang"></div><span>Español</span></a><a class="dropdown-item" href="#?">
+                      <div class="flag-img-wrap"><img src="img/flags/france.svg" alt="lang"></div><span>Français</span></a><a class="dropdown-item" href="#?">
+                      <div class="flag-img-wrap"><img src="img/flags/german.svg" alt="lang"></div><span>Deutsch</span></a><a class="dropdown-item" href="#?">
+                      <div class="flag-img-wrap"><img src="img/flags/portugal.svg" alt="lang"></div><span>Portugues</span></a><a class="dropdown-item" href="#?">
+                      <div class="flag-img-wrap"><img src="img/flags/rus.svg" alt="lang"></div><span>Русский</span></a><a class="dropdown-item" href="#?">
+                      <div class="flag-img-wrap"><img src="img/flags/vietnam.svg" alt="lang"></div><span>Tiếng Việt</span></a><a class="dropdown-item" href="#?">
+                      <div class="flag-img-wrap"><img src="img/flags/india.svg" alt="lang"></div><span>भारतीय</span></a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- HEADER END-->
+    <!-- HEADER END-->
+    <!-- HEADER END-->
+    <!-- CONTENT-->
+    <div class="wrap-for-sticky js-wrap-for-sticky -bg-secondary">
+      <main class="main">
+        <section class="section section-processing">
+          <div class="container">
+            <div class="steps-wrap">
+              <div class="steps-item js-step-item active" data-step="1">
+                <div class="steps-header">
+                  <div class="row">
+                    <div class="col-md-1">
+                      <div class="steps-num">1</div>
+                    </div>
+                    <div class="col-md-10 d-flex align-items-center">
+                      <h5 class="steps-title">Enter Amount & Address</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="steps-body">
+                  <div class="row">
+                    <div class="col-md-10 offset-md-1">
+                      <div class="steps-content">
+                        <div class="row">
+                          <div class="col-md-6">
+                            <form class="exchange-block mb-3" action="javascript:void(0);">
+                              <div class="form-group_wrapper mb-3 js-send-value -border">
+                                <div class="form-group mb-0">
+                                  <input class="form-control form-control-lg -submit -custom-select text-right js-custom-select-value" type="text">
+                                  <button class="btn-submit">Send</button>
+                                </div>
+                                <div class="custom-select js-custom-select">
+                                  <div class="currency-item -lg">
+                                    <div class="currency-icon"><i class="icon-bitcoin-btc"></i></div>
+                                    <div class="currency-title">BTC</div>
+                                  </div><i class="fas fa-angle-down -icon-open"></i>
+                                </div>
+                                <div class="custom-dropdown">
+                                  <button class="custom-dropdown_close js-custom-dropdown_close"><i class="fas fa-angle-up"></i></button>
+                                  <div class="form-group -icon -icon-right -search mb-0">
+                                    <input class="form-control form-control-lg custom-dropdown_search js-filter-search" type="text" placeholder="Type a currency"><i class="fas fa-search form-control_icon"></i>
+                                  </div>
+                                  <div class="custom-dropdown_content">
+                                    <div class="row no-gutters">
+                                      <div class="col-6">
+                                        <h6 class="custom-dropdown_title">Popular currencies</h6>
+                                        <ul class="currency-list">
+                                          <li><a class="currency-item -currency-link js-currency-link" href="javascript:void(0);">
+                                              <div class="currency-icon"><i class="icon-bitcoin-btc"></i></div>
+                                              <div class="currency-title">BTC</div>
+                                              <div class="currency-subtitle">Bitcoin</div></a></li>
+                                          <li><a class="currency-item -currency-link js-currency-link" href="javascript:void(0);">
+                                              <div class="currency-icon"><i class="icon-ethereum-eth"></i></div>
+                                              <div class="currency-title">ETH</div>
+                                              <div class="currency-subtitle">Ethereum</div></a></li>
+                                          <li><a class="currency-item -currency-link js-currency-link" href="javascript:void(0);">
+                                              <div class="currency-icon"><i class="icon-litecoin-ltc"></i></div>
+                                              <div class="currency-title">LTC</div>
+                                              <div class="currency-subtitle">Litecoin</div></a></li>
+                                          <li><a class="currency-item -currency-link js-currency-link" href="javascript:void(0);">
+                                              <div class="currency-icon"><i class="icon-ripple-xrp"></i></div>
+                                              <div class="currency-title">XRP</div>
+                                              <div class="currency-subtitle">Ripple</div></a></li>
+                                          <li><a class="currency-item -currency-link js-currency-link" href="javascript:void(0);">
+                                              <div class="currency-icon"><i class="icon-dollar-usd"></i></div>
+                                              <div class="currency-title">USD</div>
+                                              <div class="currency-subtitle">US Dollar</div></a></li>
+                                        </ul>
+                                      </div>
+                                      <div class="col-6">
+                                        <h6 class="custom-dropdown_title">All other currencies</h6>
+                                        <ul class="currency-list js-filter-list">
+                                          <li><a class="currency-item -currency-link js-currency-link" href="javascript:void(0);">
+                                              <div class="currency-icon"><i class="icon-bitcoin-btc"></i></div>
+                                              <div class="currency-title">BTC</div>
+                                              <div class="currency-subtitle">Bitcoin</div></a></li>
+                                          <li><a class="currency-item -currency-link js-currency-link" href="javascript:void(0);">
+                                              <div class="currency-icon"><i class="icon-ethereum-eth"></i></div>
+                                              <div class="currency-title">ETH</div>
+                                              <div class="currency-subtitle">Ethereum</div></a></li>
+                                          <li><a class="currency-item -currency-link js-currency-link" href="javascript:void(0);">
+                                              <div class="currency-icon"><i class="icon-litecoin-ltc"></i></div>
+                                              <div class="currency-title">LTC</div>
+                                              <div class="currency-subtitle">Litecoin</div></a></li>
+                                          <li><a class="currency-item -currency-link js-currency-link" href="javascript:void(0);">
+                                              <div class="currency-icon"><i class="icon-ripple-xrp"></i></div>
+                                              <div class="currency-title">XRP</div>
+                                              <div class="currency-subtitle">Ripple</div></a></li>
+                                          <li><a class="currency-item -currency-link js-currency-link" href="javascript:void(0);">
+                                              <div class="currency-icon"><i class="icon-dollar-usd"></i></div>
+                                              <div class="currency-title">USD</div>
+                                              <div class="currency-subtitle">US Dollar</div></a></li>
+                                          <li><a class="currency-item -currency-link js-currency-link" href="javascript:void(0);">
+                                              <div class="currency-icon"><i class="icon-bitcoin-cash-bch"></i></div>
+                                              <div class="currency-title">BTH</div>
+                                              <div class="currency-subtitle">Bitcoin Cash</div></a></li>
+                                          <li><a class="currency-item -currency-link js-currency-link" href="javascript:void(0);">
+                                              <div class="currency-icon"><i class="icon-dogecoin-doge"></i></div>
+                                              <div class="currency-title">DOGE</div>
+                                              <div class="currency-subtitle">Dogecoin</div></a></li>
+                                          <li><a class="currency-item -currency-link js-currency-link" href="javascript:void(0);">
+                                              <div class="currency-icon"><i class="icon-nem-xem"></i></div>
+                                              <div class="currency-title">XEM</div>
+                                              <div class="currency-subtitle">NEM</div></a></li>
+                                        </ul>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="exchange-info">
+                                <div class="exchange-swap js-exhange-swap -border"><img src="./img/icons/dark.svg" alt=""></div>
+                              </div>
+                              <div class="form-group_wrapper mt-3 js-get-value -border">
+                                <div class="form-group mb-0">
+                                  <input class="form-control form-control-lg -submit -custom-select text-right js-custom-select-value" type="text">
+                                  <button class="btn-submit">Get</button>
+                                </div>
+                                <div class="custom-select js-custom-select">
+                                  <div class="currency-item -lg">
+                                    <div class="currency-icon"><i class="icon-ethereum-eth"></i></div>
+                                    <div class="currency-title">ETH</div>
+                                  </div><i class="fas fa-angle-down -icon-open"></i>
+                                </div>
+                                <div class="custom-dropdown">
+                                  <button class="custom-dropdown_close js-custom-dropdown_close"><i class="fas fa-angle-up"></i></button>
+                                  <div class="form-group -icon -icon-right -search mb-0">
+                                    <input class="form-control form-control-lg custom-dropdown_search js-filter-search" type="text" placeholder="Type a currency"><i class="fas fa-search form-control_icon"></i>
+                                  </div>
+                                  <div class="custom-dropdown_content">
+                                    <div class="row no-gutters">
+                                      <div class="col-6">
+                                        <h6 class="custom-dropdown_title">Popular currencies</h6>
+                                        <ul class="currency-list">
+                                          <li><a class="currency-item -currency-link js-currency-link" href="javascript:void(0);">
+                                              <div class="currency-icon"><i class="icon-bitcoin-btc"></i></div>
+                                              <div class="currency-title">BTC</div>
+                                              <div class="currency-subtitle">Bitcoin</div></a></li>
+                                          <li><a class="currency-item -currency-link js-currency-link" href="javascript:void(0);">
+                                              <div class="currency-icon"><i class="icon-ethereum-eth"></i></div>
+                                              <div class="currency-title">ETH</div>
+                                              <div class="currency-subtitle">Ethereum</div></a></li>
+                                          <li><a class="currency-item -currency-link js-currency-link" href="javascript:void(0);">
+                                              <div class="currency-icon"><i class="icon-litecoin-ltc"></i></div>
+                                              <div class="currency-title">LTC</div>
+                                              <div class="currency-subtitle">Litecoin</div></a></li>
+                                          <li><a class="currency-item -currency-link js-currency-link" href="javascript:void(0);">
+                                              <div class="currency-icon"><i class="icon-ripple-xrp"></i></div>
+                                              <div class="currency-title">XRP</div>
+                                              <div class="currency-subtitle">Ripple</div></a></li>
+                                          <li><a class="currency-item -currency-link js-currency-link" href="javascript:void(0);">
+                                              <div class="currency-icon"><i class="icon-dollar-usd"></i></div>
+                                              <div class="currency-title">USD</div>
+                                              <div class="currency-subtitle">US Dollar</div></a></li>
+                                        </ul>
+                                      </div>
+                                      <div class="col-6">
+                                        <h6 class="custom-dropdown_title">All other currencies</h6>
+                                        <ul class="currency-list js-filter-list">
+                                          <li><a class="currency-item -currency-link js-currency-link" href="javascript:void(0);">
+                                              <div class="currency-icon"><i class="icon-bitcoin-btc"></i></div>
+                                              <div class="currency-title">BTC</div>
+                                              <div class="currency-subtitle">Bitcoin</div></a></li>
+                                          <li><a class="currency-item -currency-link js-currency-link" href="javascript:void(0);">
+                                              <div class="currency-icon"><i class="icon-ethereum-eth"></i></div>
+                                              <div class="currency-title">ETH</div>
+                                              <div class="currency-subtitle">Ethereum</div></a></li>
+                                          <li><a class="currency-item -currency-link js-currency-link" href="javascript:void(0);">
+                                              <div class="currency-icon"><i class="icon-litecoin-ltc"></i></div>
+                                              <div class="currency-title">LTC</div>
+                                              <div class="currency-subtitle">Litecoin</div></a></li>
+                                          <li><a class="currency-item -currency-link js-currency-link" href="javascript:void(0);">
+                                              <div class="currency-icon"><i class="icon-ripple-xrp"></i></div>
+                                              <div class="currency-title">XRP</div>
+                                              <div class="currency-subtitle">Ripple</div></a></li>
+                                          <li><a class="currency-item -currency-link js-currency-link" href="javascript:void(0);">
+                                              <div class="currency-icon"><i class="icon-dollar-usd"></i></div>
+                                              <div class="currency-title">USD</div>
+                                              <div class="currency-subtitle">US Dollar</div></a></li>
+                                          <li><a class="currency-item -currency-link js-currency-link" href="javascript:void(0);">
+                                              <div class="currency-icon"><i class="icon-bitcoin-cash-bch"></i></div>
+                                              <div class="currency-title">BTH</div>
+                                              <div class="currency-subtitle">Bitcoin Cash</div></a></li>
+                                          <li><a class="currency-item -currency-link js-currency-link" href="javascript:void(0);">
+                                              <div class="currency-icon"><i class="icon-dogecoin-doge"></i></div>
+                                              <div class="currency-title">DOGE</div>
+                                              <div class="currency-subtitle">Dogecoin</div></a></li>
+                                          <li><a class="currency-item -currency-link js-currency-link" href="javascript:void(0);">
+                                              <div class="currency-icon"><i class="icon-nem-xem"></i></div>
+                                              <div class="currency-title">XEM</div>
+                                              <div class="currency-subtitle">NEM</div></a></li>
+                                        </ul>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                          <div class="col-md-6">
+                            <div class="card"></div>
+                          </div>
+                          <div class="col-md-12"></div>
+                        </div><a class="btn btn-lg btn-primary -max_width_170 js-step-next" href="javascript:void(0);">next</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="steps-item js-step-item" data-step="2">
+                <div class="steps-header">
+                  <div class="row">
+                    <div class="col-md-1">
+                      <div class="steps-num">2</div>
+                    </div>
+                    <div class="col-md-10 d-flex align-items-center">
+                      <h5 class="steps-title">Check the details</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="steps-body">
+                  <div class="row">
+                    <div class="col-md-10 offset-md-1">
+                      <div class="steps-content">
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui deleniti veritatis recusandae, quas aliquid, distinctio soluta corporis quo expedita sapiente laboriosam. Ad deleniti maxime asperiores architecto ipsum itaque nisi hic, impedit obcaecati vel iste quae necessitatibus nobis culpa doloremque sit quas reiciendis fugit commodi facilis totam consequuntur ex quod. Porro nostrum esse quibusdam nam animi qui reiciendis ullam id, quo recusandae quod alias sint harum cupiditate consequatur ab sit eveniet, sequi odit consectetur nemo, fuga cumque. Alias iusto molestiae quis autem rerum vero quas doloremque eaque eos aliquam inventore suscipit reprehenderit voluptates in quod quaerat, non, veniam ad! Repellat, vitae!</p><a class="btn btn-lg btn-primary js-step-next" href="javascript:void(0);">next</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="steps-item js-step-item" data-step="3">
+                <div class="steps-header">
+                  <div class="row">
+                    <div class="col-md-1">
+                      <div class="steps-num">3</div>
+                    </div>
+                    <div class="col-md-10 d-flex align-items-center">
+                      <h5 class="steps-title">Send your funds</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="steps-body">
+                  <div class="row">
+                    <div class="col-md-10 offset-md-1">
+                      <div class="steps-content">
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui deleniti veritatis recusandae, quas aliquid, distinctio soluta corporis quo expedita sapiente laboriosam. Ad deleniti maxime asperiores architecto ipsum itaque nisi hic, impedit obcaecati vel iste quae necessitatibus nobis culpa doloremque sit quas reiciendis fugit commodi facilis totam consequuntur ex quod. Porro nostrum esse quibusdam nam animi qui reiciendis ullam id, quo recusandae quod alias sint harum cupiditate consequatur ab sit eveniet, sequi odit consectetur nemo, fuga cumque. Alias iusto molestiae quis autem rerum vero quas doloremque eaque eos aliquam inventore suscipit reprehenderit voluptates in quod quaerat, non, veniam ad! Repellat, vitae!</p><a class="btn btn-lg btn-primary js-step-next" href="javascript:void(0);">next</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="steps-item js-step-item" data-step="4">
+                <div class="steps-header">
+                  <div class="row">
+                    <div class="col-md-1">
+                      <div class="steps-num">4</div>
+                    </div>
+                    <div class="col-md-10 d-flex align-items-center">
+                      <h5 class="steps-title">Wait for the exchange</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="steps-body">
+                  <div class="row">
+                    <div class="col-md-10 offset-md-1">
+                      <div class="steps-content">
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui deleniti veritatis recusandae, quas aliquid, distinctio soluta corporis quo expedita sapiente laboriosam. Ad deleniti maxime asperiores architecto ipsum itaque nisi hic, impedit obcaecati vel iste quae necessitatibus nobis culpa doloremque sit quas reiciendis fugit commodi facilis totam consequuntur ex quod. Porro nostrum esse quibusdam nam animi qui reiciendis ullam id, quo recusandae quod alias sint harum cupiditate consequatur ab sit eveniet, sequi odit consectetur nemo, fuga cumque. Alias iusto molestiae quis autem rerum vero quas doloremque eaque eos aliquam inventore suscipit reprehenderit voluptates in quod quaerat, non, veniam ad! Repellat, vitae!</p><a class="btn btn-lg btn-primary js-step-next" href="javascript:void(0);">next</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="steps-item js-step-item" data-step="5">
+                <div class="steps-header">
+                  <div class="row">
+                    <div class="col-md-1">
+                      <div class="steps-num">5</div>
+                    </div>
+                    <div class="col-md-10 d-flex align-items-center">
+                      <h5 class="steps-title">Finished</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="steps-body">
+                  <div class="row">
+                    <div class="col-md-10 offset-md-1">
+                      <div class="steps-content">
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui deleniti veritatis recusandae, quas aliquid, distinctio soluta corporis quo expedita sapiente laboriosam. Ad deleniti maxime asperiores architecto ipsum itaque nisi hic, impedit obcaecati vel iste quae necessitatibus nobis culpa doloremque sit quas reiciendis fugit commodi facilis totam consequuntur ex quod. Porro nostrum esse quibusdam nam animi qui reiciendis ullam id, quo recusandae quod alias sint harum cupiditate consequatur ab sit eveniet, sequi odit consectetur nemo, fuga cumque. Alias iusto molestiae quis autem rerum vero quas doloremque eaque eos aliquam inventore suscipit reprehenderit voluptates in quod quaerat, non, veniam ad! Repellat, vitae!</p><a class="btn btn-lg btn-primary js-step-next" href="javascript:void(0);">next</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!-- CONTENT END-->
+      <!-- FOOTER-->
+      <footer class="footer -sticky js-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="footer-left">
+                <div class="footer-left-top"><a class="white-link" href="#?"><img src="img/home-light.svg" alt="shiftnow"></a><a class="white-link" href="#?">Terms of Use</a><a class="white-link" href="#?">Legal Use</a></div>
+                <div class="footer-left-middle">
+                  <ul class="social-links">
+                    <li><a href="#?"><span class="icon-google"></span></a></li>
+                    <li><a href="#?"><span class="icon-facebook"></span></a></li>
+                    <li><a href="#?"><span class="icon-twitter"></span></a></li>
+                    <li><a href="#?"><span class="icon-github"></span></a></li>
+                    <li><a href="#?"><span class="icon-medium"></span></a></li>
+                    <li><a href="#?"><span class="icon-steemit"></span></a></li>
+                    <li><a href="#?"><span class="icon-bitcointalk"></span></a></li>
+                    <li><a href="#?"><span class="icon-reddit"></span></a></li>
+                  </ul>
+                </div>
+                <div class="footer-left-bottom"><span>Copyright © ShiftNOW 2018</span></div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="footer-menu">
+                <h6 class="footer-menu-heading">COMPANY & TEAM</h6>
+                <ul>
+                  <li><a class="white-link" href="#?">About Us</a></li>
+                  <li><a class="white-link" href="#?">Data protection policy</a></li>
+                  <li><a class="white-link" href="#?">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="footer-menu">
+                <h6 class="footer-menu-heading">HELP</h6>
+                <ul>
+                  <li><a class="white-link" href="#?">Support</a></li>
+                  <li><a class="white-link" href="#?">How it works</a></li>
+                  <li><a class="white-link" href="#?">FAQ</a></li>
+                  <li><a class="white-link" href="#?">Currencies we support</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="footer-menu">
+                <h6 class="footer-menu-heading">ANALYTICS</h6>
+                <ul>
+                  <li><a class="white-link" href="#?">Market</a></li>
+                  <li><a class="white-link" href="#?">Rates</a></li>
+                  <li><a class="white-link" href="#?">Charts</a></li>
+                </ul>
+              </div>
+              <div class="scroll-top"><span class="icon-arrow-up"></span></div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- FOOTER END-->
+      <!-- connection JAVASCRIPT-->
+      <script src="libs/jquery/jquery.min.js"></script>
+      <script src="libs/bootstrap/bootstrap.bundle.min.js"></script>
+      <script src="libs/slick/slick.min.js"></script>
+      <script src="libs/slick-lightbox/slick-lightbox.min.js"></script>
+      <script src="js/common.js"></script>
+    </div>
+  </body>
+</html>

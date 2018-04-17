@@ -1,0 +1,75 @@
+.steps{
+	&-wrap{
+
+	}
+	&-item{
+		&.active{
+			& .steps{
+				&-num{
+					background: $primary;
+					color: #fff;
+				}
+				&-title{
+					color: $primary;
+				}
+				&-body{
+				}
+			}
+		}
+		&.done{
+			& .steps{
+				&-title{
+					color: #00395b;
+				}
+				&-num{
+					background: $primary;
+					color: #fff;
+					font-size: 0;
+					&:before{
+						display: block;
+					}
+				}
+			}
+		}
+	}
+	&-header{
+		padding: 20px 0;
+	}
+	&-body{
+		display: none;
+	}
+	&-title{
+		color: $darkGrey;
+		cursor: pointer;
+	}
+	&-num{
+		width: 28px;
+		height: 28px;
+		border-radius: 50%;
+		font-size: 16px;
+		background: $light;
+		color: $darkGrey;
+		text-align: center;
+		margin: 0 auto;
+		line-height: 30px;
+		position: relative;
+		&:before{
+			display: none;
+			font-size: 14px;
+			text-align: center;
+			line-height: 28px;
+			content: '';
+	    font-family: 'icomoon' !important;
+	    speak: none;
+	    font-style: normal;
+	    font-weight: normal;
+	    font-variant: normal;
+	    text-transform: none;
+	    -webkit-font-smoothing: antialiased;
+	    -moz-osx-font-smoothing: grayscale;
+		}
+	}
+	&-content{
+		padding-bottom: 40px;
+	}
+}

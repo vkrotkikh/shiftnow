@@ -1,0 +1,300 @@
+doctype html
+html(lang='en')
+	head
+		title ShiftNow
+		meta(name='description', content='Description of the site')
+		include modules/head.pug
+	body
+		include modules/header.pug
+		// CONTENT
+		.wrap-for-sticky.js-wrap-for-sticky.-bg-secondary
+			main.main
+				section.section.section-processing
+					.container
+						.steps-wrap
+							.steps-item.js-step-item.active(data-step="1")
+								.steps-header
+									.row
+										.col-md-1
+											.steps-num 1
+										.col-md-10.d-flex.align-items-center
+											h5.steps-title Enter Amount & Address
+								.steps-body
+									.row
+										.col-md-10.offset-md-1
+											.steps-content
+												.row
+													.col-md-6
+															form.exchange-block(action="javascript:void(0);").mb-3
+																.form-group_wrapper.mb-3.js-send-value.-border
+																	.form-group.mb-0
+																		input.form-control.form-control-lg.-submit.-custom-select.text-right.js-custom-select-value(type='text')
+																		button.btn-submit Send
+																	.custom-select.js-custom-select
+																		.currency-item.-lg
+																			.currency-icon
+																				i.icon-bitcoin-btc
+																			.currency-title BTC
+																		i.fas.fa-angle-down.-icon-open
+																	.custom-dropdown
+																		button.custom-dropdown_close.js-custom-dropdown_close
+																			i.fas.fa-angle-up
+																		.form-group.-icon.-icon-right.-search.mb-0
+																			input.form-control.form-control-lg.custom-dropdown_search.js-filter-search(type='text' , placeholder="Type a currency")
+																			i.fas.fa-search.form-control_icon
+																		.custom-dropdown_content
+																			.row.no-gutters
+																				.col-6
+																					h6.custom-dropdown_title Popular currencies
+																					ul.currency-list
+																						li
+																							a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
+																								.currency-icon
+																									i.icon-bitcoin-btc
+																								.currency-title BTC
+																								.currency-subtitle Bitcoin
+																						li
+																							a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
+																								.currency-icon
+																									i.icon-ethereum-eth
+																								.currency-title ETH
+																								.currency-subtitle Ethereum
+																						li
+																							a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
+																								.currency-icon
+																										i.icon-litecoin-ltc
+																								.currency-title LTC
+																								.currency-subtitle Litecoin
+																						li
+																							a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
+																								.currency-icon
+																									i.icon-ripple-xrp
+																								.currency-title XRP
+																								.currency-subtitle Ripple
+																						li
+																							a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
+																								.currency-icon
+																									i.icon-dollar-usd
+																								.currency-title USD
+																								.currency-subtitle US Dollar
+
+																				.col-6
+																					h6.custom-dropdown_title All other currencies
+																					ul.currency-list.js-filter-list
+																						li
+																							a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
+																								.currency-icon
+																									i.icon-bitcoin-btc
+																								.currency-title BTC
+																								.currency-subtitle Bitcoin
+																						li
+																							a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
+																								.currency-icon
+																									i.icon-ethereum-eth
+																								.currency-title ETH
+																								.currency-subtitle Ethereum
+																						li
+																							a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
+																								.currency-icon
+																									i.icon-litecoin-ltc
+																								.currency-title LTC
+																								.currency-subtitle Litecoin
+																						li
+																							a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
+																								.currency-icon
+																									i.icon-ripple-xrp
+																								.currency-title XRP
+																								.currency-subtitle Ripple
+																						li
+																							a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
+																								.currency-icon
+																									i.icon-dollar-usd
+																								.currency-title USD
+																								.currency-subtitle US Dollar
+																						li
+																							a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
+																								.currency-icon
+																									i.icon-bitcoin-cash-bch
+																								.currency-title BTH
+																								.currency-subtitle Bitcoin Cash
+																						li
+																							a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
+																								.currency-icon
+																									i.icon-dogecoin-doge
+																								.currency-title DOGE
+																								.currency-subtitle Dogecoin
+																						li
+																							a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
+																								.currency-icon
+																									i.icon-nem-xem
+																								.currency-title XEM
+																								.currency-subtitle NEM
+																.exchange-info
+																	.exchange-swap.js-exhange-swap.-border
+																		img(src="./img/icons/dark.svg", alt="")
+																.form-group_wrapper.mt-3.js-get-value.-border
+																	.form-group.mb-0
+																		input.form-control.form-control-lg.-submit.-custom-select.text-right.js-custom-select-value(type='text')
+																		button.btn-submit Get
+																	.custom-select.js-custom-select
+																		.currency-item.-lg
+																			.currency-icon
+																				i.icon-ethereum-eth
+																			.currency-title ETH
+																		i.fas.fa-angle-down.-icon-open
+																	.custom-dropdown
+																		button.custom-dropdown_close.js-custom-dropdown_close
+																			i.fas.fa-angle-up
+																		.form-group.-icon.-icon-right.-search.mb-0
+																			input.form-control.form-control-lg.custom-dropdown_search.js-filter-search(type='text' , placeholder="Type a currency")
+																			i.fas.fa-search.form-control_icon
+																		.custom-dropdown_content
+																			.row.no-gutters
+																				.col-6
+																					h6.custom-dropdown_title Popular currencies
+																					ul.currency-list
+																						li
+																							a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
+																								.currency-icon
+																									i.icon-bitcoin-btc
+																								.currency-title BTC
+																								.currency-subtitle Bitcoin
+																						li
+																							a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
+																								.currency-icon
+																									i.icon-ethereum-eth
+																								.currency-title ETH
+																								.currency-subtitle Ethereum
+																						li
+																							a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
+																								.currency-icon
+																										i.icon-litecoin-ltc
+																								.currency-title LTC
+																								.currency-subtitle Litecoin
+																						li
+																							a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
+																								.currency-icon
+																									i.icon-ripple-xrp
+																								.currency-title XRP
+																								.currency-subtitle Ripple
+																						li
+																							a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
+																								.currency-icon
+																									i.icon-dollar-usd
+																								.currency-title USD
+																								.currency-subtitle US Dollar
+
+																				.col-6
+																					h6.custom-dropdown_title All other currencies
+																					ul.currency-list.js-filter-list
+																						li
+																							a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
+																								.currency-icon
+																									i.icon-bitcoin-btc
+																								.currency-title BTC
+																								.currency-subtitle Bitcoin
+																						li
+																							a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
+																								.currency-icon
+																									i.icon-ethereum-eth
+																								.currency-title ETH
+																								.currency-subtitle Ethereum
+																						li
+																							a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
+																								.currency-icon
+																									i.icon-litecoin-ltc
+																								.currency-title LTC
+																								.currency-subtitle Litecoin
+																						li
+																							a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
+																								.currency-icon
+																									i.icon-ripple-xrp
+																								.currency-title XRP
+																								.currency-subtitle Ripple
+																						li
+																							a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
+																								.currency-icon
+																									i.icon-dollar-usd
+																								.currency-title USD
+																								.currency-subtitle US Dollar
+																						li
+																							a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
+																								.currency-icon
+																									i.icon-bitcoin-cash-bch
+																								.currency-title BTH
+																								.currency-subtitle Bitcoin Cash
+																						li
+																							a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
+																								.currency-icon
+																									i.icon-dogecoin-doge
+																								.currency-title DOGE
+																								.currency-subtitle Dogecoin
+																						li
+																							a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
+																								.currency-icon
+																									i.icon-nem-xem
+																								.currency-title XEM
+																								.currency-subtitle NEM
+													.col-md-6
+														.card
+													.col-md-12
+												a(href="javascript:void(0);").btn.btn-lg.btn-primary.-max_width_170.js-step-next next
+							.steps-item.js-step-item(data-step="2")
+								.steps-header
+									.row
+										.col-md-1
+											.steps-num 2
+										.col-md-10.d-flex.align-items-center
+											h5.steps-title Check the details
+								.steps-body
+									.row
+										.col-md-10.offset-md-1
+											.steps-content
+												p
+													|  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui deleniti veritatis recusandae, quas aliquid, distinctio soluta corporis quo expedita sapiente laboriosam. Ad deleniti maxime asperiores architecto ipsum itaque nisi hic, impedit obcaecati vel iste quae necessitatibus nobis culpa doloremque sit quas reiciendis fugit commodi facilis totam consequuntur ex quod. Porro nostrum esse quibusdam nam animi qui reiciendis ullam id, quo recusandae quod alias sint harum cupiditate consequatur ab sit eveniet, sequi odit consectetur nemo, fuga cumque. Alias iusto molestiae quis autem rerum vero quas doloremque eaque eos aliquam inventore suscipit reprehenderit voluptates in quod quaerat, non, veniam ad! Repellat, vitae!
+												a(href="javascript:void(0);").btn.btn-lg.btn-primary.js-step-next next
+							.steps-item.js-step-item(data-step="3")
+								.steps-header
+									.row
+										.col-md-1
+											.steps-num 3
+										.col-md-10.d-flex.align-items-center
+											h5.steps-title Send your funds
+								.steps-body
+									.row
+										.col-md-10.offset-md-1
+											.steps-content
+												p
+													|  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui deleniti veritatis recusandae, quas aliquid, distinctio soluta corporis quo expedita sapiente laboriosam. Ad deleniti maxime asperiores architecto ipsum itaque nisi hic, impedit obcaecati vel iste quae necessitatibus nobis culpa doloremque sit quas reiciendis fugit commodi facilis totam consequuntur ex quod. Porro nostrum esse quibusdam nam animi qui reiciendis ullam id, quo recusandae quod alias sint harum cupiditate consequatur ab sit eveniet, sequi odit consectetur nemo, fuga cumque. Alias iusto molestiae quis autem rerum vero quas doloremque eaque eos aliquam inventore suscipit reprehenderit voluptates in quod quaerat, non, veniam ad! Repellat, vitae!
+												a(href="javascript:void(0);").btn.btn-lg.btn-primary.js-step-next next
+							.steps-item.js-step-item(data-step="4")
+								.steps-header
+									.row
+										.col-md-1
+											.steps-num 4
+										.col-md-10.d-flex.align-items-center
+											h5.steps-title Wait for the exchange
+								.steps-body
+									.row
+										.col-md-10.offset-md-1
+											.steps-content
+												p
+													|  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui deleniti veritatis recusandae, quas aliquid, distinctio soluta corporis quo expedita sapiente laboriosam. Ad deleniti maxime asperiores architecto ipsum itaque nisi hic, impedit obcaecati vel iste quae necessitatibus nobis culpa doloremque sit quas reiciendis fugit commodi facilis totam consequuntur ex quod. Porro nostrum esse quibusdam nam animi qui reiciendis ullam id, quo recusandae quod alias sint harum cupiditate consequatur ab sit eveniet, sequi odit consectetur nemo, fuga cumque. Alias iusto molestiae quis autem rerum vero quas doloremque eaque eos aliquam inventore suscipit reprehenderit voluptates in quod quaerat, non, veniam ad! Repellat, vitae!
+												a(href="javascript:void(0);").btn.btn-lg.btn-primary.js-step-next next
+							.steps-item.js-step-item(data-step="5")
+								.steps-header
+									.row
+										.col-md-1
+											.steps-num 5
+										.col-md-10.d-flex.align-items-center
+											h5.steps-title Finished
+								.steps-body
+									.row
+										.col-md-10.offset-md-1
+											.steps-content
+												p
+													|  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui deleniti veritatis recusandae, quas aliquid, distinctio soluta corporis quo expedita sapiente laboriosam. Ad deleniti maxime asperiores architecto ipsum itaque nisi hic, impedit obcaecati vel iste quae necessitatibus nobis culpa doloremque sit quas reiciendis fugit commodi facilis totam consequuntur ex quod. Porro nostrum esse quibusdam nam animi qui reiciendis ullam id, quo recusandae quod alias sint harum cupiditate consequatur ab sit eveniet, sequi odit consectetur nemo, fuga cumque. Alias iusto molestiae quis autem rerum vero quas doloremque eaque eos aliquam inventore suscipit reprehenderit voluptates in quod quaerat, non, veniam ad! Repellat, vitae!
+												a(href="javascript:void(0);").btn.btn-lg.btn-primary.js-step-next next
+			// CONTENT END
+			include modules/footer.pug
+			include modules/scripts.pug

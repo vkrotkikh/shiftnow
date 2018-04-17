@@ -2,6 +2,13 @@
 	color: #fff;
 	background-color: $dark-blue;
 	padding: 80px 0 75px;
+	&.-sticky {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		width: 100%;
+	}
 	&-left {
 		&-top {
 			display: flex;

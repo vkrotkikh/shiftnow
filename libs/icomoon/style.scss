@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: 'icomoon';
-  src:  url('#{$icomoon-font-path}/icomoon.eot?r34oah');
-  src:  url('#{$icomoon-font-path}/icomoon.eot?r34oah#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/icomoon.ttf?r34oah') format('truetype'),
-    url('#{$icomoon-font-path}/icomoon.woff?r34oah') format('woff'),
-    url('#{$icomoon-font-path}/icomoon.svg?r34oah#icomoon') format('svg');
+  src:  url('#{$icomoon-font-path}/icomoon.eot?3lzo2t');
+  src:  url('#{$icomoon-font-path}/icomoon.eot?3lzo2t#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/icomoon.ttf?3lzo2t') format('truetype'),
+    url('#{$icomoon-font-path}/icomoon.woff?3lzo2t') format('woff'),
+    url('#{$icomoon-font-path}/icomoon.svg?3lzo2t#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -718,6 +718,12 @@
   &:before {
     content: unicode($icon-chronobank-time);     
     color: #0099f7;
+  }
+}
+.icon-check {
+  &:before {
+    content: unicode($icon-check);     
+    color: #fff;
   }
 }
 .icon-android {

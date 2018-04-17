@@ -1,6 +1,7 @@
 .exchange{
 	&-info{
 		position: relative;
+		min-height: 20px;
 	}
 	&-swap{
 		background: #fff;
@@ -18,6 +19,9 @@
 		transition: all .35s;
 		&:hover{
 			background: darken(#fff , 15%);
+		}
+		&.-border{
+			border: solid 1px #e6e6e6;
 		}
 		& img {
 			width: 24px;

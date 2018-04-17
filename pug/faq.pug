@@ -7,95 +7,96 @@ html(lang='en')
 	body
 		include modules/header.pug
 		// CONTENT
-		main.main
-			section.section-faq
-				.container
-					.faq-accordion#accordion
-						.card.faq-card
-							.card-header#faq-head-1
-								h5.dark-blue
-									button(class="" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1")
-										i.fa.fa-angle-down
-										span What is ShiftNow
-							div(id="collapse1" class="faq-descr collapse show" aria-labelledby="heading1" data-parent="#accordion")
-								.faq-descr-inner ShiftNow is an instant cryptocurrency exchange providing the best crypto-to-crypto rates on the market.
-						.card.faq-card
-							.card-header#faq-head-2
-								h5.dark-blue
-									button(class="collapsed" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2")
-										i.fa.fa-angle-down
-										span How does ShiftNow work?
-							div(id="collapse2" class="faq-descr collapse" aria-labelledby="heading2" data-parent="#accordion")
-								.faq-descr-inner ShiftNow is integrated into the largest cryptocurrency trading platforms, including Poloniex and Bittrex. Near the speed of light, our in-house technology selects and suggests the best available rate and displays the estimated rate for you.
-						.card.faq-card
-							.card-header#faq-head-3
-								h5.dark-blue
-									button(class="collapsed" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3")
-										i.fa.fa-angle-down
-										span Why trust us?
-							div(id="collapse3" class="faq-descr collapse" aria-labelledby="heading3" data-parent="#accordion")
-								.faq-descr-inner We are a team of experienced blockchain developers. ShiftNow service provides safe and fast transactions without revealing users identities. We provide the best possible rates by comparing a wide range of reliable trading platforms and work in over 50 cryptocurrencies listed.
-						.card.faq-card
-							.card-header#faq-head-4
-								h5.dark-blue
-									button(class="collapsed" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4")
-										i.fa.fa-angle-down
-										span What are the commissions?
-							div(id="collapse4" class="faq-descr collapse" aria-labelledby="heading4" data-parent="#accordion")
-								.faq-descr-inner ShiftNow charges a quite low commission fee (1,5%) and offers the best available rate at the moment the transaction is completed. The rates remain approximate until the transaction is actually made on the blockchain. The exchange rate at the time of a transaction may slightly differ from the estimated rate you see when you begin a transaction.
-						.card.faq-card
-							.card-header#faq-head-5
-								h5.dark-blue
-									button(class="collapsed" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5")
-										i.fa.fa-angle-down
-										span How long does the transaction process take?
-							div(id="collapse5" class="faq-descr collapse" aria-labelledby="heading5" data-parent="#accordion")
-								.faq-descr-inner Usually, our transactions take 5-40 minutes to be processed. It your transaction takes longer, this could be due to a variety of factors, including:
-									ul
-										li Blockchain overloaded. There are many transactions waiting to go through, including yours. This issue occurs on the Bitcoin and Bitcoin-based blockchains. Unfortunately, the only thing to do is wait it out. ShiftNow has no control over a blockchain overload.
-										li Coin updates. We may turn off some coins to update a client. This can take some time. ou will get your money as soon as we turn it back on.
-										li DDoS attacks. Every platform is subject to such attacks. Unfortunately, in this case the only thing to do is wait it out.
-						.card.faq-card
-							.card-header#faq-head-6
-								h5.dark-blue
-									button(class="collapsed" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6")
-										i.fa.fa-angle-down
-										span Where do I store my funds?
-							div(id="collapse6" class="faq-descr collapse" aria-labelledby="heading6" data-parent="#accordion")
-								.faq-descr-inner It is vital to have at least one wallet to exchange your funds at ShiftNow. Different wallets are specifically tailored for different operations with the transactions. There are official wallets, web purses and other applications. For each currency you need to have a separate wallet. The address of the wallet is a unique combination of numbers and letters from 26 to 35 characters.
-						.card.faq-card
-							.card-header#faq-head-7
-								h5.dark-blue
-									button(class="collapsed" data-toggle="collapse" data-target="#collapse7" aria-expanded="false" aria-controls="collapse7")
-										i.fa.fa-angle-down
-										span Where do I get the wallet address?
-							div(id="collapse7" class="faq-descr collapse" aria-labelledby="heading7" data-parent="#accordion")
-								.faq-descr-inner When you decide which coin you would like to acquire, find a reliable wallet. Each coin has an official one. When you create a wallet, you automatically get an address and a private key. Keep your private key to yourself and don’t show it to anyone for security reasons.
-						.card.faq-card
-							.card-header#faq-head-8
-								h5.dark-blue
-									button(class="collapsed" data-toggle="collapse" data-target="#collapse8" aria-expanded="false" aria-controls="collapse8")
-										i.fa.fa-angle-down
-										span What is the transaction hash?
-							div(id="collapse8" class="faq-descr collapse" aria-labelledby="heading8" data-parent="#accordion")
-								.faq-descr-inner Each transaction is registered in the blockchain and has its own unique identification code, called a Hash (also referred as “TX”). This unique code allows you to verify its validity in the blockchain open ledger.
-						.card.faq-card
-							.card-header#faq-head-9
-								h5.dark-blue
-									button(class="collapsed" data-toggle="collapse" data-target="#collapse9" aria-expanded="false" aria-controls="collapse9")
-										i.fa.fa-angle-down
-										span How to cancel a transaction?
-							div(id="collapse9" class="faq-descr collapse" aria-labelledby="heading9" data-parent="#accordion")
-								.faq-descr-inner Blockchain operations are irreversible. If the funds are sent, the transaction cannot be canceled by anyone. Therefore, thoroughly check all the payment details before sending money.
-						.card.faq-card
-							.card-header#faq-head-10
-								h5.dark-blue
-									button(class="collapsed" data-toggle="collapse" data-target="#collapse10" aria-expanded="false" aria-controls="collapse10")
-										i.fa.fa-angle-down
-										span What is the minimal amount for exchange?
-							div(id="collapse10" class="faq-descr collapse" aria-labelledby="heading10" data-parent="#accordion")
-								.faq-descr-inner There are no limits for cryptocurrency exchanges on ChangeNow. However for the transaction to be carried out, the fee is charged by the blockchain itself. The amount sent must be sufficient to cover all the blockchain fees.
-					include modules/try-now-btn.pug
-		// CONTENT END
-		include modules/footer.pug
-		include modules/scripts.pug
+		.wrap-for-sticky.js-wrap-for-sticky
+			main.main
+				section.section-faq
+					.container
+						.faq-accordion#accordion
+							.card.faq-card
+								.card-header#faq-head-1
+									h5.dark-blue
+										button(class="" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1")
+											i.fa.fa-angle-down
+											span What is ShiftNow
+								div(id="collapse1" class="faq-descr collapse show" aria-labelledby="heading1" data-parent="#accordion")
+									.faq-descr-inner ShiftNow is an instant cryptocurrency exchange providing the best crypto-to-crypto rates on the market.
+							.card.faq-card
+								.card-header#faq-head-2
+									h5.dark-blue
+										button(class="collapsed" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2")
+											i.fa.fa-angle-down
+											span How does ShiftNow work?
+								div(id="collapse2" class="faq-descr collapse" aria-labelledby="heading2" data-parent="#accordion")
+									.faq-descr-inner ShiftNow is integrated into the largest cryptocurrency trading platforms, including Poloniex and Bittrex. Near the speed of light, our in-house technology selects and suggests the best available rate and displays the estimated rate for you.
+							.card.faq-card
+								.card-header#faq-head-3
+									h5.dark-blue
+										button(class="collapsed" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3")
+											i.fa.fa-angle-down
+											span Why trust us?
+								div(id="collapse3" class="faq-descr collapse" aria-labelledby="heading3" data-parent="#accordion")
+									.faq-descr-inner We are a team of experienced blockchain developers. ShiftNow service provides safe and fast transactions without revealing users identities. We provide the best possible rates by comparing a wide range of reliable trading platforms and work in over 50 cryptocurrencies listed.
+							.card.faq-card
+								.card-header#faq-head-4
+									h5.dark-blue
+										button(class="collapsed" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4")
+											i.fa.fa-angle-down
+											span What are the commissions?
+								div(id="collapse4" class="faq-descr collapse" aria-labelledby="heading4" data-parent="#accordion")
+									.faq-descr-inner ShiftNow charges a quite low commission fee (1,5%) and offers the best available rate at the moment the transaction is completed. The rates remain approximate until the transaction is actually made on the blockchain. The exchange rate at the time of a transaction may slightly differ from the estimated rate you see when you begin a transaction.
+							.card.faq-card
+								.card-header#faq-head-5
+									h5.dark-blue
+										button(class="collapsed" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5")
+											i.fa.fa-angle-down
+											span How long does the transaction process take?
+								div(id="collapse5" class="faq-descr collapse" aria-labelledby="heading5" data-parent="#accordion")
+									.faq-descr-inner Usually, our transactions take 5-40 minutes to be processed. It your transaction takes longer, this could be due to a variety of factors, including:
+										ul
+											li Blockchain overloaded. There are many transactions waiting to go through, including yours. This issue occurs on the Bitcoin and Bitcoin-based blockchains. Unfortunately, the only thing to do is wait it out. ShiftNow has no control over a blockchain overload.
+											li Coin updates. We may turn off some coins to update a client. This can take some time. ou will get your money as soon as we turn it back on.
+											li DDoS attacks. Every platform is subject to such attacks. Unfortunately, in this case the only thing to do is wait it out.
+							.card.faq-card
+								.card-header#faq-head-6
+									h5.dark-blue
+										button(class="collapsed" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6")
+											i.fa.fa-angle-down
+											span Where do I store my funds?
+								div(id="collapse6" class="faq-descr collapse" aria-labelledby="heading6" data-parent="#accordion")
+									.faq-descr-inner It is vital to have at least one wallet to exchange your funds at ShiftNow. Different wallets are specifically tailored for different operations with the transactions. There are official wallets, web purses and other applications. For each currency you need to have a separate wallet. The address of the wallet is a unique combination of numbers and letters from 26 to 35 characters.
+							.card.faq-card
+								.card-header#faq-head-7
+									h5.dark-blue
+										button(class="collapsed" data-toggle="collapse" data-target="#collapse7" aria-expanded="false" aria-controls="collapse7")
+											i.fa.fa-angle-down
+											span Where do I get the wallet address?
+								div(id="collapse7" class="faq-descr collapse" aria-labelledby="heading7" data-parent="#accordion")
+									.faq-descr-inner When you decide which coin you would like to acquire, find a reliable wallet. Each coin has an official one. When you create a wallet, you automatically get an address and a private key. Keep your private key to yourself and don’t show it to anyone for security reasons.
+							.card.faq-card
+								.card-header#faq-head-8
+									h5.dark-blue
+										button(class="collapsed" data-toggle="collapse" data-target="#collapse8" aria-expanded="false" aria-controls="collapse8")
+											i.fa.fa-angle-down
+											span What is the transaction hash?
+								div(id="collapse8" class="faq-descr collapse" aria-labelledby="heading8" data-parent="#accordion")
+									.faq-descr-inner Each transaction is registered in the blockchain and has its own unique identification code, called a Hash (also referred as “TX”). This unique code allows you to verify its validity in the blockchain open ledger.
+							.card.faq-card
+								.card-header#faq-head-9
+									h5.dark-blue
+										button(class="collapsed" data-toggle="collapse" data-target="#collapse9" aria-expanded="false" aria-controls="collapse9")
+											i.fa.fa-angle-down
+											span How to cancel a transaction?
+								div(id="collapse9" class="faq-descr collapse" aria-labelledby="heading9" data-parent="#accordion")
+									.faq-descr-inner Blockchain operations are irreversible. If the funds are sent, the transaction cannot be canceled by anyone. Therefore, thoroughly check all the payment details before sending money.
+							.card.faq-card
+								.card-header#faq-head-10
+									h5.dark-blue
+										button(class="collapsed" data-toggle="collapse" data-target="#collapse10" aria-expanded="false" aria-controls="collapse10")
+											i.fa.fa-angle-down
+											span What is the minimal amount for exchange?
+								div(id="collapse10" class="faq-descr collapse" aria-labelledby="heading10" data-parent="#accordion")
+									.faq-descr-inner There are no limits for cryptocurrency exchanges on ChangeNow. However for the transaction to be carried out, the fee is charged by the blockchain itself. The amount sent must be sufficient to cover all the blockchain fees.
+						include modules/try-now-btn.pug
+			// CONTENT END
+			include modules/footer.pug
+			include modules/scripts.pug
