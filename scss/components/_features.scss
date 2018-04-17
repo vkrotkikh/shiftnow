@@ -1,13 +1,18 @@
 .features{
 	&-item{
 		&-img-wrap{
-			
+			margin-bottom: 1.5rem;
+			img {
+				display: block;
+				max-width: 16rem;
+				margin: 0 auto;
+			}
 		}
 		&-heading{
 			margin-bottom: 10px;
 		}
 		&-descr{
-
+			
 		}
 	}
 }
