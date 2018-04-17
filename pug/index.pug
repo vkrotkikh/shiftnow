@@ -1,436 +1,490 @@
 doctype html
 html(lang='en')
-  head
-    title ShiftNow
-    meta(name='description', content='Description of the site')
-    include modules/head.pug
-  body
-    include modules/header.pug
-    // CONTENT
-    main.main
-      section.section.section-welcome
-        .container
-          .row
-            .col-md-6
-              .welcome-descr
-                h1
-                  | Exchange
-                h2
-                  | Fast
-                  span.dot
-                  | Anonymously
-                  span.dot
-                  | Easily
-                .welcome-descr_bot
-                  .welcome-payment
-                    img(src="./img/icons/visa.svg", alt="")
-                    img(src="./img/icons/mastercard.svg", alt="")
-                    span
-                      | are welcome
-                  .welcome-creating
-                    span
-                      | Great rating on 
-                    img(src="./img/icons/trustpilot.svg", alt="")
-            .col-md-5.offset-md-1
-              form.exchange-block(action="javascript:void(0);")
-                .form-group_wrapper.mb-3.js-send-value
-                  .form-group.mb-0
-                    input.form-control.form-control-lg.-submit.-custom-select.text-right.js-custom-select-value(type='text')
-                    button.btn-submit Send
-                  .custom-select.js-custom-select
-                    .currency-item.-lg
-                      .currency-icon
-                        i.icon-bitcoin-btc
-                      .currency-title BTC
-                    i.fas.fa-angle-down.-icon-open
-                  .custom-dropdown
-                    button.custom-dropdown_close.js-custom-dropdown_close
-                      i.fas.fa-angle-up
-                    .form-group.-icon.-icon-right.-search.mb-0
-                      input.form-control.form-control-lg.custom-dropdown_search.js-filter-search(type='text' , placeholder="Type a currency")
-                      i.fas.fa-search.form-control_icon
-                    .custom-dropdown_content
-                      .row.no-gutters
-                        .col-6
-                          h6.custom-dropdown_title Popular currencies
-                          ul.currency-list
-                            li
-                              a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
-                                .currency-icon
-                                  i.icon-bitcoin-btc
-                                .currency-title BTC
-                                .currency-subtitle Bitcoin
-                            li
-                              a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
-                                .currency-icon
-                                  i.icon-ethereum-eth
-                                .currency-title ETH
-                                .currency-subtitle Ethereum
-                            li
-                              a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
-                                .currency-icon
-                                    i.icon-litecoin-ltc
-                                .currency-title LTC
-                                .currency-subtitle Litecoin
-                            li
-                              a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
-                                .currency-icon
-                                  i.icon-ripple-xrp
-                                .currency-title XRP
-                                .currency-subtitle Ripple
-                            li
-                              a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
-                                .currency-icon
-                                  i.icon-dollar-usd
-                                .currency-title USD
-                                .currency-subtitle US Dollar
+	head
+		title ShiftNow
+		meta(name='description', content='Description of the site')
+		include modules/head.pug
+	body
+		include modules/header.pug
+		// CONTENT
+		.wrap-for-sticky.js-wrap-for-sticky
+			main.main
+				section.section.section-welcome
+					.container
+						.row
+							.col-md-6
+								.welcome-descr
+									h1
+										| Exchange
+									h2
+										| Fast
+										span.dot
+										| Anonymously
+										span.dot
+										| Easily
+									.welcome-descr_bot
+										.welcome-payment
+											img(src="./img/icons/visa.svg", alt="")
+											img(src="./img/icons/mastercard.svg", alt="")
+											span
+												| are welcome
+										.welcome-creating
+											span
+												| Great rating on 
+											img(src="./img/icons/trustpilot.svg", alt="")
+							.col-md-5.offset-md-1
+								form.exchange-block(action="javascript:void(0);")
+									.form-group_wrapper.mb-3.js-send-value
+										.form-group.mb-0
+											input.form-control.form-control-lg.-submit.-custom-select.text-right.js-custom-select-value(type='text')
+											button.btn-submit Send
+										.custom-select.js-custom-select
+											.currency-item.-lg
+												.currency-icon
+													i.icon-bitcoin-btc
+												.currency-title BTC
+											i.fas.fa-angle-down.-icon-open
+										.custom-dropdown
+											button.custom-dropdown_close.js-custom-dropdown_close
+												i.fas.fa-angle-up
+											.form-group.-icon.-icon-right.-search.mb-0
+												input.form-control.form-control-lg.custom-dropdown_search.js-filter-search(type='text' , placeholder="Type a currency")
+												i.fas.fa-search.form-control_icon
+											.custom-dropdown_content
+												.row.no-gutters
+													.col-6
+														h6.custom-dropdown_title Popular currencies
+														ul.currency-list
+															li
+																a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
+																	.currency-icon
+																		i.icon-bitcoin-btc
+																	.currency-title BTC
+																	.currency-subtitle Bitcoin
+															li
+																a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
+																	.currency-icon
+																		i.icon-ethereum-eth
+																	.currency-title ETH
+																	.currency-subtitle Ethereum
+															li
+																a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
+																	.currency-icon
+																			i.icon-litecoin-ltc
+																	.currency-title LTC
+																	.currency-subtitle Litecoin
+															li
+																a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
+																	.currency-icon
+																		i.icon-ripple-xrp
+																	.currency-title XRP
+																	.currency-subtitle Ripple
+															li
+																a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
+																	.currency-icon
+																		i.icon-dollar-usd
+																	.currency-title USD
+																	.currency-subtitle US Dollar
 
-                        .col-6
-                          h6.custom-dropdown_title All other currencies
-                          ul.currency-list.js-filter-list
-                            li
-                              a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
-                                .currency-icon
-                                  i.icon-bitcoin-btc
-                                .currency-title BTC
-                                .currency-subtitle Bitcoin
-                            li
-                              a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
-                                .currency-icon
-                                  i.icon-ethereum-eth
-                                .currency-title ETH
-                                .currency-subtitle Ethereum
-                            li
-                              a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
-                                .currency-icon
-                                  i.icon-litecoin-ltc
-                                .currency-title LTC
-                                .currency-subtitle Litecoin
-                            li
-                              a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
-                                .currency-icon
-                                  i.icon-ripple-xrp
-                                .currency-title XRP
-                                .currency-subtitle Ripple
-                            li
-                              a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
-                                .currency-icon
-                                  i.icon-dollar-usd
-                                .currency-title USD
-                                .currency-subtitle US Dollar
-                            li
-                              a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
-                                .currency-icon
-                                  i.icon-bitcoin-cash-bch
-                                .currency-title BTH
-                                .currency-subtitle Bitcoin Cash
-                            li
-                              a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
-                                .currency-icon
-                                  i.icon-dogecoin-doge
-                                .currency-title DOGE
-                                .currency-subtitle Dogecoin
-                            li
-                              a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
-                                .currency-icon
-                                  i.icon-nem-xem
-                                .currency-title XEM
-                                .currency-subtitle NEM
-                .exchange-info
-                  .custom-acc
-                    #headingOne.custom-acc_header
-                        button.btn.btn-link(data-toggle='collapse', data-target='#acc_exchange', aria-expanded='false', aria-controls='acc_exchange')
-                          span.custom-acc_icon
-                            i.icon-icon-expand.-open
-                            i.icon-icon-collapse.-close
-                          span.custom-acc_title
-                            | Show fee breakdown
-                    #acc_exchange.collapse(aria-labelledby='headingOne',)
-                      .custom-acc_body
-                        ul.fee-list
-                          li.fee-item
-                            span.fee-value ~ 0.08505 ETH
-                            span.fee-title Service fee
-                          li.fee-item
-                            span.fee-value 1 BTC ~ 17.011131 ET
-                            span.fee-title Expected exchange rate
-                  .exchange-swap.js-exhange-swap
-                    img(src="./img/icons/dark.svg", alt="")
-                .form-group_wrapper.mt-3.mb-5.js-get-value
-                  .form-group.mb-0
-                    input.form-control.form-control-lg.-submit.-custom-select.text-right.-bg-transparent.js-custom-select-value(type='text')
-                    button.btn-submit Get
-                  .custom-select.js-custom-select
-                    .currency-item.-lg
-                      .currency-icon
-                        i.icon-ethereum-eth
-                      .currency-title ETH
-                    i.fas.fa-angle-down.-icon-open
-                  .custom-dropdown
-                    button.custom-dropdown_close.js-custom-dropdown_close
-                      i.fas.fa-angle-up
-                    .form-group.-icon.-icon-right.-search.mb-0
-                      input.form-control.form-control-lg.custom-dropdown_search.js-filter-search(type='text' , placeholder="Type a currency")
-                      i.fas.fa-search.form-control_icon
-                    .custom-dropdown_content
-                      .row.no-gutters
-                        .col-6
-                          h6.custom-dropdown_title Popular currencies
-                          ul.currency-list
-                            li
-                              a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
-                                .currency-icon
-                                  i.icon-bitcoin-btc
-                                .currency-title BTC
-                                .currency-subtitle Bitcoin
-                            li
-                              a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
-                                .currency-icon
-                                  i.icon-ethereum-eth
-                                .currency-title ETH
-                                .currency-subtitle Ethereum
-                            li
-                              a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
-                                .currency-icon
-                                    i.icon-litecoin-ltc
-                                .currency-title LTC
-                                .currency-subtitle Litecoin
-                            li
-                              a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
-                                .currency-icon
-                                  i.icon-ripple-xrp
-                                .currency-title XRP
-                                .currency-subtitle Ripple
-                            li
-                              a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
-                                .currency-icon
-                                  i.icon-dollar-usd
-                                .currency-title USD
-                                .currency-subtitle US Dollar
+													.col-6
+														h6.custom-dropdown_title All other currencies
+														ul.currency-list.js-filter-list
+															li
+																a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
+																	.currency-icon
+																		i.icon-bitcoin-btc
+																	.currency-title BTC
+																	.currency-subtitle Bitcoin
+															li
+																a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
+																	.currency-icon
+																		i.icon-ethereum-eth
+																	.currency-title ETH
+																	.currency-subtitle Ethereum
+															li
+																a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
+																	.currency-icon
+																		i.icon-litecoin-ltc
+																	.currency-title LTC
+																	.currency-subtitle Litecoin
+															li
+																a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
+																	.currency-icon
+																		i.icon-ripple-xrp
+																	.currency-title XRP
+																	.currency-subtitle Ripple
+															li
+																a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
+																	.currency-icon
+																		i.icon-dollar-usd
+																	.currency-title USD
+																	.currency-subtitle US Dollar
+															li
+																a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
+																	.currency-icon
+																		i.icon-bitcoin-cash-bch
+																	.currency-title BTH
+																	.currency-subtitle Bitcoin Cash
+															li
+																a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
+																	.currency-icon
+																		i.icon-dogecoin-doge
+																	.currency-title DOGE
+																	.currency-subtitle Dogecoin
+															li
+																a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
+																	.currency-icon
+																		i.icon-nem-xem
+																	.currency-title XEM
+																	.currency-subtitle NEM
+									.exchange-info
+										.custom-acc
+											#headingOne.custom-acc_header
+													button.btn.btn-link(data-toggle='collapse', data-target='#acc_exchange', aria-expanded='false', aria-controls='acc_exchange')
+														span.custom-acc_icon
+															i.icon-icon-expand.-open
+															i.icon-icon-collapse.-close
+														span.custom-acc_title
+															| Show fee breakdown
+											#acc_exchange.collapse(aria-labelledby='headingOne',)
+												.custom-acc_body
+													ul.fee-list
+														li.fee-item
+															span.fee-value ~ 0.08505 ETH
+															span.fee-title Service fee
+														li.fee-item
+															span.fee-value 1 BTC ~ 17.011131 ET
+															span.fee-title Expected exchange rate
+										.exchange-swap.js-exhange-swap
+											img(src="./img/icons/dark.svg", alt="")
+									.form-group_wrapper.mt-3.mb-5.js-get-value
+										.form-group.mb-0
+											input.form-control.form-control-lg.-submit.-custom-select.text-right.-bg-transparent.js-custom-select-value(type='text')
+											button.btn-submit Get
+										.custom-select.js-custom-select
+											.currency-item.-lg
+												.currency-icon
+													i.icon-ethereum-eth
+												.currency-title ETH
+											i.fas.fa-angle-down.-icon-open
+										.custom-dropdown
+											button.custom-dropdown_close.js-custom-dropdown_close
+												i.fas.fa-angle-up
+											.form-group.-icon.-icon-right.-search.mb-0
+												input.form-control.form-control-lg.custom-dropdown_search.js-filter-search(type='text' , placeholder="Type a currency")
+												i.fas.fa-search.form-control_icon
+											.custom-dropdown_content
+												.row.no-gutters
+													.col-6
+														h6.custom-dropdown_title Popular currencies
+														ul.currency-list
+															li
+																a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
+																	.currency-icon
+																		i.icon-bitcoin-btc
+																	.currency-title BTC
+																	.currency-subtitle Bitcoin
+															li
+																a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
+																	.currency-icon
+																		i.icon-ethereum-eth
+																	.currency-title ETH
+																	.currency-subtitle Ethereum
+															li
+																a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
+																	.currency-icon
+																			i.icon-litecoin-ltc
+																	.currency-title LTC
+																	.currency-subtitle Litecoin
+															li
+																a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
+																	.currency-icon
+																		i.icon-ripple-xrp
+																	.currency-title XRP
+																	.currency-subtitle Ripple
+															li
+																a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
+																	.currency-icon
+																		i.icon-dollar-usd
+																	.currency-title USD
+																	.currency-subtitle US Dollar
 
-                        .col-6
-                          h6.custom-dropdown_title All other currencies
-                          ul.currency-list.js-filter-list
-                            li
-                              a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
-                                .currency-icon
-                                  i.icon-bitcoin-btc
-                                .currency-title BTC
-                                .currency-subtitle Bitcoin
-                            li
-                              a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
-                                .currency-icon
-                                  i.icon-ethereum-eth
-                                .currency-title ETH
-                                .currency-subtitle Ethereum
-                            li
-                              a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
-                                .currency-icon
-                                  i.icon-litecoin-ltc
-                                .currency-title LTC
-                                .currency-subtitle Litecoin
-                            li
-                              a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
-                                .currency-icon
-                                  i.icon-ripple-xrp
-                                .currency-title XRP
-                                .currency-subtitle Ripple
-                            li
-                              a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
-                                .currency-icon
-                                  i.icon-dollar-usd
-                                .currency-title USD
-                                .currency-subtitle US Dollar
-                            li
-                              a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
-                                .currency-icon
-                                  i.icon-bitcoin-cash-bch
-                                .currency-title BTH
-                                .currency-subtitle Bitcoin Cash
-                            li
-                              a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
-                                .currency-icon
-                                  i.icon-dogecoin-doge
-                                .currency-title DOGE
-                                .currency-subtitle Dogecoin
-                            li
-                              a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
-                                .currency-icon
-                                  i.icon-nem-xem
-                                .currency-title XEM
-                                .currency-subtitle NEM
-                button.btn.btn-lg.btn-primary.btn-block.btn-icon-right(href='javascript:void(0);')
-                  span
-                    | exchange
-                    i.icon-arrow-right
-        .currency-container
-          .currency-item.currency-info
-            .currency-item_top
-              .currency-item_name
-                .currency-icon
-                  i.icon-bitcoin-btc
-                .currency-title Bitcoin
-              .currency-item_total_price
-                | 8980.1
-            .currency-item_bot.-green
-              .currency-item_status.-percent
-                i.fas.fa-angle-up
-                span
-                  | 0.91%
-              .currency-item_status
-                | +77.1
-          .currency-item.currency-info
-            .currency-item_top
-              .currency-item_name
-                .currency-icon
-                  i.icon-ripple-xrp
-                .currency-title Ripple
-              .currency-item_total_price
-                | 0.61234
-            .currency-item_bot.-red
-              .currency-item_status.-percent
-                i.fas.fa-angle-down
-                span
-                  | 0.09%
-              .currency-item_status
-                | -0.03
-          .currency-item.currency-info
-            .currency-item_top
-              .currency-item_name
-                .currency-icon
-                  i.icon-bitcoin-btc
-                .currency-title Bitcoin
-              .currency-item_total_price
-                | 8980.1
-            .currency-item_bot.-green
-              .currency-item_status.-percent
-                i.fas.fa-angle-up
-                span
-                  | 0.91%
-              .currency-item_status
-                | +77.1
-          .currency-item.currency-info
-            .currency-item_top
-              .currency-item_name
-                .currency-icon
-                  i.icon-ripple-xrp
-                .currency-title Ripple
-              .currency-item_total_price
-                | 0.61234
-            .currency-item_bot.-red
-              .currency-item_status.-percent
-                i.fas.fa-angle-down
-                span
-                  | 0.09%
-              .currency-item_status
-                | -0.03
-          .currency-item.currency-info
-            .currency-item_top
-              .currency-item_name
-                .currency-icon
-                  i.icon-bitcoin-btc
-                .currency-title Bitcoin
-              .currency-item_total_price
-                | 8980.1
-            .currency-item_bot.-green
-              .currency-item_status.-percent
-                i.fas.fa-angle-up
-                span
-                  | 0.91%
-              .currency-item_status
-                | +77.1
-          .currency-item.currency-info
-            .currency-item_top
-              .currency-item_name
-                .currency-icon
-                  i.icon-ripple-xrp
-                .currency-title Ripple
-              .currency-item_total_price
-                | 0.61234
-            .currency-item_bot.-red
-              .currency-item_status.-percent
-                i.fas.fa-angle-down
-                span
-                  | 0.09%
-              .currency-item_status
-                | -0.03
-          .currency-item.currency-info
-            .currency-item_top
-              .currency-item_name
-                .currency-icon
-                  i.icon-bitcoin-btc
-                .currency-title Bitcoin
-              .currency-item_total_price
-                | 8980.1
-            .currency-item_bot.-green
-              .currency-item_status.-percent
-                i.fas.fa-angle-up
-                span
-                  | 0.91%
-              .currency-item_status
-                | +77.1
-          .currency-item.currency-info
-            .currency-item_top
-              .currency-item_name
-                .currency-icon
-                  i.icon-ripple-xrp
-                .currency-title Ripple
-              .currency-item_total_price
-                | 0.61234
-            .currency-item_bot.-red
-              .currency-item_status.-percent
-                i.fas.fa-angle-down
-                span
-                  | 0.09%
-              .currency-item_status
-                | -0.03
-      section.section.section-features
-        .container
-          .features-block
-            .row
-              .col-md-3
-                .features-item
-                  .features-item-heading
-                    h5.text-center.dark-blue
-                      | Easy
-                  .features-item-img-wrap
-                    img(src="img/advantages/easy.png" alt='no-sign-ups')
-                  .features-item-descr
-                    p.text-center
-                      | Quickly exchange your funds into crypto in just 5 simple steps. Use Visa or MasterCard and ask for 24/7 support.
-              .col-md-3
-                .features-item
-                  .features-item-heading
-                    h5.text-center.dark-blue
-                      | Anonymous
-                  .features-item-img-wrap
-                    img(src="img/advantages/anonymous.png" alt='user-friendly')
-                  .features-item-descr
-                    p.text-center
-                      | No sign-ups. No personal data. That’s why we are trusted 
-                      strong.text-primary all over the world.
-              .col-md-3
-                .features-item
-                  .features-item-heading
-                    h5.text-center.dark-blue
-                      | No limits
-                  .features-item-img-wrap
-                    img(src="img/advantages/no-limits.png" alt='limitless')
-                  .features-item-descr
-                    p.text-center
-                      | Simply exchange any amount. We have no limitations. Just make sure your bank account covers all the blockchain fees.
-              .col-md-3
-                .features-item
-                  .features-item-heading
-                    h5.text-center.dark-blue
-                      | Best rate
-                  .features-item-img-wrap
-                    img(src="img/advantages/best-rate.png" alt='card-compatible')
-                  .features-item-descr
-                    p.text-center
-                      | We choose the best exchange rate and transparently show all the fees before you exchange.
-      section.section.section-interface
-        .container          
-    // CONTENT END
-    include modules/footer.pug
-    include modules/scripts.pug
+													.col-6
+														h6.custom-dropdown_title All other currencies
+														ul.currency-list.js-filter-list
+															li
+																a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
+																	.currency-icon
+																		i.icon-bitcoin-btc
+																	.currency-title BTC
+																	.currency-subtitle Bitcoin
+															li
+																a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
+																	.currency-icon
+																		i.icon-ethereum-eth
+																	.currency-title ETH
+																	.currency-subtitle Ethereum
+															li
+																a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
+																	.currency-icon
+																		i.icon-litecoin-ltc
+																	.currency-title LTC
+																	.currency-subtitle Litecoin
+															li
+																a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
+																	.currency-icon
+																		i.icon-ripple-xrp
+																	.currency-title XRP
+																	.currency-subtitle Ripple
+															li
+																a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
+																	.currency-icon
+																		i.icon-dollar-usd
+																	.currency-title USD
+																	.currency-subtitle US Dollar
+															li
+																a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
+																	.currency-icon
+																		i.icon-bitcoin-cash-bch
+																	.currency-title BTH
+																	.currency-subtitle Bitcoin Cash
+															li
+																a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
+																	.currency-icon
+																		i.icon-dogecoin-doge
+																	.currency-title DOGE
+																	.currency-subtitle Dogecoin
+															li
+																a.currency-item.-currency-link.js-currency-link(href="javascript:void(0);")
+																	.currency-icon
+																		i.icon-nem-xem
+																	.currency-title XEM
+																	.currency-subtitle NEM
+									button.btn.btn-lg.btn-primary.btn-block.btn-icon-right(href='javascript:void(0);')
+										span
+											| exchange
+											i.icon-arrow-right
+					.currency-container
+						.currency-item.currency-info
+							.currency-item_top
+								.currency-item_name
+									.currency-icon
+										i.icon-bitcoin-btc
+									.currency-title Bitcoin
+								.currency-item_total_price
+									| 8980.1
+							.currency-item_bot.-green
+								.currency-item_status.-percent
+									i.fas.fa-angle-up
+									span
+										| 0.91%
+								.currency-item_status
+									| +77.1
+						.currency-item.currency-info
+							.currency-item_top
+								.currency-item_name
+									.currency-icon
+										i.icon-ripple-xrp
+									.currency-title Ripple
+								.currency-item_total_price
+									| 0.61234
+							.currency-item_bot.-red
+								.currency-item_status.-percent
+									i.fas.fa-angle-down
+									span
+										| 0.09%
+								.currency-item_status
+									| -0.03
+						.currency-item.currency-info
+							.currency-item_top
+								.currency-item_name
+									.currency-icon
+										i.icon-bitcoin-btc
+									.currency-title Bitcoin
+								.currency-item_total_price
+									| 8980.1
+							.currency-item_bot.-green
+								.currency-item_status.-percent
+									i.fas.fa-angle-up
+									span
+										| 0.91%
+								.currency-item_status
+									| +77.1
+						.currency-item.currency-info
+							.currency-item_top
+								.currency-item_name
+									.currency-icon
+										i.icon-ripple-xrp
+									.currency-title Ripple
+								.currency-item_total_price
+									| 0.61234
+							.currency-item_bot.-red
+								.currency-item_status.-percent
+									i.fas.fa-angle-down
+									span
+										| 0.09%
+								.currency-item_status
+									| -0.03
+						.currency-item.currency-info
+							.currency-item_top
+								.currency-item_name
+									.currency-icon
+										i.icon-bitcoin-btc
+									.currency-title Bitcoin
+								.currency-item_total_price
+									| 8980.1
+							.currency-item_bot.-green
+								.currency-item_status.-percent
+									i.fas.fa-angle-up
+									span
+										| 0.91%
+								.currency-item_status
+									| +77.1
+						.currency-item.currency-info
+							.currency-item_top
+								.currency-item_name
+									.currency-icon
+										i.icon-ripple-xrp
+									.currency-title Ripple
+								.currency-item_total_price
+									| 0.61234
+							.currency-item_bot.-red
+								.currency-item_status.-percent
+									i.fas.fa-angle-down
+									span
+										| 0.09%
+								.currency-item_status
+									| -0.03
+						.currency-item.currency-info
+							.currency-item_top
+								.currency-item_name
+									.currency-icon
+										i.icon-bitcoin-btc
+									.currency-title Bitcoin
+								.currency-item_total_price
+									| 8980.1
+							.currency-item_bot.-green
+								.currency-item_status.-percent
+									i.fas.fa-angle-up
+									span
+										| 0.91%
+								.currency-item_status
+									| +77.1
+						.currency-item.currency-info
+							.currency-item_top
+								.currency-item_name
+									.currency-icon
+										i.icon-ripple-xrp
+									.currency-title Ripple
+								.currency-item_total_price
+									| 0.61234
+							.currency-item_bot.-red
+								.currency-item_status.-percent
+									i.fas.fa-angle-down
+									span
+										| 0.09%
+								.currency-item_status
+									| -0.03
+				section.section.section-features
+					.container
+						.features-block
+							.row
+								.col-md-3
+									.features-item
+										.features-item-heading
+											h5.text-center.dark-blue
+												| Easy
+										.features-item-img-wrap
+											img(src="img/advantages/easy.png" alt='no-sign-ups')
+										.features-item-descr
+											p.text-center
+												| Quickly exchange your funds into crypto in just 5 simple steps. Use Visa or MasterCard and ask for 24/7 support.
+								.col-md-3
+									.features-item
+										.features-item-heading
+											h5.text-center.dark-blue
+												| Anonymous
+										.features-item-img-wrap
+											img(src="img/advantages/anonymous.png" alt='user-friendly')
+										.features-item-descr
+											p.text-center
+												| No sign-ups. No personal data. That’s why we are trusted 
+												strong.text-primary all over the world.
+								.col-md-3
+									.features-item
+										.features-item-heading
+											h5.text-center.dark-blue
+												| No limits
+										.features-item-img-wrap
+											img(src="img/advantages/no-limits.png" alt='limitless')
+										.features-item-descr
+											p.text-center
+												| Simply exchange any amount. We have no limitations. Just make sure your bank account covers all the blockchain fees.
+								.col-md-3
+									.features-item
+										.features-item-heading
+											h5.text-center.dark-blue
+												| Best rate
+										.features-item-img-wrap
+											img(src="img/advantages/best-rate.png" alt='card-compatible')
+										.features-item-descr
+											p.text-center
+												| We choose the best exchange rate and transparently show all the fees before you exchange.
+				section.section.section-interface
+					.container.macbook
+						.row.justify-content-end
+							.col-md-6
+								.interface-slider-wrap
+									.interface-slider
+										.interface-slider-item
+											h3 Clear & friendly interface
+											.interface-slider-item-descr
+												p Cryptocurrency exchanges are for skilled traders.
+												p We provide you with a convenient solution. Enjoy your best rates while we are doing the rest for you.
+											a(class="btn btn-primary btn-md") Try it out!
+										.interface-slider-item
+											h3 Clear & friendly interface2
+											.interface-slider-item-descr
+												p Cryptocurrency exchanges are for skilled traders.
+												p We provide you with a convenient solution. Enjoy your best rates while we are doing the rest for you.1
+											a(class="btn btn-primary btn-md") Try it out!
+				section.section.section-map
+					.container
+						h3.text-center.dark-blue The World’s trusted exchange
+						.text-center
+							img(src="img/map.svg" alt="map")
+				section.section.section-offer
+					.container
+						.row.align-items-center.justify-content-between
+							.col-md-5
+								.offer-left
+									h3 
+										span.yellow Special Offer 
+										| of the Month
+									p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium pretium tempor. Ut eget imperdiet neque. In volutpat ante semper diam molestie, et aliquam erat laoreet.
+							.col-md-6
+								.offer-right
+									.row
+										.col-md-8
+											h5.dark-blue Every 1000 ETH user recieves 1 ETH goes as a gift!
+											p Short description of this special offer in one or two lines.
+											a(class="btn btn-primary btn-md" href="#?") Start exchange!
+				section.section.section-twitter.-bg-secondary
+					.container
+						| section twitter
+				section.section.section-partners
+					.container
+						.partners-wrap
+							.partners-item
+								img(src="img/gray.png", alt="partner")
+							.partners-item
+								img(src="img/gray.png", alt="partner")
+							.partners-item
+								img(src="img/gray.png", alt="partner")
+							.partners-item
+								img(src="img/gray.png", alt="partner")
+							.partners-item
+								img(src="img/gray.png", alt="partner")
+			// CONTENT END
+			include modules/footer.pug
+			include modules/scripts.pug
