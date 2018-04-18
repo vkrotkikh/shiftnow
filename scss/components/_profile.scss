@@ -99,17 +99,6 @@
 			}
 		}
 	}
-	.rate {
-		&-up {
-			color: $success;
-		}
-		&-down {
-			color: $danger;
-		}
-		&-blue {
-			color: $light-blue;
-		}
-	}
 	.no-transactions {
 		padding: 60px 10px 10px;
 		h5 {

@@ -68,6 +68,12 @@
 		top: 0;
 		right: 0;
 	}
+	&.-modal {
+		&:before {
+			height: calc(100% + 72px);
+			top: -32px;
+		}
+	}
 }
 
 .-bg-secondary{
@@ -87,10 +93,31 @@
 	color: $warning;
 }
 
+<<<<<<< HEAD
 .fz-16{
 	font-size: 16px;
 }
 .-max-width_240{
 	max-width: 240px;
 	width: 100%;
+=======
+.min-w-9 {
+	min-width: 9rem !important;
+}
+
+.min-w-10 {
+	min-width: 10rem !important;
+}
+
+
+.icon-silence {
+	display: inline-block;
+	margin-left: 5px;
+	width: 20px;
+	height: 20px;
+	background-image: url(../img/emoji.png);
+	background-size: contain;
+	background-position: center center;
+	background-repeat: no-repeat;
+>>>>>>> 0c2e910854e3e4f23f36ccb0ec1d30b9f7988e9a
 }

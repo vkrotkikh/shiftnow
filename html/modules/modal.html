@@ -1,0 +1,111 @@
+
+<!-- MODAL SIGN IN-->
+<div class="modal fade custom-modal" id="sign-in-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6 right-line -modal">
+            <div class="modal-left">
+              <div class="modal-heading">
+                <h5 class="dark-blue">Join for free</h5>
+                <p class="modal-subtitle">to exchange crypto instantly now!</p>
+              </div>
+              <form class="form" action="javascript:void(0);">
+                <div class="form-group">
+                  <input class="form-control" type="email" id="sign-email" placeholder="Your email" required="required"/>
+                  <label class="form-label" for="sign-email">Your email</label>
+                </div>
+                <div class="form-group">
+                  <input class="form-control" type="password" id="sign-pass" placeholder="Your password" required="required"/>
+                  <label class="form-label" for="sign-pass">Your password</label>
+                </div>
+                <div class="form-btn-wrap d-flex justify-content-between">
+                  <input class="btn btn-primary btn-md min-w-9" type="submit" value="Sign up"/>
+                  <input class="btn btn-secondary btn-md min-w-9" type="submit" value="I have account" data-dismiss="modal" data-toggle="modal" data-target="#login-modal"/>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="modal-right">
+              <div class="modal-heading">
+                <h5 class="dark-blue">No, I’m anonymous</h5>
+                <p class="modal-subtitle">Sad to say, but you won't get the following items:</p>
+              </div>
+              <ul>
+                <li>History of transactions</li>
+                <li>Full assistance with problem transactions</li>
+                <li>Transaction refund</li>
+              </ul><a class="btn btn-white btn-md btn-block" href="javascript:void(0);" data-dismiss="modal" data-toggle="modal" data-target="#dialog-modal">Continue anonymously <i class="icon-silence"></i></a>
+            </div>
+          </div>
+        </div>
+        <button class="close" type="button" data-dismiss="modal" aria-label="Close"> <i class="icon-close-grey"></i></button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- MODAL SIGN IN END-->
+<!-- MODAL REGISTER-->
+<div class="modal fade custom-modal" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6 right-line -modal">
+            <div class="modal-left">
+              <div class="modal-heading">
+                <h5 class="dark-blue">Welcome back!</h5>
+              </div>
+              <form class="form" action="javascript:void(0);">
+                <div class="form-group">
+                  <input class="form-control" type="email" id="login-email" placeholder="Your email" required="required"/>
+                  <label class="form-label" for="login-email">Your email</label>
+                </div>
+                <div class="form-group">
+                  <input class="form-control" type="password" id="login-pass" placeholder="Your password" required="required"/>
+                  <label class="form-label" for="login-pass">Your password</label>
+                </div>
+                <div class="form-btn-wrap d-flex justify-content-between">
+                  <input class="btn btn-primary btn-md min-w-9" type="submit" value="Login"/>
+                  <input class="btn btn-secondary btn-md min-w-9" type="submit" value="Register" data-dismiss="modal" data-toggle="modal" data-target="#sign-in-modal"/>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="modal-right">
+              <div class="modal-heading">
+                <h5 class="dark-blue">No, I’m anonymous</h5>
+                <p class="modal-subtitle">Sad to say, but you won't get the following items:</p>
+              </div>
+              <ul>
+                <li>History of transactions</li>
+                <li>Full assistance with problem transactions</li>
+                <li>Transaction refund</li>
+              </ul><a class="btn btn-white btn-md btn-block" href="javascript:void(0);" data-dismiss="modal" data-toggle="modal" data-target="#dialog-modal">Continue anonymously <i class="icon-silence"></i></a>
+            </div>
+          </div>
+        </div>
+        <button class="close" type="button" data-dismiss="modal" aria-label="Close"> <i class="icon-close-grey"></i></button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- MODAL REGISTER END-->
+<!-- MODAL DIALOG-->
+<div class="modal fade custom-modal -dialog" id="dialog-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="modal-text">
+          <h5 class="dark-blue">Warning head text</h5>
+          <p>Cras quis nulla commodo, aliquam lectus sed, blandit augue. Cras ullamcorper bibendum bibendum. Duis tincidunt urna non pretium porta. Nam condimentum vitae ligula vel ornare. Phasellus at semper turpis. Nunc eu tellus tortor. Etiam at condimentum nisl, vitae sagittis orci.</p>
+        </div>
+        <div class="modal-text-btn-wrap"><a class="btn btn-primary btn-md min-w-10" href="javascript:void(0);" data-dismiss="modal">OK</a><a class="btn btn-secondary btn-md min-w-10" href="javascript:void(0);" data-dismiss="modal">Cancel</a></div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- MODAL DIALOG END-->

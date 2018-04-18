@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: 'icomoon';
-  src:  url('#{$icomoon-font-path}/icomoon.eot?3lzo2t');
-  src:  url('#{$icomoon-font-path}/icomoon.eot?3lzo2t#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/icomoon.ttf?3lzo2t') format('truetype'),
-    url('#{$icomoon-font-path}/icomoon.woff?3lzo2t') format('woff'),
-    url('#{$icomoon-font-path}/icomoon.svg?3lzo2t#icomoon') format('svg');
+  src:  url('#{$icomoon-font-path}/icomoon.eot?qhi1np');
+  src:  url('#{$icomoon-font-path}/icomoon.eot?qhi1np#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/icomoon.ttf?qhi1np') format('truetype'),
+    url('#{$icomoon-font-path}/icomoon.woff?qhi1np') format('woff'),
+    url('#{$icomoon-font-path}/icomoon.svg?qhi1np#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -30,6 +30,12 @@
   @return unquote("\"") + $str + unquote("\"");
 }
 
+.icon-close-grey {
+  &:before {
+    content: unicode($icon-close-grey);     
+    color: #9b9b9b;
+  }
+}
 .icon-complete {
   &:before {
     content: unicode($icon-complete);     
