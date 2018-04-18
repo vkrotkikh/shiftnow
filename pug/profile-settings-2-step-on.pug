@@ -27,15 +27,15 @@ html(lang='en')
 										.col-md-4.right-line
 											.profile-settings-item
 												h5.dark-blue Change password
-												form.form
+												form(action="javascript:void(0);").form
 													.form-group
-														input(type="password" class="form-control" id="old-pass" placeholder="Old password")
+														input(type="password" class="form-control" id="old-pass" placeholder="Old password" required)
 														label(class="form-label" for="old-pass") Old password
 													.form-group
-														input(type="password" class="form-control" id="new-pass" placeholder="New password")
+														input(type="password" class="form-control" id="new-pass" placeholder="New password" required)
 														label(class="form-label" for="new-pass") New password
 													.form-group
-														input(type="password" class="form-control" id="new-pass-again" placeholder="New password again")
+														input(type="password" class="form-control" id="new-pass-again" placeholder="New password again" required)
 														label(class="form-label" for="new-pass-again") New password again
 													.form-btn-wrap
 														input(type="submit" value="Save" class="btn btn-white btn-md")
@@ -56,18 +56,18 @@ html(lang='en')
 															a(href="") Google Authenticator
 														p Or type the key manually
 														span KVVWGY3QNNVTSOLZ
-												form.form
+												form(action="javascript:void(0);").form
 													.form-group
-														input(type="tel" class="form-control" id="qr-code" placeholder="Verification code")
+														input(type="tel" class="form-control" id="qr-code" placeholder="Verification code" required)
 														label(class="form-label" for="qr-code") Verification code
 													.form-btn-wrap
 														input(type="submit" value="Enable" class="btn btn-white btn-md")
 										.col-md-4
 											.profile-settings-item
 												h5.dark-blue Change email address
-												form.form
+												form(action="javascript:void(0);").form
 													.form-group
-														input(type="email" class="form-control active" id="current-email" placeholder="Current email" value="testuser@gmail.com")
+														input(type="email" class="form-control active" id="current-email" placeholder="Current email" value="testuser@gmail.com" required)
 														label(class="form-label active" for="current-email") Current email
 													.form-btn-wrap
 														input(type="submit" value="Save" class="btn btn-white btn-md")
