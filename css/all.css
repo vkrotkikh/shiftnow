@@ -313,7 +313,7 @@ h3, .h3 {
   font-size: 2.25rem; }
 
 h4, .h4 {
-  font-size: 1.3125rem; }
+  font-size: 1rem; }
 
 h5, .h5 {
   font-size: 1.5rem; }
@@ -9620,6 +9620,9 @@ html, body {
 .-bg-secondary {
   background: #f5f5f5; }
 
+.light-blue {
+  color: #0099f7; }
+
 .dark-blue {
   color: #162474; }
 
@@ -9970,6 +9973,9 @@ a img {
 
 .section-processing {
   padding: 70px 0; }
+
+.section-twitter {
+  padding: 80px 0 45px; }
 
 .section-faq {
   background-color: #f5f5f5;
@@ -10571,7 +10577,22 @@ a img {
   line-height: 1.7;
   background-color: #fff;
   color: #000;
-  border-radius: 5px; }
+  border-radius: 5px;
+  position: relative; }
+  .offer-right:before {
+    position: absolute;
+    content: '';
+    width: 148px;
+    height: 256px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 0;
+    background-image: url(../img/ico-ethereum.png);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat; }
   .offer-right h5 {
     padding-right: 35px;
     line-height: 1.3;

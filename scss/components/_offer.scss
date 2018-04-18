@@ -10,6 +10,21 @@
 		background-color: #fff;
 		color: #000;
 		border-radius: 5px;
+		position: relative;
+		&:before {
+			position: absolute;
+			content: '';
+			width: 148px;
+			height: 256px;
+			top: 50%;
+			transform: translateY(-50%);
+			right: 0;
+			background-image: url(../img/ico-ethereum.png);
+			background-position: center center;
+			background-size: contain;
+			background-repeat: no-repeat;
+		}
+
 		h5 {
 			padding-right: 35px;
 			line-height: 1.3;
