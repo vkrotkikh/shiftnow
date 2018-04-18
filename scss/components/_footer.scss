@@ -78,5 +78,17 @@
 }
 
 @media screen and (max-width:575px) {
-
+	.footer {
+		&-left {
+			&-top {
+				flex-wrap: wrap;
+				.btn-wrap {
+					&:first-child {
+						margin-bottom: 30px;
+						flex-basis: 100%;
+					}
+				}
+			}
+		}
+	}
 }

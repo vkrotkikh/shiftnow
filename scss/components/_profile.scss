@@ -98,6 +98,47 @@
 				}
 			}
 		}
+		&-mobile {
+			display: none;
+			&-item {
+				display: flex;
+				background-color: #fff;
+				border-radius: 5px;
+				margin-bottom: .5rem;
+				&-icon {
+					max-width: 3.25rem;
+					width: 100%;
+					font-size: 1.5rem;
+					position: relative;
+					i {
+						display: block;
+						position: absolute;
+						top: 50%;
+						left: 50%;
+						transform: translate(-50%, -50%);
+					}
+				}
+				&-descr {
+					flex-grow: 1;
+					border-left: 1px solid $secondary;
+					&-top {
+						padding: 12px 16px 8px;
+						border-bottom: 1px solid $secondary;
+						display: flex;
+						align-items: center;
+						justify-content: space-between;
+						font-size: .8125rem;
+						.-profile-mobile-date {
+							color: $darkGrey;
+							font-size: .75rem;
+						}
+					}
+					&-bottom {
+						padding: 12px 16px 8px;
+					}
+				}
+			}
+		}
 	}
 	.no-transactions {
 		padding: 60px 10px 10px;
@@ -191,6 +232,82 @@
 					}
 				}
 			}
+		}
+	}
+}
+
+
+@media screen and (max-width:1199px) {
+	.profile {
+		.profile-table {
+			&-row {
+				.profile-table-cell {
+					&:nth-child(1) {
+						flex-basis: 9%;
+					}
+					&:nth-child(5) {
+						flex-basis: 19.75%;
+					}
+					&:nth-child(6) {
+						flex-basis: 12.27%;
+					}
+				}
+			}
+		}
+		&-settings {
+			&-item {
+				margin-bottom: 2rem;
+				// padding: 0 15px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width:991px) {
+	.profile {
+		.profile-table {
+			overflow-x: auto;
+			&-row {
+				min-width: 960px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width:767px) {
+	.profile {
+		background-color: inherit;
+		&-heading {
+			background-color: #fff;
+		}
+		&-table {
+			background-color: #fff;
+		}
+		&-settings {
+			background-color: #fff;
+		}
+	}
+}
+
+@media screen and (max-width:575px) {
+	.profile {
+		&-heading {
+			display: none;
+		}
+		.profile-table {
+			display: none;
+			&-mobile {
+				display: block;
+			}
+		}
+		&-body {
+			min-height: 0;
+		}
+		.no-transactions {
+			padding: 5.5rem 0 7.75rem;
+		}
+		&-settings {
+			
 		}
 	}
 }
