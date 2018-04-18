@@ -1,5 +1,6 @@
 // HEADER
 header.header
+		// HEADER NAVIGATION
 		nav.navbar.navbar-expand-lg.fixed-top
 			.navbar-inner
 				.container
@@ -20,6 +21,8 @@ header.header
 									a(href='about.html') About Us
 								li.nav-item
 									a(href='profile-history.html') Profile
+								li.nav-item
+									a(href='javascript:void(0);' data-toggle="modal" data-target="#sign-in-modal") Sign In
 							.dropdown.show
 								a(class="btn-dropdown" href="#" role="button" id="dropdownLanguage" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false")
 									.flag-img-wrap
@@ -68,6 +71,11 @@ header.header
 											img(src='img/flags/india.svg' alt='lang')
 										span
 											| भारतीय
+		// HEADSER NAVIGATION END
+
+		include modal.pug
+
+
 // HEADER END
 // HEADER END
 // HEADER END
