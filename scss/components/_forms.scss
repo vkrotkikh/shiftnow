@@ -1,4 +1,7 @@
 .form {
+	input[type="submit"] {
+		box-shadow: none !important; 
+	}
 	.form {
 		&-group {
 			position: relative;
@@ -20,6 +23,34 @@
 					&+.form-label {
 						color: $light-blue;
 					}
+				}
+			}
+			&.is-valid {
+				&.active {
+					border-color: $success;
+					& + .form-label {
+						color: $success;
+					}
+				}
+				& + .form-label {
+					color: $success;
+				}
+				&:focus {
+					box-shadow: none;
+				}
+			}
+			&.is-invalid {
+				&.active {
+					border-color: $danger;
+					& + .form-label {
+						color: $danger;
+					}
+				}
+				& + .form-label {
+					color: $danger;
+				}
+				&:focus {
+					box-shadow: none;
 				}
 			}
 		}
@@ -58,8 +89,8 @@
 			}
 			& .form{
 				&-control{
-						font-size: 14px;
-						font-weight: 400;
+					font-size: 14px;
+					font-weight: 400;
 				}
 			}
 		}

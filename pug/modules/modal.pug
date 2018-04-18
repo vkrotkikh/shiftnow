@@ -11,11 +11,11 @@ div(class="modal fade custom-modal" id="sign-in-modal" tabindex="-1" role="dialo
 								p.modal-subtitle to exchange crypto instantly now!
 							form(action="javascript:void(0);").form
 								.form-group
-									input(type="email" class="form-control" id="sign-email" placeholder="Your email" required)
-									label(class="form-label" for="sign-email") Your email
+									input(type="email" class="form-control is-valid active" id="sign-email" placeholder="Your email" value="testuser@gmail.com" required)
+									label(class="form-label active" for="sign-email") Your email
 								.form-group
-									input(type="password" class="form-control" id="sign-pass" placeholder="Your password" required)
-									label(class="form-label" for="sign-pass") Your password
+									input(type="password" class="form-control is-invalid active" id="sign-pass" placeholder="Your password" value="password" required)
+									label(class="form-label active" for="sign-pass") Your password
 								.form-btn-wrap.d-flex.justify-content-between
 									input(type="submit" value="Sign up" class="btn btn-primary btn-md min-w-9")
 									input(type="submit" value="I have account" class="btn btn-secondary btn-md min-w-9" data-dismiss="modal" data-toggle="modal" data-target="#login-modal")

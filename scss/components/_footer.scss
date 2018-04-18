@@ -33,7 +33,7 @@
 			font-weight: 400;
 			letter-spacing: 1px;
 			text-transform: uppercase;
-			margin-bottom: 15px;
+			margin-bottom: 1rem;
 		}
 		ul {
 			li {
@@ -44,4 +44,39 @@
 			}
 		}
 	}
+}
+
+
+@media screen and (max-width:1199px) {
+	.footer {
+		padding: 3rem 0;
+	}
+}
+
+@media screen and (max-width:991px) {
+	.footer {
+		padding: 2rem 0;
+		&-left {
+			padding-bottom: 2rem;
+			&-top {
+				padding-bottom: 1rem;
+			}
+			&-bottom {
+				padding-top: 0;
+			}
+		}
+		&-menu {
+			padding: 0;
+			margin-bottom: 1.5rem;
+			ul {
+				li {
+					margin-bottom: .5rem;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width:575px) {
+
 }

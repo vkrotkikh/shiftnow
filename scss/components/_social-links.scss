@@ -2,6 +2,9 @@
 	display: flex;
 	li {
 		margin-right: 36px;
+		&:last-child {
+			margin: 0;
+		}
 	}
 	a {
 		display: block;
@@ -13,6 +16,15 @@
 		}
 		&:hover {
 			opacity: 1;
+		}
+	}
+}
+
+@media screen and (max-width:575px) {
+	.social-links {
+		justify-content: space-between;
+		li {
+			margin: 0;
 		}
 	}
 }

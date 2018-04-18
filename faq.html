@@ -66,12 +66,12 @@
                     </div>
                     <form class="form" action="javascript:void(0);">
                       <div class="form-group">
-                        <input class="form-control" type="email" id="sign-email" placeholder="Your email" required>
-                        <label class="form-label" for="sign-email">Your email</label>
+                        <input class="form-control is-valid active" type="email" id="sign-email" placeholder="Your email" value="testuser@gmail.com" required>
+                        <label class="form-label active" for="sign-email">Your email</label>
                       </div>
                       <div class="form-group">
-                        <input class="form-control" type="password" id="sign-pass" placeholder="Your password" required>
-                        <label class="form-label" for="sign-pass">Your password</label>
+                        <input class="form-control is-invalid active" type="password" id="sign-pass" placeholder="Your password" value="password" required>
+                        <label class="form-label active" for="sign-pass">Your password</label>
                       </div>
                       <div class="form-btn-wrap d-flex justify-content-between">
                         <input class="btn btn-primary btn-md min-w-9" type="submit" value="Sign up">
@@ -289,10 +289,10 @@
       <footer class="footer -sticky js-footer">
         <div class="container">
           <div class="row">
-            <div class="col-md-6">
+            <div class="col-lg-6">
               <div class="footer-left">
                 <div class="footer-left-top"><a class="white-link" href="#?"><img src="img/home-light.svg" alt="shiftnow"></a><a class="white-link" href="#?">Terms of Use</a><a class="white-link" href="#?">Legal Use</a></div>
-                <div class="footer-left-middle">
+                <div class="footer-left-middle d-none d-lg-block">
                   <ul class="social-links">
                     <li><a href="#?"><span class="icon-google"></span></a></li>
                     <li><a href="#?"><span class="icon-facebook"></span></a></li>
@@ -307,39 +307,56 @@
                 <div class="footer-left-bottom"><span>Copyright © ShiftNOW 2018</span></div>
               </div>
             </div>
-            <div class="col-md-2">
-              <div class="footer-menu">
-                <h6 class="footer-menu-heading">COMPANY & TEAM</h6>
-                <ul>
-                  <li><a class="white-link" href="#?">About Us</a></li>
-                  <li><a class="white-link" href="#?">Data protection policy</a></li>
-                  <li><a class="white-link" href="#?">Contact</a></li>
-                </ul>
+            <div class="col-lg-6">
+              <div class="row">
+                <div class="col-sm-4 col-7">
+                  <div class="footer-menu">
+                    <h6 class="footer-menu-heading">COMPANY & TEAM</h6>
+                    <ul>
+                      <li><a class="white-link" href="#?">About Us</a></li>
+                      <li><a class="white-link" href="#?">Data protection policy</a></li>
+                      <li><a class="white-link" href="#?">Contact</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-sm-4 col-12 order-3 order-sm-2">
+                  <div class="footer-menu">
+                    <h6 class="footer-menu-heading">HELP</h6>
+                    <ul>
+                      <li><a class="white-link" href="#?">Support</a></li>
+                      <li><a class="white-link" href="#?">How it works</a></li>
+                      <li><a class="white-link" href="#?">FAQ</a></li>
+                      <li><a class="white-link" href="#?">Currencies we support</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-sm-4 col-5 order-2 order-sm-3">
+                  <div class="footer-menu">
+                    <h6 class="footer-menu-heading">ANALYTICS</h6>
+                    <ul>
+                      <li><a class="white-link" href="#?">Market</a></li>
+                      <li><a class="white-link" href="#?">Rates</a></li>
+                      <li><a class="white-link" href="#?">Charts</a></li>
+                    </ul>
+                  </div>
+                  <div class="scroll-top d-none d-lg-flex"><span class="icon-arrow-up"></span></div>
+                </div>
               </div>
             </div>
-            <div class="col-md-2">
-              <div class="footer-menu">
-                <h6 class="footer-menu-heading">HELP</h6>
-                <ul>
-                  <li><a class="white-link" href="#?">Support</a></li>
-                  <li><a class="white-link" href="#?">How it works</a></li>
-                  <li><a class="white-link" href="#?">FAQ</a></li>
-                  <li><a class="white-link" href="#?">Currencies we support</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-md-2">
-              <div class="footer-menu">
-                <h6 class="footer-menu-heading">ANALYTICS</h6>
-                <ul>
-                  <li><a class="white-link" href="#?">Market</a></li>
-                  <li><a class="white-link" href="#?">Rates</a></li>
-                  <li><a class="white-link" href="#?">Charts</a></li>
-                </ul>
-              </div>
-              <div class="scroll-top"><span class="icon-arrow-up"></span></div>
+            <div class="col-12 d-lg-none">
+              <ul class="social-links">
+                <li><a href="#?"><span class="icon-google"></span></a></li>
+                <li><a href="#?"><span class="icon-facebook"></span></a></li>
+                <li><a href="#?"><span class="icon-twitter"></span></a></li>
+                <li><a href="#?"><span class="icon-github"></span></a></li>
+                <li><a href="#?"><span class="icon-medium"></span></a></li>
+                <li><a href="#?"><span class="icon-steemit"></span></a></li>
+                <li><a href="#?"><span class="icon-bitcointalk"></span></a></li>
+                <li><a href="#?"><span class="icon-reddit"></span></a></li>
+              </ul>
             </div>
           </div>
+          <div class="scroll-top d-lg-none"><span class="icon-arrow-up"></span></div>
         </div>
       </footer>
       <!-- FOOTER END-->
