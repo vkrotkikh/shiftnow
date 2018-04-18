@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>ShiftNow</title>
+    <title>Profile Settings 2 Step Off</title>
     <meta name="description" content="Description of the site">
     <meta charset="UTF-8">
     <meta name="format-detection" content="telephone=no">
@@ -54,70 +54,80 @@
     <!-- HEADER END-->
     <!-- HEADER END-->
     <!-- CONTENT-->
-    <div class="wrap-for-sticky js-wrap-for-sticky">
+    <div class="wrap-for-sticky js-wrap-for-sticky -bg-secondary">
       <main class="main">
-        <section class="section-top">
+        <!-- SECTION PROFILE SETTINGS 2-STEP-OFF-->
+        <section class="section-profile">
           <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-8">
-                <h3 class="h3 text-center">We are ShiftNow — The platform for easy and anonymous instant exchange of any cryptocurrency</h3>
+            <div class="profile">
+              <div class="profile-heading">
+                <ul class="profile-menu">
+                  <li><a href="#?">History</a></li>
+                  <li><a class="active" href="#?">Profile settings</a></li>
+                </ul>
+              </div>
+              <div class="profile-body">
+                <div class="profile-settings">
+                  <div class="row">
+                    <div class="col-md-4 right-line">
+                      <div class="profile-settings-item">
+                        <h5 class="dark-blue">Change password</h5>
+                        <form class="form">
+                          <div class="form-group">
+                            <input class="form-control" type="password" id="old-pass" placeholder="Old password">
+                            <label class="form-label" for="old-pass">Old password</label>
+                          </div>
+                          <div class="form-group">
+                            <input class="form-control" type="password" id="new-pass" placeholder="New password">
+                            <label class="form-label" for="new-pass">New password</label>
+                          </div>
+                          <div class="form-group">
+                            <input class="form-control" type="password" id="new-pass-again" placeholder="New password again">
+                            <label class="form-label" for="new-pass-again">New password again</label>
+                          </div>
+                          <div class="form-btn-wrap">
+                            <input class="btn btn-white btn-md" type="submit" value="Save">
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                    <div class="col-md-4 right-line">
+                      <div class="profile-settings-item">
+                        <div class="d-flex justify-content-between">
+                          <h5 class="dark-blue">Two-step verification</h5>
+                          <div class="onoffswitch">
+                            <input class="onoffswitch-checkbox" type="checkbox" name="onoffswitch" id="myonoffswitch">
+                            <label class="onoffswitch-label" for="myonoffswitch"><span class="onoffswitch-inner"><span class="onoffswitch-switch"></span></span></label>
+                          </div>
+                        </div>
+                        <div class="profile-settings-text">
+                          <p>With 2-Step verification, you protect your account with both your password and your phone. To log in into account or withdraw funds you will require a separate code that you will get in the Google Authenticator app.</p>
+                          <p>Download app:</p>
+                          <div class="btn-wrap"><a class="btn btn-secondary btn-md btn-icon" href="#?"> <span><i class="icon-i-os"></i>iOS</span></a><a class="btn btn-secondary btn-md btn-icon" href="#?"> <span><i class="icon-android"></i>Android</span></a></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="profile-settings-item">
+                        <h5 class="dark-blue">Change email address</h5>
+                        <form class="form">
+                          <div class="form-group">
+                            <input class="form-control active" type="email" id="current-email" placeholder="Current email" value="testuser@gmail.com">
+                            <label class="form-label active" for="current-email">Current email</label>
+                          </div>
+                          <div class="form-btn-wrap">
+                            <input class="btn btn-white btn-md" type="submit" value="Save">
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </section>
-        <section class="section-advantages">
-          <div class="container">
-            <div class="advantages-wrap">
-              <div class="advantages-item">
-                <div class="advantages-item-heading">
-                  <h5 class="text-center dark-blue">No Sign Ups</h5>
-                </div>
-                <div class="advantages-item-img-wrap"><img src="img/advantages/no-sign-ups.svg" alt="no-sign-ups"></div>
-                <div class="advantages-item-descr">
-                  <p class="text-center">Exchange your funds anonymously. No personal data or sign-ups required.</p>
-                </div>
-              </div>
-              <div class="advantages-item">
-                <div class="advantages-item-heading">
-                  <h5 class="text-center dark-blue">User-friendly</h5>
-                </div>
-                <div class="advantages-item-img-wrap"><img src="img/advantages/user-friendly.svg" alt="user-friendly"></div>
-                <div class="advantages-item-descr">
-                  <p class="text-center">Enjoy our effortless step-by-step exchange process and 24/7 support.</p>
-                </div>
-              </div>
-              <div class="advantages-item">
-                <div class="advantages-item-heading">
-                  <h5 class="text-center dark-blue">Limitless</h5>
-                </div>
-                <div class="advantages-item-img-wrap"><img src="img/advantages/limitless.svg" alt="limitless"></div>
-                <div class="advantages-item-descr">
-                  <p class="text-center">We have no limitations. Exchange any amount. Just make sure your bank account covers all the blockchain fees.</p>
-                </div>
-              </div>
-              <div class="advantages-item">
-                <div class="advantages-item-heading">
-                  <h5 class="text-center dark-blue">Cards-compatible</h5>
-                </div>
-                <div class="advantages-item-img-wrap"><img src="img/advantages/card-compatible.svg" alt="card-compatible"></div>
-                <div class="advantages-item-descr">
-                  <p class="text-center">Use Visa or MasterCard to easily exchange your fortune.</p>
-                </div>
-              </div>
-              <div class="advantages-item">
-                <div class="advantages-item-heading">
-                  <h5 class="text-center dark-blue">Honest fees</h5>
-                </div>
-                <div class="advantages-item-img-wrap"><img src="img/advantages/honest-fees.svg" alt="honest-fees"></div>
-                <div class="advantages-item-descr">
-                  <p class="text-center">From start to finish, every step is transparent. We show all the fees before you exchange.</p>
-                </div>
-              </div>
-            </div>
-            <div class="big-button-wrap"><a class="btn btn-lg btn-primary btn-icon-right" href="#?"><span>
-                   Try Now!<i class="icon-arrow-right"></i></span></a></div>
-          </div>
-        </section>
+        <!-- SECTION PROFILE SETTINGS 2-STEP-OFF END-->
       </main>
       <!-- CONTENT END-->
       <!-- FOOTER-->

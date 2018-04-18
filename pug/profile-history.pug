@@ -1,0 +1,108 @@
+doctype html
+html(lang='en')
+	head
+		title Profile History
+		meta(name='description', content='Description of the site')
+		include modules/head.pug
+	body
+		include modules/header.pug
+		// CONTENT
+		.wrap-for-sticky.js-wrap-for-sticky.-bg-secondary
+			main.main
+				// SECTION PROFILE HISTORY
+				section.section-profile
+					.container
+						.profile
+							.profile-heading
+								ul.profile-menu
+									li
+										a(class="active" href="#?")
+											| History
+									li
+										a(href="#?")
+											| Profile settings
+							.profile-body
+								.profile-table
+									.profile-table-row.-heading
+										.profile-table-cell
+											span Status
+										.profile-table-cell
+											span Date
+										.profile-table-cell
+											span Exchange amount
+										.profile-table-cell
+											span Total fee
+										.profile-table-cell
+											span Exchange rate
+										.profile-table-cell
+											span Receiver
+										.profile-table-cell
+											span Amount receives
+									.profile-table-row
+										.profile-table-cell
+											span 
+												i.icon-complete
+										.profile-table-cell
+											span 01 Jan 2017, 02:58:04
+										.profile-table-cell
+											span 1 BTC
+										.profile-table-cell
+											span 0.001155 ETH
+										.profile-table-cell
+											span 1 BTC ≈ 16.30208 ETH
+										.profile-table-cell
+											span 0x123f6816…
+										.profile-table-cell
+											span.rate-up 16.30208 ETH
+									.profile-table-row
+										.profile-table-cell
+											span 
+												i.icon-failed
+										.profile-table-cell
+											span 01 Jan 2017, 02:58:04
+										.profile-table-cell
+											span 500 ETH
+										.profile-table-cell
+											span 3.17138788 DASH
+										.profile-table-cell
+											span 1 ETH ≈ 1.26855515 DASH
+										.profile-table-cell
+											span 0x123f6816…
+										.profile-table-cell
+											span.rate-down 631.10619 DASH
+									.profile-table-row
+										.profile-table-cell
+											span 
+												i.icon-not-received
+										.profile-table-cell
+											span 01 Jan 2017, 02:58:04
+										.profile-table-cell
+											span 3 500 XRP
+										.profile-table-cell
+											span 3 075 DOGE
+										.profile-table-cell
+											span 1 XRP ≈ 175.71428571 DOGE
+										.profile-table-cell
+											span 0x123f6816…
+										.profile-table-cell
+											span
+									.profile-table-row
+										.profile-table-cell
+											span 
+												i.icon-refunded
+										.profile-table-cell
+											span 01 Jan 2017, 02:58:04
+										.profile-table-cell
+											span 11 590 LTC
+										.profile-table-cell
+											span 0.001155 ETH
+										.profile-table-cell
+											span 1 LTC ≈ 510.582507 XEM
+										.profile-table-cell
+											span 0x123f6816…
+										.profile-table-cell
+											span.rate-blue 11 590 LTC
+				// SECTION PROFILE HISTORY END
+			// CONTENT END
+			include modules/footer.pug
+			include modules/scripts.pug
