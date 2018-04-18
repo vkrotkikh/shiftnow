@@ -1,0 +1,28 @@
+.timer{
+	&-block{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	&-title{
+		font-size: 16px;
+	}
+	&-body{
+		position: relative;
+		display: inline-block;
+	}
+	&-icon{
+		& img{
+			width: 108px;
+			height: 108px;
+		}
+	}
+	&-num{
+		position: absolute;
+		top: 47%;
+		transform: translateY(-50%);
+		left: 0;
+		right: 0;
+		font-size: 18px;
+	}
+}

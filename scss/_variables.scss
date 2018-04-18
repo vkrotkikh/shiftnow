@@ -688,15 +688,15 @@ $card-columns-margin:               $card-spacer-y !default;
 
 // Tooltips
 
-$tooltip-font-size:           $font-size-sm !default;
-$tooltip-max-width:           200px !default;
+$tooltip-font-size:           12px !default;
+$tooltip-max-width:           150px !default;
 $tooltip-color:               $white !default;
-$tooltip-bg:                  $black !default;
-$tooltip-border-radius:        $border-radius !default;
+$tooltip-bg:                  $primary !default;
+$tooltip-border-radius:        28px !default;
 $tooltip-opacity:             .9 !default;
-$tooltip-padding-y:           .25rem !default;
-$tooltip-padding-x:           .5rem !default;
-$tooltip-margin:              0 !default;
+$tooltip-padding-y:           .1rem !default;
+$tooltip-padding-x:           .4rem !default;
+$tooltip-margin:              3px !default;
 
 $tooltip-arrow-width:         .8rem !default;
 $tooltip-arrow-height:        .4rem !default;

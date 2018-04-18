@@ -2,15 +2,69 @@
 	border-radius: 5px;
 	background: #fff;
 	width: 100%;
+	&-timer{
+	}
+	&.-pd-xs{
+		padding: 18px 20px;
+	}
 	&.-pd-sm{
 		padding: 25px 20px;
 	}
 	&.-pd-md{
-		padding: 30px 35px;
+		padding: 32px 36px;
 	}
 	&.-input_label{
 		& .form-group{
 			display: flex;
+		}
+	}
+	&.-info{
+		display: flex;
+		align-items: center;
+	}
+	&-header{
+		border-bottom: 1px solid $secondary;
+		padding: 16px;
+		display: flex;
+		&.-pd-md{
+			padding: 25px 36px;
+		}
+		& .info-detail{
+			padding: 16px 0 0 16px;
+		}
+	}
+	&-footer{
+		padding: 30px 35px;
+	}
+	&-qr{
+		min-width: 140px;
+		& img {
+			display: block;
+		}
+	}
+	&-title{
+		font-weight: 700;
+		font-size: 18px;
+	}
+	&-body{
+		border-right: 1px solid $secondary;
+		flex-grow: 1;
+	}
+	&-sidebar{
+		flex-basis: 170px;
+		text-align: center;
+		padding: 25px 36px;
+		display: flex;
+	}
+	&-content{
+		display: flex;
+		flex-wrap: wrap;
+		&_footer{
+			border-top: 1px solid $secondary;
+			padding: 20px 36px;
+			& .btn {
+				margin-right: 20px;
+			}
 		}
 	}
 }

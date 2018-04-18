@@ -30,7 +30,7 @@
                   <li class="nav-item"><a href="faq.html">FAQ</a></li>
                   <li class="nav-item"><a href="#?">Support</a></li>
                   <li class="nav-item"><a href="about.html">About Us</a></li>
-                  <li class="nav-item"><a href="profile.html">Profile</a></li>
+                  <li class="nav-item"><a href="profile-history.html">Profile</a></li>
                 </ul>
                 <div class="dropdown show"><a class="btn-dropdown" href="#" role="button" id="dropdownLanguage" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <div class="flag-img-wrap"><img src="img/flags/usa.svg" alt="lang"></div><span>English<i class="icon-angle-down"></i></span></a>
@@ -322,10 +322,10 @@
                             </div>
                           </div>
                         </div>
-                        <label class="custom-control fill-checkbox">
+                        <label class="custom-control fill-checkbox mt-3 mb-3">
                           <input class="fill-control-input" type="checkbox"><span class="fill-control-indicator"></span><span class="fill-control-description">
                              I agree with <span class="text-primary">Terms of Use </span></span>
-                        </label><a class="btn btn-lg btn-primary js-step-next" href="javascript:void(0);">next</a>
+                        </label><a class="btn btn-lg btn-primary js-step-next -max_width_170" href="javascript:void(0);">next</a>
                       </div>
                     </div>
                   </div>
@@ -346,7 +346,44 @@
                   <div class="row">
                     <div class="col-md-10 offset-md-1">
                       <div class="steps-content">
-                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui deleniti veritatis recusandae, quas aliquid, distinctio soluta corporis quo expedita sapiente laboriosam. Ad deleniti maxime asperiores architecto ipsum itaque nisi hic, impedit obcaecati vel iste quae necessitatibus nobis culpa doloremque sit quas reiciendis fugit commodi facilis totam consequuntur ex quod. Porro nostrum esse quibusdam nam animi qui reiciendis ullam id, quo recusandae quod alias sint harum cupiditate consequatur ab sit eveniet, sequi odit consectetur nemo, fuga cumque. Alias iusto molestiae quis autem rerum vero quas doloremque eaque eos aliquam inventore suscipit reprehenderit voluptates in quod quaerat, non, veniam ad! Repellat, vitae!</p><a class="btn btn-lg btn-primary js-step-next" href="javascript:void(0);">next</a>
+                        <div class="card -pd-xs -info mb-3">
+                          <div class="info-detail">
+                            <div class="info-message"><img src="./img/icons/notification.svg" alt="">
+                              <p class="fz-16">Please use your wallet or exhange to send money to the following address in one transaction or use QR-code</p>
+                            </div>
+                          </div><a class="btn btn-white btn-md" href="javascript:void(0);">Got it!</a>
+                        </div>
+                        <div class="card">
+                          <div class="card-header">
+                            <div class="info-detail -fz-md -fb-25">
+                              <div class="info-item">
+                                <div class="info-title">Transaction ID</div>
+                                <div class="info-descr -copy"><span class="js-info-copy">4c6ae5128244</span><a class="btn btn-white btn-xs js-copy-text" data-toggle="tooltip" data-placement="top" data-trigger="manual" data-title="Copied">copy</a></div>
+                              </div>
+                              <div class="info-item">
+                                <div class="info-title">Send</div>
+                                <div class="info-descr">1 BTC</div>
+                              </div>
+                              <div class="info-item">
+                                <div class="info-title">To address</div>
+                                <div class="info-descr -copy"><span class="js-info-copy">rPujGTiw6nKmMvAiUT6UjpFxT9QrDn9kJP</span><a class="btn btn-white btn-xs js-copy-text" data-toggle="tooltip" data-placement="top" data-trigger="manual" data-title="Copied">copy</a></div>
+                              </div>
+                            </div>
+                            <div class="card-qr"><img src="./img/qr140x140.png" alt=""></div>
+                          </div>
+                          <div class="card-footer">
+                            <div class="info-detail -fz-md -fb-25">
+                              <div class="info-item">
+                                <div class="info-title">You will recieve</div>
+                                <div class="info-descr">16.30208 ETH</div>
+                              </div>
+                              <div class="info-item">
+                                <div class="info-title">To address</div>
+                                <div class="info-descr">0x123f681646d4a755815f9cb19e1acc8565a0c2ac</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div><a class="btn btn-lg btn-primary js-step-next mt-3" href="javascript:void(0);">Not by design ( Just Next step )</a>
                       </div>
                     </div>
                   </div>
@@ -367,8 +404,113 @@
                   <div class="row">
                     <div class="col-md-10 offset-md-1">
                       <div class="steps-content">
-                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui deleniti veritatis recusandae, quas aliquid, distinctio soluta corporis quo expedita sapiente laboriosam. Ad deleniti maxime asperiores architecto ipsum itaque nisi hic, impedit obcaecati vel iste quae necessitatibus nobis culpa doloremque sit quas reiciendis fugit commodi facilis totam consequuntur ex quod. Porro nostrum esse quibusdam nam animi qui reiciendis ullam id, quo recusandae quod alias sint harum cupiditate consequatur ab sit eveniet, sequi odit consectetur nemo, fuga cumque. Alias iusto molestiae quis autem rerum vero quas doloremque eaque eos aliquam inventore suscipit reprehenderit voluptates in quod quaerat, non, veniam ad! Repellat, vitae!</p><a class="btn btn-lg btn-primary js-step-next" href="javascript:void(0);">next</a>
-                      </div>
+                        <div class="card card-timer">
+                          <div class="card-content">
+                            <div class="card-body">
+                              <div class="card-header -pd-md">
+                                <div class="card-title">We are now exchanging your BTC to ETH</div>
+                              </div>
+                              <div class="card-footer">
+                                <div class="info-detail -fz-md -fb-25">
+                                  <div class="info-item">
+                                    <div class="info-title">Transaction ID</div>
+                                    <div class="info-descr -copy"><span class="js-info-copy">4c6ae5128244</span><a class="btn btn-white btn-xs js-copy-text" data-toggle="tooltip" data-placement="top" data-trigger="manual" data-title="Copied">copy</a></div>
+                                  </div>
+                                  <div class="info-item">
+                                    <div class="info-title">Send</div>
+                                    <div class="info-descr">1 BTC</div>
+                                  </div>
+                                  <div class="info-item">
+                                    <div class="info-title">To address</div>
+                                    <div class="info-descr">rPujGTiw6nKmMvAiUT6UjpFxT9QrDn9kJP</div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="card-sidebar">
+                              <div class="timer-block">
+                                <div class="timer-title">Time passed</div>
+                                <div class="timer-body">
+                                  <div class="timer-icon"><img src="./img/icons/timer.svg" alt=""></div>
+                                  <div class="timer-num">00:34</div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="mt-3"></div>
+                        <div class="card card-timer">
+                          <div class="card-content">
+                            <div class="card-body">
+                              <div class="card-header -pd-md">
+                                <div class="card-title text-danger">We are still in a process of exchanging your funds</div>
+                              </div>
+                              <div class="card-footer">
+                                <div class="info-detail -fz-md -fb-25">
+                                  <div class="info-item">
+                                    <div class="info-title">Transaction ID</div>
+                                    <div class="info-descr -copy"><span class="js-info-copy">4c6ae5128244</span><a class="btn btn-white btn-xs js-copy-text" data-toggle="tooltip" data-placement="top" data-trigger="manual" data-title="Copied">copy</a></div>
+                                  </div>
+                                  <div class="info-item">
+                                    <div class="info-title">Send</div>
+                                    <div class="info-descr">1 BTC</div>
+                                  </div>
+                                  <div class="info-item">
+                                    <div class="info-title">To address</div>
+                                    <div class="info-descr">rPujGTiw6nKmMvAiUT6UjpFxT9QrDn9kJP</div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="card-sidebar">
+                              <div class="timer-block">
+                                <div class="timer-title">Time passed</div>
+                                <div class="timer-body">
+                                  <div class="timer-icon"><img src="./img/icons/timer.svg" alt=""></div>
+                                  <div class="timer-num text-danger">>40m</div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card-content_footer"><a class="btn btn-white btn-md -max-width_240">Notify me via email</a><a class="btn btn-white btn-md -max-width_240">Check where my money is</a></div>
+                        </div>
+                        <div class="mt-3">
+                          <div class="card card-timer">
+                            <div class="card-content">
+                              <div class="card-body">
+                                <div class="card-header -pd-md">
+                                  <div class="card-title text-success">Hooray! Your money has been exchanged!</div>
+                                </div>
+                                <div class="card-footer">
+                                  <div class="info-detail -fz-md -fb-25">
+                                    <div class="info-item">
+                                      <div class="info-title">Transaction ID</div>
+                                      <div class="info-descr -copy"><span class="js-info-copy">4c6ae5128244</span><a class="btn btn-white btn-xs js-copy-text" data-toggle="tooltip" data-placement="top" data-trigger="manual" data-title="Copied">copy</a></div>
+                                    </div>
+                                    <div class="info-item">
+                                      <div class="info-title">Send</div>
+                                      <div class="info-descr">1 BTC</div>
+                                    </div>
+                                    <div class="info-item">
+                                      <div class="info-title">To address</div>
+                                      <div class="info-descr">rPujGTiw6nKmMvAiUT6UjpFxT9QrDn9kJP</div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="card-sidebar">
+                                <div class="timer-block">
+                                  <div class="timer-title">Time passed</div>
+                                  <div class="timer-body">
+                                    <div class="timer-icon"><img src="./img/icons/timer.svg" alt=""></div>
+                                    <div class="timer-num text-success">13:29</div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div><a class="btn btn-lg btn-primary mt-3" href="./step-finished.html">Not by design ( Just Next step )</a>
                     </div>
                   </div>
                 </div>
@@ -387,9 +529,7 @@
                 <div class="steps-body">
                   <div class="row">
                     <div class="col-md-10 offset-md-1">
-                      <div class="steps-content">
-                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui deleniti veritatis recusandae, quas aliquid, distinctio soluta corporis quo expedita sapiente laboriosam. Ad deleniti maxime asperiores architecto ipsum itaque nisi hic, impedit obcaecati vel iste quae necessitatibus nobis culpa doloremque sit quas reiciendis fugit commodi facilis totam consequuntur ex quod. Porro nostrum esse quibusdam nam animi qui reiciendis ullam id, quo recusandae quod alias sint harum cupiditate consequatur ab sit eveniet, sequi odit consectetur nemo, fuga cumque. Alias iusto molestiae quis autem rerum vero quas doloremque eaque eos aliquam inventore suscipit reprehenderit voluptates in quod quaerat, non, veniam ad! Repellat, vitae!</p><a class="btn btn-lg btn-primary js-step-next" href="javascript:void(0);">next</a>
-                      </div>
+                      <div class="steps-content"></div>
                     </div>
                   </div>
                 </div>

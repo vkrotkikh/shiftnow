@@ -38,14 +38,30 @@
 			display: none;
 			&:checked~.fill-control-indicator{
 
-				background-color: $primary;
+				background-color: #fff;
 				border-color: $primary;
 				background-size: 80%;
+				&:before{
+					opacity: 1;
+				}
 			}
 			&[disabled]~.fill-control-indicator{
 				background-color: #e6e6e6;
 				border-color:  $darkGrey;
 				color: $darkGrey;
+				&:before{
+					opacity: 1 !important;
+					color: $darkGrey;
+				}
+			}
+			&[disabled]~.fill-control-indicator{
+				background-color: #e6e6e6;
+				border-color:  $darkGrey;
+				color: $darkGrey;
+				&:before{
+					opacity: 0;
+					color: $darkGrey;
+				}
 			}
 		}
 		.fill-control-indicator{
@@ -64,6 +80,7 @@
 			background-position: center;
 			background-repeat: no-repeat;
 			&:before{
+				opacity: 0;
         content: '';
 		    -webkit-font-smoothing: antialiased;
 		    display: inline-block;

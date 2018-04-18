@@ -17,6 +17,7 @@
 	exchangeSwap();
 	processingSteps();
 	stickyFooter();
+	copyText();
 
 	$('input , textarea').blur(function() {
 		if (!$(this).val()) {
@@ -35,6 +36,8 @@
 			prevArrow: '<div class="interface-slider-arrow interface-slider-arrow-prev"><i class="icon-arrow-right"></i></div>',
 		});
 	}
+
+
 
 
 });
@@ -170,6 +173,29 @@ function processingSteps (){
 	});
 }
 
+function copyText() {
+
+	$('.js-copy-text').on('click' , function(){
+
+		console.log($(this).parent().find('.js-info-copy').text());
+
+		  var $temp = $("<input>");
+		  $("body").append($temp);
+		  $temp.val($(this).parent().find('.js-info-copy').text()).select();
+		  document.execCommand("copy");
+		  $temp.remove();
+
+		$(this).tooltip('show');
+
+		setTimeout(function(){
+			
+			$('.js-copy-text').tooltip('hide');
+
+		}, 1000);
+	});
+
+
+}
 
 // STICKY FOOTER
 function stickyFooter() {

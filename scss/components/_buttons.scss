@@ -14,6 +14,9 @@
 			min-width: inherit;
 		}
 	}
+	&-xs{
+		padding: 2px 9px;
+	}
 	&-md {
 		min-width: 112px;
 		font-weight: 700;

@@ -282,15 +282,14 @@ html(lang='en')
 														.info-item
 															.info-title Estimated arrival
 															.info-descr ≈ 5-30 minutes
-												
-												label.custom-control.fill-checkbox
+												label.custom-control.fill-checkbox.mt-3.mb-3
 													input.fill-control-input(type='checkbox')
 													span.fill-control-indicator
 													span.fill-control-description 
 														| I agree with 
 														span.text-primary
 															| Terms of Use 
-												a(href="javascript:void(0);").btn.btn-lg.btn-primary.js-step-next next
+												a(href="javascript:void(0);").btn.btn-lg.btn-primary.js-step-next.-max_width_170 next
 							.steps-item.js-step-item(data-step="3")
 								.steps-header
 									.row
@@ -302,9 +301,40 @@ html(lang='en')
 									.row
 										.col-md-10.offset-md-1
 											.steps-content
-												p
-													|  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui deleniti veritatis recusandae, quas aliquid, distinctio soluta corporis quo expedita sapiente laboriosam. Ad deleniti maxime asperiores architecto ipsum itaque nisi hic, impedit obcaecati vel iste quae necessitatibus nobis culpa doloremque sit quas reiciendis fugit commodi facilis totam consequuntur ex quod. Porro nostrum esse quibusdam nam animi qui reiciendis ullam id, quo recusandae quod alias sint harum cupiditate consequatur ab sit eveniet, sequi odit consectetur nemo, fuga cumque. Alias iusto molestiae quis autem rerum vero quas doloremque eaque eos aliquam inventore suscipit reprehenderit voluptates in quod quaerat, non, veniam ad! Repellat, vitae!
-												a(href="javascript:void(0);").btn.btn-lg.btn-primary.js-step-next next
+												.card.-pd-xs.-info.mb-3
+													.info-detail
+														.info-message
+															img(src="./img/icons/notification.svg", alt="")
+															p.fz-16
+																| Please use your wallet or exhange to send money to the following address in one transaction or use QR-code
+													a(href="javascript:void(0);").btn.btn-white.btn-md Got it!
+												.card
+													.card-header
+														.info-detail.-fz-md.-fb-25
+															.info-item
+																.info-title Transaction ID
+																.info-descr.-copy
+																	span.js-info-copy 4c6ae5128244
+																	a.btn.btn-white.btn-xs.js-copy-text(data-toggle="tooltip" data-placement="top" data-trigger="manual" data-title="Copied") copy
+															.info-item
+																.info-title Send
+																.info-descr 1 BTC
+															.info-item
+																.info-title To address
+																.info-descr.-copy
+																	span.js-info-copy rPujGTiw6nKmMvAiUT6UjpFxT9QrDn9kJP
+																	a.btn.btn-white.btn-xs.js-copy-text(data-toggle="tooltip" data-placement="top" data-trigger="manual" data-title="Copied") copy
+														.card-qr
+															img(src="./img/qr140x140.png", alt="")
+													.card-footer
+														.info-detail.-fz-md.-fb-25
+															.info-item
+																.info-title You will recieve
+																.info-descr 16.30208 ETH
+															.info-item
+																.info-title To address
+																.info-descr 0x123f681646d4a755815f9cb19e1acc8565a0c2ac
+												a(href="javascript:void(0);").btn.btn-lg.btn-primary.js-step-next.mt-3 Not by design ( Just Next step )
 							.steps-item.js-step-item(data-step="4")
 								.steps-header
 									.row
@@ -316,9 +346,88 @@ html(lang='en')
 									.row
 										.col-md-10.offset-md-1
 											.steps-content
-												p
-													|  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui deleniti veritatis recusandae, quas aliquid, distinctio soluta corporis quo expedita sapiente laboriosam. Ad deleniti maxime asperiores architecto ipsum itaque nisi hic, impedit obcaecati vel iste quae necessitatibus nobis culpa doloremque sit quas reiciendis fugit commodi facilis totam consequuntur ex quod. Porro nostrum esse quibusdam nam animi qui reiciendis ullam id, quo recusandae quod alias sint harum cupiditate consequatur ab sit eveniet, sequi odit consectetur nemo, fuga cumque. Alias iusto molestiae quis autem rerum vero quas doloremque eaque eos aliquam inventore suscipit reprehenderit voluptates in quod quaerat, non, veniam ad! Repellat, vitae!
-												a(href="javascript:void(0);").btn.btn-lg.btn-primary.js-step-next next
+												.card.card-timer
+													.card-content
+														.card-body
+															.card-header.-pd-md
+																.card-title We are now exchanging your BTC to ETH
+															.card-footer
+																.info-detail.-fz-md.-fb-25
+																	.info-item
+																		.info-title Transaction ID
+																		.info-descr.-copy
+																			span.js-info-copy 4c6ae5128244
+																			a.btn.btn-white.btn-xs.js-copy-text(data-toggle="tooltip" data-placement="top" data-trigger="manual" data-title="Copied") copy
+																	.info-item
+																		.info-title Send
+																		.info-descr 1 BTC
+																	.info-item
+																		.info-title To address
+																		.info-descr rPujGTiw6nKmMvAiUT6UjpFxT9QrDn9kJP
+														.card-sidebar
+															.timer-block
+																.timer-title Time passed
+																.timer-body
+																	.timer-icon
+																		img(src="./img/icons/timer.svg", alt="")
+																	.timer-num 00:34
+												.mt-3
+												.card.card-timer
+													.card-content
+														.card-body
+															.card-header.-pd-md
+																.card-title.text-danger We are still in a process of exchanging your funds
+															.card-footer
+																.info-detail.-fz-md.-fb-25
+																	.info-item
+																		.info-title Transaction ID
+																		.info-descr.-copy
+																			span.js-info-copy 4c6ae5128244
+																			a.btn.btn-white.btn-xs.js-copy-text(data-toggle="tooltip" data-placement="top" data-trigger="manual" data-title="Copied") copy
+																	.info-item
+																		.info-title Send
+																		.info-descr 1 BTC
+																	.info-item
+																		.info-title To address
+																		.info-descr rPujGTiw6nKmMvAiUT6UjpFxT9QrDn9kJP
+														.card-sidebar
+															.timer-block
+																.timer-title Time passed
+																.timer-body
+																	.timer-icon
+																		img(src="./img/icons/timer.svg", alt="")
+																	.timer-num.text-danger
+																		| >40m
+													.card-content_footer
+														a.btn.btn-white.btn-md.-max-width_240 Notify me via email
+														a.btn.btn-white.btn-md.-max-width_240 Check where my money is
+												.mt-3
+													.card.card-timer
+														.card-content
+															.card-body
+																.card-header.-pd-md
+																	.card-title.text-success Hooray! Your money has been exchanged!
+																.card-footer
+																	.info-detail.-fz-md.-fb-25
+																		.info-item
+																			.info-title Transaction ID
+																			.info-descr.-copy
+																				span.js-info-copy 4c6ae5128244
+																				a.btn.btn-white.btn-xs.js-copy-text(data-toggle="tooltip" data-placement="top" data-trigger="manual" data-title="Copied") copy
+																		.info-item
+																			.info-title Send
+																			.info-descr 1 BTC
+																		.info-item
+																			.info-title To address
+																			.info-descr rPujGTiw6nKmMvAiUT6UjpFxT9QrDn9kJP
+															.card-sidebar
+																.timer-block
+																	.timer-title Time passed
+																	.timer-body
+																		.timer-icon
+																			img(src="./img/icons/timer.svg", alt="")
+																		.timer-num.text-success 13:29
+											a(href="./step-finished.html").btn.btn-lg.btn-primary.mt-3 Not by design ( Just Next step )
 							.steps-item.js-step-item(data-step="5")
 								.steps-header
 									.row
@@ -330,9 +439,6 @@ html(lang='en')
 									.row
 										.col-md-10.offset-md-1
 											.steps-content
-												p
-													|  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui deleniti veritatis recusandae, quas aliquid, distinctio soluta corporis quo expedita sapiente laboriosam. Ad deleniti maxime asperiores architecto ipsum itaque nisi hic, impedit obcaecati vel iste quae necessitatibus nobis culpa doloremque sit quas reiciendis fugit commodi facilis totam consequuntur ex quod. Porro nostrum esse quibusdam nam animi qui reiciendis ullam id, quo recusandae quod alias sint harum cupiditate consequatur ab sit eveniet, sequi odit consectetur nemo, fuga cumque. Alias iusto molestiae quis autem rerum vero quas doloremque eaque eos aliquam inventore suscipit reprehenderit voluptates in quod quaerat, non, veniam ad! Repellat, vitae!
-												a(href="javascript:void(0);").btn.btn-lg.btn-primary.js-step-next next
 			// CONTENT END
 			include modules/footer.pug
 			include modules/scripts.pug
