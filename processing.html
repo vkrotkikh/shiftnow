@@ -23,7 +23,13 @@
       <nav class="navbar navbar-expand-lg fixed-top">
         <div class="navbar-inner">
           <div class="container"><a class="navbar-brand" href="index.html"><img src="img/home-light.svg" alt="shiftnow"></a>
-            <button class="navbar-toggler JS_open-menu" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="fa fa-bars"></span></button>
+            <button class="navbar-toggler JS_open-menu" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <div class="hamburger hamburger--collapse js-hamburger">
+                <div class="hamburger-box">
+                  <div class="hamburger-inner"></div>
+                </div>
+              </div>
+            </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <div class="menu-wrap">
                 <ul class="main-menu navbar-nav ml-auto">
@@ -31,11 +37,11 @@
                   <li class="nav-item"><a href="faq.html">FAQ</a></li>
                   <li class="nav-item"><a href="#?">Support</a></li>
                   <li class="nav-item"><a href="about.html">About Us</a></li>
-                  <li class="nav-item"><a href="profile-history.html">Profile</a></li>
+                  <li class="nav-item"><a href="profile.html">Profile</a></li>
                   <li class="nav-item"><a href="javascript:void(0);" data-toggle="modal" data-target="#sign-in-modal">Sign In</a></li>
                 </ul>
                 <div class="dropdown show"><a class="btn-dropdown" href="#" role="button" id="dropdownLanguage" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <div class="flag-img-wrap"><img src="img/flags/usa.svg" alt="lang"></div><span>English<i class="icon-angle-down"></i></span></a>
+                    <div class="flag-img-wrap"><img src="img/flags/usa.svg" alt="lang"></div><span>English<i class="icon-angle-down icon-drop"></i></span></a>
                   <div class="dropdown-menu custom-dropdown-menu" aria-labelledby="dropdownLanguage"><a class="dropdown-item" href="#?">
                       <div class="flag-img-wrap"><img src="img/flags/arab.svg" alt="lang"></div><span>العربية</span></a><a class="dropdown-item" href="#?">
                       <div class="flag-img-wrap"><img src="img/flags/spain.svg" alt="lang"></div><span>Español</span></a><a class="dropdown-item" href="#?">
@@ -175,20 +181,20 @@
               <div class="steps-item js-step-item active open" data-step="1">
                 <div class="steps-header">
                   <div class="row">
-                    <div class="col-md-1">
+                    <div class="col-md-1 col-1">
                       <div class="steps-num">1</div>
                     </div>
-                    <div class="col-md-10 d-flex align-items-center">
+                    <div class="col-lg-10 col-11 d-flex align-items-center">
                       <h5 class="steps-title">Enter Amount & Address</h5>
                     </div>
                   </div>
                 </div>
                 <div class="steps-body">
                   <div class="row">
-                    <div class="col-md-10 offset-md-1">
+                    <div class="col-xl-10 col-lg-12 offset-lg-1">
                       <div class="steps-content">
                         <div class="row">
-                          <div class="col-md-6">
+                          <div class="col-lg-6">
                             <form class="exchange-block" action="javascript:void(0);">
                               <div class="form-group_wrapper mb-3 js-send-value -border">
                                 <div class="form-group mb-0">
@@ -363,7 +369,7 @@
                               </div>
                             </form>
                           </div>
-                          <div class="col-md-6 d-flex">
+                          <div class="col-lg-6 d-flex">
                             <div class="card -pd-sm d-flex">
                               <div class="info-detail -full-height">
                                 <div class="info-item">
@@ -381,7 +387,7 @@
                               </div>
                             </div>
                           </div>
-                          <div class="col-md-12">
+                          <div class="col-lg-12">
                             <form>
                               <div class="form-group mb-0 mt-5 card-input">
                                 <label>Address</label>
@@ -389,7 +395,7 @@
                               </div>
                             </form>
                           </div>
-                          <div class="col-md-12"><a class="btn btn-lg btn-primary -max_width_170 js-step-next mt-5" href="javascript:void(0);">next</a></div>
+                          <div class="col-lg-12"><a class="btn btn-lg btn-primary -max_width_170 js-step-next mt-5" href="javascript:void(0);">next</a></div>
                         </div>
                       </div>
                     </div>
@@ -399,17 +405,17 @@
               <div class="steps-item js-step-item" data-step="2">
                 <div class="steps-header">
                   <div class="row">
-                    <div class="col-md-1">
+                    <div class="col-md-1 col-1">
                       <div class="steps-num">2</div>
                     </div>
-                    <div class="col-md-10 d-flex align-items-center">
+                    <div class="col-lg-10 col-11 d-flex align-items-center">
                       <h5 class="steps-title">Check the details</h5>
                     </div>
                   </div>
                 </div>
                 <div class="steps-body">
                   <div class="row">
-                    <div class="col-md-10 offset-md-1">
+                    <div class="col-xl-10 col-lg-12 offset-lg-1">
                       <div class="steps-content">
                         <div class="card -pd-md">
                           <div class="info-detail -fz-md -fb-25">
@@ -447,17 +453,17 @@
               <div class="steps-item js-step-item" data-step="3">
                 <div class="steps-header">
                   <div class="row">
-                    <div class="col-md-1">
+                    <div class="col-md-1 col-1">
                       <div class="steps-num">3</div>
                     </div>
-                    <div class="col-md-10 d-flex align-items-center">
+                    <div class="col-lg-10 col-11 d-flex align-items-center">
                       <h5 class="steps-title">Send your funds</h5>
                     </div>
                   </div>
                 </div>
                 <div class="steps-body">
                   <div class="row">
-                    <div class="col-md-10 offset-md-1">
+                    <div class="col-xl-10 col-lg-12 offset-lg-1">
                       <div class="steps-content">
                         <div class="card -pd-xs -info mb-3">
                           <div class="info-detail">
@@ -505,17 +511,17 @@
               <div class="steps-item js-step-item" data-step="4">
                 <div class="steps-header">
                   <div class="row">
-                    <div class="col-md-1">
+                    <div class="col-md-1 col-1">
                       <div class="steps-num">4</div>
                     </div>
-                    <div class="col-md-10 d-flex align-items-center">
+                    <div class="col-lg-10 col-11 d-flex align-items-center">
                       <h5 class="steps-title">Wait for the exchange</h5>
                     </div>
                   </div>
                 </div>
                 <div class="steps-body">
                   <div class="row">
-                    <div class="col-md-10 offset-md-1">
+                    <div class="col-xl-10 col-lg-12 offset-lg-1">
                       <div class="steps-content">
                         <div class="card card-timer">
                           <div class="card-content">
@@ -631,10 +637,10 @@
               <div class="steps-item js-step-item" data-step="5">
                 <div class="steps-header">
                   <div class="row">
-                    <div class="col-md-1">
+                    <div class="col-md-1 col-1">
                       <div class="steps-num">5</div>
                     </div>
-                    <div class="col-md-10 d-flex align-items-center">
+                    <div class="col-lg-10 col-11 d-flex align-items-center">
                       <h5 class="steps-title">Finished</h5>
                     </div>
                   </div>

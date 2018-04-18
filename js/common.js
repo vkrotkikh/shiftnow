@@ -18,6 +18,7 @@
 	processingSteps();
 	stickyFooter();
 	copyText();
+	hamburgerHeaderCollapse();
 
 	$('input , textarea').blur(function() {
 		if (!$(this).val()) {
@@ -37,6 +38,16 @@
 		});
 	}
 
+
+
+ $('.dropdown').on('show.bs.dropdown', function() {
+    $(this).find('.dropdown-menu').first().stop(true, true).slideDown();
+  });
+
+  // Add slideUp animation to Bootstrap dropdown when collapsing.
+  $('.dropdown').on('hide.bs.dropdown', function() {
+    $(this).find('.dropdown-menu').first().stop(true, true).slideUp();
+  });
 
 
 
@@ -188,10 +199,21 @@ function copyText() {
 		$(this).tooltip('show');
 
 		setTimeout(function(){
-			
+
 			$('.js-copy-text').tooltip('hide');
 
 		}, 1000);
+	});
+}
+
+function hamburgerHeaderCollapse(){
+
+	$('.navbar-collapse').on('show.bs.collapse', function () {
+	  $('.js-hamburger').addClass('is-active');
+	});
+
+	$('.navbar-collapse').on('hide.bs.collapse', function () {
+	  $('.js-hamburger').removeClass('is-active');
 	});
 
 

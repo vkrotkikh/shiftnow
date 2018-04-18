@@ -34,7 +34,7 @@
 	}
 	.navbar-brand {
 		padding: 0;
-		display: block;
+		// display: block;
 		line-height: 1;
 		padding-bottom: 4px;
 	}
@@ -53,9 +53,59 @@
 		a {
 			line-height: 1;
 			color: #fff;
+			transition: all .3s;
 			text-decoration: none;
 			&:hover {
 				color: $light-blue;
+			}
+		}
+	}
+	& .dropdown{
+		& .btn-dropdown{
+			& .icon-drop{
+				transition: all .3s;
+			}
+			&[aria-expanded="true"]{
+				& .icon-drop{
+			    transform: translateY(-50%) rotate(180deg);
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 991px){
+	.header{
+		& .navbar-inner{
+			padding: 11px 0;
+			& .container{
+				padding: 0;
+				justify-content: space-between;
+			}
+		}
+		& .menu-wrap{
+			display: block;
+			text-align: center;
+		}
+		& .main-menu{
+			& .nav-item{
+				padding-right: 0 !important;
+			}
+			& a{
+				display: block;
+				padding: 15px 0;
+			}
+		}
+		& .dropdown {
+			display: inline-block;
+			text-align: left;
+			& .btn-dropdown{
+				padding: 10px 10px;
+			}
+			& .dropdown-menu{
+				position: static;
+				max-width: 100%;
+				width: 100%;
 			}
 		}
 	}
