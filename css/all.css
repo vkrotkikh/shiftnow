@@ -9872,6 +9872,10 @@ html, body {
 a img {
   display: block; }
 
+@media screen and (max-width: 575px) {
+  .btn-lg, .btn-group-lg > .btn {
+    min-width: 100%; } }
+
 .form input[type="submit"] {
   -webkit-box-shadow: none !important;
   box-shadow: none !important; }
@@ -10075,6 +10079,15 @@ a img {
       .footer-menu ul li {
         margin-bottom: .5rem; } }
 
+@media screen and (max-width: 575px) {
+  .footer-left-top {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+    .footer-left-top .btn-wrap:first-child {
+      margin-bottom: 30px;
+      -ms-flex-preferred-size: 100%;
+      flex-basis: 100%; } }
+
 .section-welcome {
   color: #fff;
   background-image: url(../img/main-bg.png);
@@ -10180,6 +10193,10 @@ a img {
 .section-profile {
   background-color: #f5f5f5;
   padding: 40px 0 95px; }
+
+@media screen and (max-width: 575px) {
+  .section-profile {
+    padding: 1rem 0; } }
 
 .faq-accordion {
   margin-bottom: 60px; }
@@ -10320,6 +10337,11 @@ a img {
     background-color: rgba(0, 153, 247, 0.15); }
     .scroll-top:hover span:before {
       color: #0099f7; }
+
+@media screen and (max-width: 991px) {
+  .scroll-top {
+    top: 24px;
+    right: 1rem; } }
 
 .dropdown .btn-dropdown {
   padding: 30px 15px 30px 15px;
@@ -10554,6 +10576,51 @@ a img {
         color: #9b9b9b; }
         .profile .profile-table-row.-heading .profile-table-cell:nth-child(1) {
           padding-left: 30px; }
+  .profile .profile-table-mobile {
+    display: none; }
+    .profile .profile-table-mobile-item {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      background-color: #fff;
+      border-radius: 5px;
+      margin-bottom: .5rem; }
+      .profile .profile-table-mobile-item-icon {
+        max-width: 3.25rem;
+        width: 100%;
+        font-size: 1.5rem;
+        position: relative; }
+        .profile .profile-table-mobile-item-icon i {
+          display: block;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
+      .profile .profile-table-mobile-item-descr {
+        -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        border-left: 1px solid #f5f5f5; }
+        .profile .profile-table-mobile-item-descr-top {
+          padding: 12px 16px 8px;
+          border-bottom: 1px solid #f5f5f5;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+          justify-content: space-between;
+          font-size: .8125rem; }
+          .profile .profile-table-mobile-item-descr-top .-profile-mobile-date {
+            color: #9B9B9B;
+            font-size: .75rem; }
+        .profile .profile-table-mobile-item-descr-bottom {
+          padding: 12px 16px 8px; }
   .profile .no-transactions {
     padding: 60px 10px 10px; }
     .profile .no-transactions h5 {
@@ -10620,6 +10687,47 @@ a img {
             margin: 0; }
         .profile-settings-qr .qr-descr span {
           font-weight: 700; }
+
+@media screen and (max-width: 1199px) {
+  .profile .profile-table-row .profile-table-cell:nth-child(1) {
+    -ms-flex-preferred-size: 9%;
+    flex-basis: 9%; }
+  .profile .profile-table-row .profile-table-cell:nth-child(5) {
+    -ms-flex-preferred-size: 19.75%;
+    flex-basis: 19.75%; }
+  .profile .profile-table-row .profile-table-cell:nth-child(6) {
+    -ms-flex-preferred-size: 12.27%;
+    flex-basis: 12.27%; }
+  .profile-settings-item {
+    margin-bottom: 2rem; } }
+
+@media screen and (max-width: 991px) {
+  .profile .profile-table {
+    overflow-x: auto; }
+    .profile .profile-table-row {
+      min-width: 960px; } }
+
+@media screen and (max-width: 767px) {
+  .profile {
+    background-color: inherit; }
+    .profile-heading {
+      background-color: #fff; }
+    .profile-table {
+      background-color: #fff; }
+    .profile-settings {
+      background-color: #fff; } }
+
+@media screen and (max-width: 575px) {
+  .profile-heading {
+    display: none; }
+  .profile .profile-table {
+    display: none; }
+    .profile .profile-table-mobile {
+      display: block; }
+  .profile-body {
+    min-height: 0; }
+  .profile .no-transactions {
+    padding: 5.5rem 0 7.75rem; } }
 
 .onoffswitch {
   position: relative;

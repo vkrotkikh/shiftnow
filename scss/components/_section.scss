@@ -112,3 +112,12 @@
 		padding: 40px 0 95px;
 	}
 }
+
+
+@media screen and (max-width:575px) {
+	.section {
+		&-profile {
+			padding: 1rem 0;
+		}
+	}
+}
