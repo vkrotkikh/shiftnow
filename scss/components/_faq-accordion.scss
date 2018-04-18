@@ -4,8 +4,14 @@
 		margin-bottom: 15px;
 		background-color: #fff;
 		padding: 20px 100px;
+		border: none;
 		&:last-child {
 			margin-bottom: 0;
+		}
+		.card-header {
+			border: none;
+			padding: 0;
+			display: block;
 		}
 	}
 	h5 {

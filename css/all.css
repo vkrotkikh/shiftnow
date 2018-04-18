@@ -9647,6 +9647,10 @@ html, body {
   position: relative;
   min-height: 100%; }
 
+@media screen and (max-width: 991px) {
+  .container {
+    max-width: 100%; } }
+
 .img-wrap {
   position: relative;
   background-color: #000; }
@@ -10030,11 +10034,30 @@ a img {
       font-weight: 400;
       letter-spacing: 1px;
       text-transform: uppercase;
-      margin-bottom: 15px; }
+      margin-bottom: 1rem; }
     .footer-menu ul li {
       margin-bottom: 10px; }
       .footer-menu ul li a {
         color: #e6e6e6; }
+
+@media screen and (max-width: 1199px) {
+  .footer {
+    padding: 3rem 0; } }
+
+@media screen and (max-width: 991px) {
+  .footer {
+    padding: 2rem 0; }
+    .footer-left {
+      padding-bottom: 2rem; }
+      .footer-left-top {
+        padding-bottom: 1rem; }
+      .footer-left-bottom {
+        padding-top: 0; }
+    .footer-menu {
+      padding: 0;
+      margin-bottom: 1.5rem; }
+      .footer-menu ul li {
+        margin-bottom: .5rem; } }
 
 .section-welcome {
   color: #fff;
@@ -10144,9 +10167,14 @@ a img {
   .faq-accordion .faq-card {
     margin-bottom: 15px;
     background-color: #fff;
-    padding: 20px 100px; }
+    padding: 20px 100px;
+    border: none; }
     .faq-accordion .faq-card:last-child {
       margin-bottom: 0; }
+    .faq-accordion .faq-card .card-header {
+      border: none;
+      padding: 0;
+      display: block; }
   .faq-accordion h5 button {
     position: relative;
     text-align: left;
@@ -10220,6 +10248,8 @@ a img {
   display: flex; }
   .social-links li {
     margin-right: 36px; }
+    .social-links li:last-child {
+      margin: 0; }
   .social-links a {
     display: block;
     font-size: 1.5rem;
@@ -10231,6 +10261,14 @@ a img {
       display: block; }
     .social-links a:hover {
       opacity: 1; }
+
+@media screen and (max-width: 575px) {
+  .social-links {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+    .social-links li {
+      margin: 0; } }
 
 .scroll-top {
   width: 40px;

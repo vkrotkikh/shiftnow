@@ -2,7 +2,7 @@
 footer.footer.-sticky.js-footer
 	.container
 		.row
-			.col-md-6
+			.col-lg-6
 				.footer-left
 					.footer-left-top
 						a( class='white-link' href="#?")
@@ -11,7 +11,7 @@ footer.footer.-sticky.js-footer
 							| Terms of Use
 						a( class='white-link' href="#?")
 							| Legal Use
-					.footer-left-middle
+					.footer-left-middle.d-none.d-lg-block
 						ul.social-links
 							li
 								a(href='#?')
@@ -40,51 +40,81 @@ footer.footer.-sticky.js-footer
 					.footer-left-bottom
 						span
 							| Copyright © ShiftNOW 2018
-			.col-md-2
-				.footer-menu
-					h6.footer-menu-heading
-						| COMPANY & TEAM
-					ul
-						li
-							a(class="white-link" href="#?")
-								| About Us
-						li
-							a(class="white-link" href="#?")
-								| Data protection policy
-						li
-							a(class="white-link" href="#?")
-								| Contact
-			.col-md-2
-				.footer-menu
-					h6.footer-menu-heading
-						| HELP
-					ul
-						li
-							a(class="white-link" href="#?")
-								| Support
-						li
-							a(class="white-link" href="#?")
-								| How it works
-						li
-							a(class="white-link" href="#?")
-								| FAQ
-						li
-							a(class="white-link" href="#?")
-								| Currencies we support
-			.col-md-2
-				.footer-menu
-					h6.footer-menu-heading
-						| ANALYTICS
-					ul
-						li
-							a(class="white-link" href="#?")
-								| Market
-						li
-							a(class="white-link" href="#?")
-								| Rates
-						li
-							a(class="white-link" href="#?")
-								| Charts
-				.scroll-top
-					span.icon-arrow-up
+			.col-lg-6
+				.row
+					.col-sm-4.col-7
+						.footer-menu
+							h6.footer-menu-heading
+								| COMPANY & TEAM
+							ul
+								li
+									a(class="white-link" href="#?")
+										| About Us
+								li
+									a(class="white-link" href="#?")
+										| Data protection policy
+								li
+									a(class="white-link" href="#?")
+										| Contact
+					.col-sm-4.col-12.order-3.order-sm-2
+						.footer-menu
+							h6.footer-menu-heading
+								| HELP
+							ul
+								li
+									a(class="white-link" href="#?")
+										| Support
+								li
+									a(class="white-link" href="#?")
+										| How it works
+								li
+									a(class="white-link" href="#?")
+										| FAQ
+								li
+									a(class="white-link" href="#?")
+										| Currencies we support
+					.col-sm-4.col-5.order-2.order-sm-3
+						.footer-menu
+							h6.footer-menu-heading
+								| ANALYTICS
+							ul
+								li
+									a(class="white-link" href="#?")
+										| Market
+								li
+									a(class="white-link" href="#?")
+										| Rates
+								li
+									a(class="white-link" href="#?")
+										| Charts
+						.scroll-top.d-none.d-lg-flex
+							span.icon-arrow-up
+			.col-12.d-lg-none
+				ul.social-links
+					li
+						a(href='#?')
+							span.icon-google
+					li
+						a(href='#?')
+							span.icon-facebook
+					li
+						a(href='#?')
+							span.icon-twitter
+					li
+						a(href='#?')
+							span.icon-github
+					li
+						a(href='#?')
+							span.icon-medium
+					li
+						a(href='#?')
+							span.icon-steemit
+					li
+						a(href='#?')
+							span.icon-bitcointalk
+					li
+						a(href='#?')
+							span.icon-reddit
+		.scroll-top.d-lg-none
+			span.icon-arrow-up
 // FOOTER END
