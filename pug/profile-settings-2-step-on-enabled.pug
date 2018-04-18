@@ -1,0 +1,72 @@
+doctype html
+html(lang='en')
+	head
+		title Profile Settings 2 Step On Enabled
+		meta(name='description', content='Description of the site')
+		include modules/head.pug
+	body
+		include modules/header.pug
+		// CONTENT
+		.wrap-for-sticky.js-wrap-for-sticky.-bg-secondary
+			main.main
+				// SECTION PROFILE SETTINGS 2-STEP-ON-ENABLED
+				section.section-profile
+					.container
+						.profile
+							.profile-heading
+								ul.profile-menu
+									li
+										a(href="#?")
+											| History
+									li
+										a(class="active" href="#?")
+											| Profile settings
+							.profile-body
+								.profile-settings
+									.row
+										.col-md-4.right-line
+											.profile-settings-item
+												h5.dark-blue Change password
+												form.form
+													.form-group
+														input(type="password" class="form-control" id="old-pass" placeholder="Old password")
+														label(class="form-label" for="old-pass") Old password
+													.form-group
+														input(type="password" class="form-control" id="new-pass" placeholder="New password")
+														label(class="form-label" for="new-pass") New password
+													.form-group
+														input(type="password" class="form-control" id="new-pass-again" placeholder="New password again")
+														label(class="form-label" for="new-pass-again") New password again
+													.form-btn-wrap
+														input(type="submit" value="Save" class="btn btn-white btn-md")
+										.col-md-4.right-line
+											.profile-settings-item
+												.d-flex.justify-content-between
+													h5.dark-blue Two-step verification
+													.onoffswitch
+														input( type="checkbox" name="onoffswitch3" class="onoffswitch-checkbox" id="myonoffswitch3" checked)
+														label(class="onoffswitch-label" for="myonoffswitch3")
+															span.onoffswitch-inner
+																span.onoffswitch-switch
+												.profile-settings-text
+													p Verification code from 
+														a(href="#?") Google Authenticator 
+														| app will be required for:
+													ul
+														li Logging in.
+														li Changing password.
+														li Changing sensitive payment information like BTC payout address.
+										.col-md-4
+											.profile-settings-item
+												h5.dark-blue Change email address
+												form.form
+													.form-group
+														input(type="email" class="form-control active" id="current-email" placeholder="Current email" value="testuser@gmail.com")
+														label(class="form-label active" for="current-email") Current email
+													.form-btn-wrap
+														input(type="submit" value="Save" class="btn btn-white btn-md")
+				.empty-div(style="padding-bottom: 10px")
+				// SECTION PROFILE SETTINGS 2-STEP-ON-ENABLED END
+			// CONTENT END
+			include modules/footer.pug
+			include modules/scripts.pug
