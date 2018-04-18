@@ -41,6 +41,11 @@
 			}
 		}
 	}
+	&.btn-img_right{
+		& img {
+			margin-left: 15px;
+		}
+	}
 	&-white {
 		color: $light-blue;
 		border-color: $light-blue;

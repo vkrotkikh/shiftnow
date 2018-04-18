@@ -9,17 +9,183 @@ html(lang='en')
 		// CONTENT
 		.wrap-for-sticky.js-wrap-for-sticky.-bg-secondary
 			main.main
-				section.section-steps
+				section.section-stepFinish
 					.container
 						.row
 							.col-md-10.offset-md-1
-								.card
+								.card.card-finish.mb-3
 									.card-header
-										h3.text-success Transaction is completed!
-										.info-detail
-											.info-item.mb-0
-												.info-title You send
-												.info-descr 1 BTC
+										.card-header_title_block
+											h3.text-success Transaction is completed!
+											.info-detail
+												.info-item.mb-0
+													.info-title.text-darkGrey.fb-0 Transaction ID:
+													.info-descr.-copy
+														span.js-info-copy 4c6ae5128244
+														a.btn.btn-white.btn-xs.js-copy-text(data-toggle="tooltip" data-placement="top" data-trigger="manual" data-title="Copied") copy
+										.card-header_img
+											img(src="img/icons/complete.svg", alt="")
+									.card-row
+										p.fz-18
+											strong Congratulations! Your ETH is on the way. Your wallet is just waiting for confirmations.
+									.card-body
+										.card-col
+											.amount-block.text-primary
+												.amount-title Amount from
+												.amount-value 1 BTC
+											.info-detail
+												.info-item.-vertical
+													.info-title.text-darkGrey Money received
+													.info-descr 01 Jan 2017, 02:58:04
+												.info-item.-vertical
+													.info-title.text-darkGrey Fee
+													.info-descr 0.001155 ETH
+												.info-item.-vertical
+													.info-title.text-darkGrey Exchange rate
+													.info-descr 1 BTC ≈ 16.30208 ETH
+												.info-item.-vertical
+													.info-title.text-darkGrey Input hash
+													.info-descr q45wtsghw5tasdf5adfgf34tf34rsdfgaf34534rasdf5dfg1fdg45
+										.card-col
+											.amount-block.text-success
+												.amount-title Amount to
+												.amount-value 16.30208 ETH
+											.info-detail
+												.info-item.-vertical
+													.info-title.text-darkGrey Money received
+													.info-descr 01 Jan 2017, 03:15:39
+												.info-item.-vertical
+													.info-title.text-darkGrey Receiving address
+													.info-descr 0x123f681646d4a755815f9cb19e1acc8565a0c2ac
+												.info-item.-vertical
+													.info-title.text-darkGrey Output hash
+													.info-descr q45wtsghw5tasdf5adfgf34tf34rsdfgaf34534rasdf5dfg1fdg45
+								.card.-pd-banner.mb-4.d-flex.align-items-center.justify-content-between
+									p.fz-18
+										strong Your feedback is everything
+									a(href="javascript:void(0);").btn.btn-md.btn-white.d-flex.justify-content-center.-max-width_290.btn-img_right
+										| Rate us on
+										img(src="img/icons/trustpilot_dark.svg", alt="")
+								.text-center
+									a(href="javascript:void(0);").btn.btn-lg.btn-primary Make another transaction
+								//- -------------------
+								.mb-5
+								//- -------------------
+								.card.card-finish.mb-4
+									.card-header
+										.card-header_title_block
+											h3.text-danger Transaction is not completed!
+											.info-detail
+												.info-item.mb-0
+													.info-title.text-darkGrey.fb-0 Transaction ID:
+													.info-descr.-copy
+														span.js-info-copy 4c6ae5128244
+														a.btn.btn-white.btn-xs.js-copy-text(data-toggle="tooltip" data-placement="top" data-trigger="manual" data-title="Copied") copy
+										.card-header_img
+											img(src="img/icons/failed.svg", alt="")
+									.card-row
+										p.fz-18
+											strong Possible cause of transaction processing failure.
+									.card-body
+										.card-col
+											.amount-block.text-primary
+												.amount-title Amount from
+												.amount-value 1 BTC
+											.info-detail
+												.info-item.-vertical
+													.info-title.text-darkGrey Money received
+													.info-descr 01 Jan 2017, 02:58:04
+												.info-item.-vertical
+													.info-title.text-darkGrey Fee
+													.info-descr 0.001155 ETH
+												.info-item.-vertical
+													.info-title.text-darkGrey Exchange rate
+													.info-descr 1 BTC ≈ 16.30208 ETH
+												.info-item.-vertical
+													.info-title.text-darkGrey Input hash
+													.info-descr q45wtsghw5tasdf5adfgf34tf34rsdfgaf34534rasdf5dfg1fdg45
+										.card-col
+											.amount-block.text-danger
+												.amount-title Amount to
+												.amount-value 16.30208 ETH
+											.info-detail
+												.info-item.-vertical
+													.info-title.text-darkGrey Money received
+													.info-descr ?
+												.info-item.-vertical
+													.info-title.text-darkGrey Receiving address
+													.info-descr 0x123f681646d4a755815f9cb19e1acc8565a0c2ac
+												.info-item.-vertical
+													.info-title.text-darkGrey Output hash
+													.info-descr q45wtsghw5tasdf5adfgf34tf34rsdfgaf34534rasdf5dfg1fdg45
+								.text-center
+									a(href="javascript:void(0);").btn.btn-lg.btn-primary Make another transaction
+								//- -------------------
+								.mb-5
+								//- -------------------
+								.card.card-finish.mb-4
+									.card-header
+										.card-header_title_block
+											h3.text-primary Transaction refunded
+											.info-detail
+												.info-item.mb-0
+													.info-title.text-darkGrey.fb-0 Transaction ID:
+													.info-descr.-copy
+														span.js-info-copy 4c6ae5128244
+														a.btn.btn-white.btn-xs.js-copy-text(data-toggle="tooltip" data-placement="top" data-trigger="manual" data-title="Copied") copy
+										.card-header_img
+											img(src="img/icons/refunded.svg", alt="")
+									.card-row
+										p.fz-18
+											strong Possible cause of transaction processing failure.
+									.card-body
+										.card-col.-width_100
+											.amount-block.text-primary
+												.amount-title Amount from
+												.amount-value 1 BTC
+											.info-detail
+												.info-item.-vertical
+													.info-title.text-darkGrey Money received
+													.info-descr 01 Jan 2017, 02:58:04
+												.info-item.-vertical
+													.info-title.text-darkGrey Input hash
+													.info-descr q45wtsghw5tasdf5adfgf34tf34rsdfgaf34534rasdf5dfg1fdg45
+								.text-center
+									a(href="javascript:void(0);").btn.btn-lg.btn-primary Make another transaction
+								//- -------------------
+								.mb-5
+								//- -------------------
+								.card.card-finish.mb-4
+									.card-header
+										.card-header_title_block
+											h3.text-darkGrey Payment was not received
+											.info-detail
+												.info-item.mb-0
+													.info-title.text-darkGrey.fb-0 Transaction ID:
+													.info-descr.-copy
+														span.js-info-copy 4c6ae5128244
+														a.btn.btn-white.btn-xs.js-copy-text(data-toggle="tooltip" data-placement="top" data-trigger="manual" data-title="Copied") copy
+										.card-header_img
+											img(src="img/icons/not-received.svg", alt="")
+									.card-row
+										p.fz-18
+											strong Possible cause of transaction processing failure.
+									.card-body
+										.card-col
+											.amount-block.text-primary
+												.amount-title Amount from
+												.amount-value 1 BTC
+										.card-col
+											.amount-block.text-darkGrey
+												.amount-title Amount to
+												.amount-value 16.30208 ETH
+											.info-detail
+												.info-item.-vertical
+													.info-title.text-darkGrey Receiving address
+													.info-descr 0x123f681646d4a755815f9cb19e1acc8565a0c2ac
+								.text-center
+									a(href="javascript:void(0);").btn.btn-lg.btn-primary Make another transaction
+
 			// CONTENT END
 			include modules/footer.pug
 			include modules/scripts.pug

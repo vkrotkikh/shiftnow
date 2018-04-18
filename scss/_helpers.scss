@@ -96,8 +96,15 @@
 .fz-16{
 	font-size: 16px;
 }
+.fz-18{
+	font-size: 18px;
+}
 .-max-width_240{
 	max-width: 240px;
+	width: 100%;
+}
+.-max-width_290{
+	max-width: 290px;
 	width: 100%;
 }
 
@@ -108,7 +115,13 @@
 .min-w-10 {
 	min-width: 10rem !important;
 }
+.fb-0{
+	flex-basis: 0 !important; 
+}
 
+.text-darkGrey {
+	color: $darkGrey;
+}
 
 .icon-silence {
 	display: inline-block;
