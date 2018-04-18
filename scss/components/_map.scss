@@ -1,0 +1,36 @@
+.map {
+	&-wrap {
+		position: relative;
+		max-width: 736px;
+		width: 100%;
+		max-height: 486px;
+		height: 100%;
+		margin: 0 auto;
+	}
+	&-block {
+		position: absolute;
+		top: 111px;
+		left: 168px;
+		background-color: #000;
+		min-width: 184px;
+		opacity: .6;
+		border-left: 1px solid $primary;
+		&-row {
+			padding: 10px 16px;
+			display: flex;
+			align-items: center;
+			span {
+				color: #fff;
+				flex-basis: 50%;
+				&:last-child {
+					font-size: 12px;
+				}
+			}
+		}
+		&.-dark {
+			opacity: 1;
+			top: 191px;
+			left: 600px;
+		}
+	}
+}
