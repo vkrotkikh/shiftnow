@@ -12,7 +12,7 @@ html(lang='en')
 				section.section.section-processing
 					.container
 						.steps-wrap
-							.steps-item.js-step-item.active(data-step="1")
+							.steps-item.js-step-item.active.open(data-step="1")
 								.steps-header
 									.row
 										.col-md-1
@@ -25,7 +25,7 @@ html(lang='en')
 											.steps-content
 												.row
 													.col-md-6
-															form.exchange-block(action="javascript:void(0);").mb-3
+															form.exchange-block(action="javascript:void(0);")
 																.form-group_wrapper.mb-3.js-send-value.-border
 																	.form-group.mb-0
 																		input.form-control.form-control-lg.-submit.-custom-select.text-right.js-custom-select-value(type='text')
@@ -235,10 +235,25 @@ html(lang='en')
 																									i.icon-nem-xem
 																								.currency-title XEM
 																								.currency-subtitle NEM
-													.col-md-6
-														.card
+													.col-md-6.d-flex
+														.card.-pd-sm.d-flex
+															.info-detail.-full-height
+																.info-item
+																	.info-title Expected change rate
+																	.info-descr 1 BTC ≈ 16.30208 ETH
+																.info-item
+																	.info-title Exchange fee (1.5%)
+																	.info-descr 0.1124345356424523123 ETH
+																.info-item
+																	.info-title Estimated arrival
+																	.info-descr ≈ 5-30 minutes
 													.col-md-12
-												a(href="javascript:void(0);").btn.btn-lg.btn-primary.-max_width_170.js-step-next next
+															form
+																.form-group.mb-0.mt-5.card-input
+																	label Address
+																	input.form-control.form-control-lg(type="text" , placeholder="Enter the recipient's ETH address")
+													.col-md-12
+														a(href="javascript:void(0);").btn.btn-lg.btn-primary.-max_width_170.js-step-next.mt-5 next
 							.steps-item.js-step-item(data-step="2")
 								.steps-header
 									.row
@@ -250,8 +265,31 @@ html(lang='en')
 									.row
 										.col-md-10.offset-md-1
 											.steps-content
-												p
-													|  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui deleniti veritatis recusandae, quas aliquid, distinctio soluta corporis quo expedita sapiente laboriosam. Ad deleniti maxime asperiores architecto ipsum itaque nisi hic, impedit obcaecati vel iste quae necessitatibus nobis culpa doloremque sit quas reiciendis fugit commodi facilis totam consequuntur ex quod. Porro nostrum esse quibusdam nam animi qui reiciendis ullam id, quo recusandae quod alias sint harum cupiditate consequatur ab sit eveniet, sequi odit consectetur nemo, fuga cumque. Alias iusto molestiae quis autem rerum vero quas doloremque eaque eos aliquam inventore suscipit reprehenderit voluptates in quod quaerat, non, veniam ad! Repellat, vitae!
+												.card.-pd-md
+													.info-detail.-fz-md.-fb-25
+														.info-item
+															.info-title You send
+															.info-descr 1 BTC
+														.info-item
+															.info-title You get
+															.info-descr 16.30208 ETH
+														.info-item
+															.info-title Recipient address
+															.info-descr 0x123f681646d4a755815f9cb19e1acc8565a0c2ac
+														.info-item
+															.info-title Expected change rate
+															.info-descr 1 BTC ≈ 16.30208 ETH
+														.info-item
+															.info-title Estimated arrival
+															.info-descr ≈ 5-30 minutes
+												
+												label.custom-control.fill-checkbox
+													input.fill-control-input(type='checkbox')
+													span.fill-control-indicator
+													span.fill-control-description 
+														| I agree with 
+														span.text-primary
+															| Terms of Use 
 												a(href="javascript:void(0);").btn.btn-lg.btn-primary.js-step-next next
 							.steps-item.js-step-item(data-step="3")
 								.steps-header

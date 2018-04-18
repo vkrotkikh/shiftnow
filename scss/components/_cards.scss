@@ -1,3 +1,16 @@
 .card{
 	border-radius: 5px;
+	background: #fff;
+	width: 100%;
+	&.-pd-sm{
+		padding: 25px 20px;
+	}
+	&.-pd-md{
+		padding: 30px 35px;
+	}
+	&.-input_label{
+		& .form-group{
+			display: flex;
+		}
+	}
 }

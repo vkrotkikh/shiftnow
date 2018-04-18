@@ -59,7 +59,7 @@
         <section class="section section-processing">
           <div class="container">
             <div class="steps-wrap">
-              <div class="steps-item js-step-item active" data-step="1">
+              <div class="steps-item js-step-item active open" data-step="1">
                 <div class="steps-header">
                   <div class="row">
                     <div class="col-md-1">
@@ -76,7 +76,7 @@
                       <div class="steps-content">
                         <div class="row">
                           <div class="col-md-6">
-                            <form class="exchange-block mb-3" action="javascript:void(0);">
+                            <form class="exchange-block" action="javascript:void(0);">
                               <div class="form-group_wrapper mb-3 js-send-value -border">
                                 <div class="form-group mb-0">
                                   <input class="form-control form-control-lg -submit -custom-select text-right js-custom-select-value" type="text">
@@ -250,11 +250,34 @@
                               </div>
                             </form>
                           </div>
-                          <div class="col-md-6">
-                            <div class="card"></div>
+                          <div class="col-md-6 d-flex">
+                            <div class="card -pd-sm d-flex">
+                              <div class="info-detail -full-height">
+                                <div class="info-item">
+                                  <div class="info-title">Expected change rate</div>
+                                  <div class="info-descr">1 BTC ≈ 16.30208 ETH</div>
+                                </div>
+                                <div class="info-item">
+                                  <div class="info-title">Exchange fee (1.5%)</div>
+                                  <div class="info-descr">0.1124345356424523123 ETH</div>
+                                </div>
+                                <div class="info-item">
+                                  <div class="info-title">Estimated arrival</div>
+                                  <div class="info-descr">≈ 5-30 minutes</div>
+                                </div>
+                              </div>
+                            </div>
                           </div>
-                          <div class="col-md-12"></div>
-                        </div><a class="btn btn-lg btn-primary -max_width_170 js-step-next" href="javascript:void(0);">next</a>
+                          <div class="col-md-12">
+                            <form>
+                              <div class="form-group mb-0 mt-5 card-input">
+                                <label>Address</label>
+                                <input class="form-control form-control-lg" type="text" placeholder="Enter the recipient's ETH address">
+                              </div>
+                            </form>
+                          </div>
+                          <div class="col-md-12"><a class="btn btn-lg btn-primary -max_width_170 js-step-next mt-5" href="javascript:void(0);">next</a></div>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -275,7 +298,34 @@
                   <div class="row">
                     <div class="col-md-10 offset-md-1">
                       <div class="steps-content">
-                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui deleniti veritatis recusandae, quas aliquid, distinctio soluta corporis quo expedita sapiente laboriosam. Ad deleniti maxime asperiores architecto ipsum itaque nisi hic, impedit obcaecati vel iste quae necessitatibus nobis culpa doloremque sit quas reiciendis fugit commodi facilis totam consequuntur ex quod. Porro nostrum esse quibusdam nam animi qui reiciendis ullam id, quo recusandae quod alias sint harum cupiditate consequatur ab sit eveniet, sequi odit consectetur nemo, fuga cumque. Alias iusto molestiae quis autem rerum vero quas doloremque eaque eos aliquam inventore suscipit reprehenderit voluptates in quod quaerat, non, veniam ad! Repellat, vitae!</p><a class="btn btn-lg btn-primary js-step-next" href="javascript:void(0);">next</a>
+                        <div class="card -pd-md">
+                          <div class="info-detail -fz-md -fb-25">
+                            <div class="info-item">
+                              <div class="info-title">You send</div>
+                              <div class="info-descr">1 BTC</div>
+                            </div>
+                            <div class="info-item">
+                              <div class="info-title">You get</div>
+                              <div class="info-descr">16.30208 ETH</div>
+                            </div>
+                            <div class="info-item">
+                              <div class="info-title">Recipient address</div>
+                              <div class="info-descr">0x123f681646d4a755815f9cb19e1acc8565a0c2ac</div>
+                            </div>
+                            <div class="info-item">
+                              <div class="info-title">Expected change rate</div>
+                              <div class="info-descr">1 BTC ≈ 16.30208 ETH</div>
+                            </div>
+                            <div class="info-item">
+                              <div class="info-title">Estimated arrival</div>
+                              <div class="info-descr">≈ 5-30 minutes</div>
+                            </div>
+                          </div>
+                        </div>
+                        <label class="custom-control fill-checkbox">
+                          <input class="fill-control-input" type="checkbox"><span class="fill-control-indicator"></span><span class="fill-control-description">
+                             I agree with <span class="text-primary">Terms of Use </span></span>
+                        </label><a class="btn btn-lg btn-primary js-step-next" href="javascript:void(0);">next</a>
                       </div>
                     </div>
                   </div>

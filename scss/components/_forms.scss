@@ -1,43 +1,73 @@
 .form {
-    .form {
-        &-group {
-            position: relative;
-        }
-        &-control {
-            padding: 10px 16px 8px;
-            &:hover {
-                box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1);
-            }
-            &:focus {
-                &+.form-label {
-                    opacity: 1;
-                }
-            }
-            &.active {
-                border-color: $light;
-                &:focus {
-                    border-color: $light-blue;
-                    &+.form-label {
-                        color: $light-blue;
-                    }
-                }
-            }
-        }
-        &-label {
-            position: absolute;
-            top: -20px;
-            left: 0;
-            color: $light-blue;
-            font-size: .75rem;
-            opacity: 0;
-            transition: all .15s;
-            &.active {
-                opacity: 1;
-                color: #9b9b9b;
-            }
-        }
-        &-btn-wrap {
-            margin-top: -.5rem;
-        }
-    }
+	.form {
+		&-group {
+			position: relative;
+		}
+		&-control {
+			padding: 10px 16px 8px;
+			&:hover {
+				box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1);
+			}
+			&:focus {
+				&+.form-label {
+					opacity: 1;
+				}
+			}
+			&.active {
+				border-color: $light;
+				&:focus {
+					border-color: $light-blue;
+					&+.form-label {
+						color: $light-blue;
+					}
+				}
+			}
+		}
+		&-label {
+			position: absolute;
+			top: -20px;
+			left: 0;
+			color: $light-blue;
+			font-size: .75rem;
+			opacity: 0;
+			transition: all .15s;
+			&.active {
+				opacity: 1;
+				color: #9b9b9b;
+			}
+		}
+		&-btn-wrap {
+			margin-top: -.5rem;
+		}
+	}
+}
+
+
+.form{
+	&-group{
+		&.card-input{
+			border: 1px solid $light;
+			display: flex;
+			background: #fff;
+			align-items: center;
+			padding-left: 20px;
+			& label{
+				text-transform: uppercase;
+				color: $primary;
+				font-weight: 700;
+				margin-right: 30px;
+			}
+			& .form{
+				&-control{
+						font-size: 14px;
+						font-weight: 400;
+				}
+			}
+		}
+	}
+	&-control{
+		&:focus{
+			box-shadow: none;
+		}
+	}
 }

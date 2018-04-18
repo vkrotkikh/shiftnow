@@ -1,0 +1,41 @@
+.info{
+	&-detail{
+		width: 100%;
+		&.-full-height{
+			display: flex;
+			flex-wrap: wrap;
+			align-content: space-between;
+		}
+		&.-fz-md{
+			& .info{
+				&-title{
+					font-size: 16px;
+				}
+				&-descr{
+					font-size: 18px;
+				}
+			}
+		}
+		&.-fb-25{
+			& .info{
+				&-title{
+					flex-basis: 25%;
+				}
+			}
+		}
+	}
+	&-item{
+		margin-bottom: 20px;
+		display: flex;
+		width: 100%;
+		&:last-child{
+			margin-bottom: 0;
+		}
+	}
+	&-title{
+		flex-basis: 40%;
+	}
+	&-descr{
+		font-weight: 700;
+	}
+}

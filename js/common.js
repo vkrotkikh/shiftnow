@@ -122,6 +122,10 @@
 			$('.js-send-value .js-custom-select .currency-icon i').attr('class', getIconClass );
 
 
+			$('.js-get-value .js-custom-select-value').val( sendValue);
+			$('.js-get-value .js-custom-select .currency-title').text(sendCurrencyTitle);
+			$('.js-get-value .js-custom-select .currency-icon i').attr('class', sendIconClass );
+
 	});
 }
 function processingSteps (){
@@ -136,10 +140,12 @@ function processingSteps (){
 
 
 			$('.js-step-item .steps-body').slideUp();
+			$('.js-step-item').removeClass('open');
 			$('.js-step-item[data-step="' + prevStep +'"]').removeClass('active');
 
 			$('.js-step-item[data-step="' + nextStep +'"] .steps-body').slideDown();
 			$('.js-step-item[data-step="' + nextStep +'"]').addClass('active');
+			$('.js-step-item[data-step="' + nextStep +'"]').addClass('open');
 
 			$('.js-step-item[data-step="' + prevStep +'"]').addClass('done');
 
@@ -147,14 +153,19 @@ function processingSteps (){
 
 	$('.js-step-item .steps-header').on('click' , function(){
 
-		if($(this).parents('.js-step-item').hasClass('done')){
-				console.log(123);
+		if($(this).parents('.js-step-item').hasClass('done') || $(this).parents('.js-step-item').hasClass('active') ){
+
+			if(!$(this).parents('.js-step-item').hasClass('open')) {
 
 				var thisStep = $(this).parents('.js-step-item').attr('data-step');
 
 				$('.js-step-item .steps-body').slideUp();
+				$('.js-step-item').removeClass('open');
 
 				$('.js-step-item[data-step="' + thisStep +'"] .steps-body').slideDown();
+				$('.js-step-item[data-step="' + thisStep +'"]').addClass('open');
+			}
+
 		}
 	});
 }
