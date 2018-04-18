@@ -51,10 +51,10 @@
 		padding: 90px 0 100px;
 	}
 	&-interface{
-		background-image: url(../img/main-bg.png);
+		background-image: url(../img/main-interface-bg.png);
 		background-size: cover;
 		background-repeat: no-repeat;
-		background-position: 50% 50%;
+		background-position: center center;
 	}
 	&-map {
 		padding: 65px 0 45px;
@@ -67,10 +67,10 @@
 	}
 	&-offer {
 		padding: 30px 0;
-		background-image: url(../img/main-bg.png);
+		background-image: url(../img/main-offer-bg.png);
 		background-repeat: no-repeat;
 		background-size: cover;
-		background-position: 40% 60%;
+		background-position: center center;
 		color: #fff;
 	}
 	&-partners {
